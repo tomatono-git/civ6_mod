@@ -10,6 +10,10 @@
 		{
 			"path": "../mod"
 		},
+		{
+			"name": "Mods - My Games",
+			"path": "C:/Users/tomato/OneDrive/ドキュメント/My Games/Sid Meier's Civilization VI/Mods"
+		}
 	],
 	"settings": {}
 }
