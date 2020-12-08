@@ -4,8 +4,11 @@
 <!-- DateCreated: 12/8/2020 9:14:05 PM -->
 <GameInfo>
 	<MajorStartingUnits>
+		<!-- 開始時に斥候を追加 -->
 		<Row Unit="UNIT_SCOUT" Era="ERA_ANCIENT" District="DISTRICT_CITY_CENTER" Quantity="2" NotStartTile="true"/>
+		<!-- 開始時に投石兵を追加 -->
 		<Row Unit="UNIT_SLINGER" Era="ERA_ANCIENT" District="DISTRICT_CITY_CENTER" Quantity="2" NotStartTile="true"/>
+		<!-- 開始時に開拓者を追加 -->
 		<Row Unit="UNIT_BUILDER" Era="ERA_ANCIENT" District="DISTRICT_CITY_CENTER" Quantity="2" NotStartTile="true"/>
 	</MajorStartingUnits>
 </GameInfo>
