@@ -31,12 +31,12 @@
 	<!--- 固有アジェンダ -->
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_SISTER_KOTONOHA" AgendaType="AGENDA_BUSHIDO"/>
-	</HistoricalAgendas>	
+	</HistoricalAgendas>
 	<!-- 外交画面、ローディング画面 -->
 	<DiplomacyInfo>
 		<Row Type="LEADER_SISTER_KOTONOHA" BackgroundImage="Sister_DiplomacyInfo_Background.dds"/>
 	</DiplomacyInfo>
-	
+
 	<LoadingInfo>
 		<Row LeaderType="LEADER_SISTER_KOTONOHA" ForegroundImage="LEADER_KOTONOHA_SISTER_NEUTRAL.dds" LeaderText="LOC_LEADER_SISTER_KOTONOHA_DOM_TEXT" PlayDawnOfManAudio="1"/>
 	</LoadingInfo>
@@ -44,7 +44,7 @@
 
 
 	<!-- 全ユニットの移動力アップ -->
-	<Tags>
+	<!-- <Tags>
 		<Row Tag="CLASS_LEADER_SISTER_KOTONOHA" Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	<TypeTags>
@@ -65,10 +65,8 @@
 		<Row Type="UNIT_GREAT_WRITER" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_GREAT_ARTIST" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_GREAT_MUSICIAN" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
-		<!-- Recon-->
 		<Row Type="UNIT_SCOUT" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_RANGER" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
-		<!-- Melee-->
 		<Row Type="UNIT_WARRIOR" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_SPEARMAN" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_SWORDSMAN" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
@@ -80,25 +78,20 @@
 		<Row Type="UNIT_MECHANIZED_INFANTRY" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_MODERN_AT" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_MODERN_ARMOR" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
-		<!-- Ranged -->
 		<Row Type="UNIT_SLINGER" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_ARCHER" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_CROSSBOWMAN" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_FIELD_CANNON" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_MACHINE_GUN" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
-		<!--Light Cavalry -->
 		<Row Type="UNIT_HORSEMAN" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_CAVALRY" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_HELICOPTER" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
-		<!--Siege -->
 		<Row Type="UNIT_CATAPULT" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_BOMBARD" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_ARTILLERY" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_ROCKET_ARTILLERY" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
-		<!--Heavy Cavalry -->
 		<Row Type="UNIT_HEAVY_CHARIOT" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_KNIGHT" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
-		<!--Support -->
 		<Row Type="UNIT_BATTERING_RAM" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_SIEGE_TOWER" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_MEDIC" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
@@ -106,7 +99,6 @@
 		<Row Type="UNIT_MILITARY_ENGINEER" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_ANTIAIR_GUN" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_MOBILE_SAM" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
-		<!-- Naval-->
 		<Row Type="UNIT_GALLEY" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_QUADRIREME" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_IRONCLAD" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
@@ -119,29 +111,26 @@
 		<Row Type="UNIT_DESTROYER" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_NUCLEAR_SUBMARINE" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_MISSILE_CRUISER" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
-		<!-- Air -->
 		<Row Type="UNIT_BIPLANE" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_FIGHTER" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_BOMBER" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_JET_FIGHTER" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
 		<Row Type="UNIT_JET_BOMBER" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
-		<!-- Unique-->
 		<Row Type="UNIT_SISTER_IMPERIAL_GUARD" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
-		
 		<Row Type="ABILITY_LEADER_SISTER_KOTONOHA" Tag="CLASS_LEADER_SISTER_KOTONOHA"/>
-	</TypeTags>
-	
-	<UnitAbilities>
+	</TypeTags> -->
+
+	<!-- <UnitAbilities>
 		<Row UnitAbilityType="ABILITY_LEADER_SISTER_KOTONOHA" Name="LOC_ABILITY_LEADER_SISTER_KOTONOHA_NAME" Description="LOC_ABILITY_LEADER_SISTER_KOTONOHA_DESCRIPTION" Inactive="true"/>
 	</UnitAbilities>
-	<UnitAbilityModifiers>		
+	<UnitAbilityModifiers>
 		<Row>
 			<UnitAbilityType>ABILITY_LEADER_SISTER_KOTONOHA</UnitAbilityType>
 			<ModifierId>LEADER_SISTER_KOTONOHA_MOVEMENT_BONUS</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
-	
-	
+	 -->
+
 	<TraitModifiers>
 		<!-- 快適性アップ -->
 		<Row>
@@ -171,7 +160,7 @@
 
 		<!-- 大預言者ポイントがスタート時から毎ターン+1 -->
 		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_SISTER_INCREASE_GREAT_PROPHET_POINTS"/>
-		
+
 		<!-- 都市の出力アップ -->
 		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_CITY_GOLD"/>
 		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_CITY_FOOD"/>
@@ -221,8 +210,8 @@
 			<TraitType>TRAIT_LEADER_SISTER_KOTONOHA</TraitType>
 			<ModifierId>TRAIT_WORK_SNOW_MOUNTAIN</ModifierId>
 		</Row>
-		
-		
+
+
 		<Row>
 			<TraitType>TRAIT_LEADER_SISTER_KOTONOHA</TraitType>
 			<ModifierId>TRAIT_FOOD_MOUNTAIN_LEADER_SISTER_KOTONOHA</ModifierId>
@@ -241,7 +230,7 @@
 		</Row>
 
 		<!-- 全ユニットの移動力アップ -->
-		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_GRANT_ABILITY"/>
+		<!-- <Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_GRANT_ABILITY"/> -->
 
 		<!-- ユニットを倒すと、敵戦闘力の3倍の科学・文化・信仰・ゴールドを獲得 -->
 		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="UNIQUE_GOLD_KILLS_SISTER"/>
@@ -276,13 +265,13 @@
 			<TraitType>TRAIT_LEADER_SISTER_KOTONOHA</TraitType>
 			<ModifierId>SISTER_DEFENSE_BONUS</ModifierId>
 		</Row>
-		
+
 		<!-- 自動で道が一つできる -->
-		<Row>			
+		<Row>
 			<TraitType>TRAIT_LEADER_SISTER_KOTONOHA</TraitType>
 			<ModifierId>TRAIT_FREE_ROADS_TO_CAPITAL</ModifierId>
 		</Row>
-		
+
 		<!-- 初期領地が広くなる -->
 		<Row>
 			<TraitType>TRAIT_LEADER_SISTER_KOTONOHA</TraitType>
@@ -335,8 +324,8 @@
 			<ModifierId>TRAIT_SISTER_INCREASE_GREAT_PROPHET_POINTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
 		</Row>
-		
-		<!-- 都市の出力アップ -->		
+
+		<!-- 都市の出力アップ -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_GOLD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
@@ -409,14 +398,14 @@
 		</Row>
 
 		<!-- 全ユニットの移動力アップ -->
-		<Row>
+		<!-- <Row>
 			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_GRANT_ABILITY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>LEADER_SISTER_KOTONOHA_MOVEMENT_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
-		</Row>
+		</Row> -->
 
 
 		<!-- ユニットを倒すと、敵戦闘力の3倍の科学・文化・信仰・ゴールドを獲得 -->
@@ -566,20 +555,20 @@
 		<!-- 労働者の生産コスト軽減 -->
 		<Row ModifierId="SISTER_BUILDER_BONUS" Name="UnitType" Value="UNIT_BUILDER"/>
 		<Row ModifierId="SISTER_BUILDER_BONUS" Name="Amount" Value="100"/>
-		
+
 		<!-- 大預言者ポイントがスタート時から毎ターン+1 -->
 		<Row>
 			<ModifierId>TRAIT_SISTER_INCREASE_GREAT_PROPHET_POINTS</ModifierId>
 			<Name>GreatPersonClassType</Name>
 			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
-		</Row>		
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_SISTER_INCREASE_GREAT_PROPHET_POINTS</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
 
-		<!-- 都市の出力アップ -->		
+		<!-- 都市の出力アップ -->
 		<Row>
 			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_GOLD</ModifierId>
 			<Name>YieldType</Name>
@@ -612,7 +601,7 @@
 			<Name>Amount</Name>
 			<Value>5</Value>
 		</Row>
-		
+
 		<Row>
 			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_SCIENCE</ModifierId>
 			<Name>YieldType</Name>
@@ -734,7 +723,7 @@
 		</Row>
 
 		<!-- 全ユニットの移動力アップ -->
-		<Row>
+		<!-- <Row>
 			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_GRANT_ABILITY</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_LEADER_SISTER_KOTONOHA</Value>
@@ -743,7 +732,7 @@
 			<ModifierId>LEADER_SISTER_KOTONOHA_MOVEMENT_BONUS</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
-		</Row>
+		</Row> -->
 
 
 		<!-- ユニットを倒すと、敵戦闘力の3倍の科学・文化・信仰・ゴールドを獲得 -->
@@ -955,16 +944,16 @@
 	</ModifierArguments>
 
 	<!-- 何もしなくても回復 -->
-	<DynamicModifiers>				
+	<DynamicModifiers>
 		<Row>
 			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION_SISTER</ModifierType>
 			<CollectionType>COLLECTION_PLAYER_UNITS</CollectionType>
 			<EffectType>EFFECT_GRANT_HEAL_AFTER_ACTION</EffectType>
 		</Row>
 	</DynamicModifiers>
-	
 
-	
+
+
 	<!-- 草原と草原丘陵から、生産力+1 -->
 	<RequirementSets>
 		<Row>
@@ -1052,6 +1041,6 @@
 			<RequirementId>REQUIRES_PLOT_HAS_OCEAN_LEADER_SISTER_KOTONOHA</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
-	
-	
+
+
 	</GameData>

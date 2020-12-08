@@ -82,7 +82,7 @@
 			<SortIndex>10</SortIndex>
 		</Row>
 
-		<Row>
+		<!-- <Row>
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_SISTER_KOTONOHA_EMPIRE</CivilizationType>
 			<LeaderType>LEADER_SISTER_KOTONOHA</LeaderType>
@@ -91,7 +91,7 @@
 			<Description>LOC_UNIT_SISTER_IMPERIAL_GUARD_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_SISTER_IMPERIAL_GUARD</Icon>
 			<SortIndex>70</SortIndex>
-		</Row>
+		</Row> -->
 
 	</PlayerItems>
 </GameData>

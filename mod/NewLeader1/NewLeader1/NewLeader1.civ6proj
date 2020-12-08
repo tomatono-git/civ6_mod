@@ -20,7 +20,6 @@
           <File>NewLeader_Felines.xml</File>
           <File>NewLeader_Leaders.xml</File>
           <File>NewLeader_LitterBox.xml</File>
-          <File>NewLeader_UU1.xm</File>
         </UpdateDatabase>
         <UpdateText id="Text">
           <Criteria>LeaderCriteria</Criteria>
@@ -47,9 +46,9 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="NewLeader_UU1.xml">
+    <!-- <Content Include="NewLeader_UU1.xml">
       <SubType>Content</SubType>
-    </Content>
+    </Content> -->
     <Folder Include="Artdefs\" />
     <Folder Include="Data" />
     <Folder Include="Textures\" />
