@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>	
+		<!-- 親定義 -->
+		<Types>
+			<Row Type="UNIT_SISTER_IMPERIAL_GUARD" Kind="KIND_UNIT"/>
+		</Types>
+		<!-- ユニットのAI・タイプ設定 -->
+		<UnitAiInfos>
+			<Row UnitType="UNIT_SISTER_IMPERIAL_GUARD" AiType="UNITAI_COMBAT"/>
+			<!-- 戦闘ユニット -->
+			<Row UnitType="UNIT_SISTER_IMPERIAL_GUARD" AiType="UNITAI_EXPLORE"/>
+			<!-- 探索する -->
+			<Row UnitType="UNIT_SISTER_IMPERIAL_GUARD" AiType="UNITTYPE_MELEE"/>
+			<!-- 近接ユニット -->
+			<Row UnitType="UNIT_SISTER_IMPERIAL_GUARD" AiType="UNITTYPE_LAND_COMBAT"/>
+			<!-- 陸上タイプ -->
+			<Row UnitType="UNIT_SISTER_IMPERIAL_GUARD" AiType="UNITTYPE_SIEGE"/>
+			<!-- 攻囲タイプ？ -->
+		</UnitAiInfos>
+		<!-- 置き換え対象のユニット。定義しない場合はアップグレードで作れないユニットになる。 -->
+		<UnitReplaces>
+			<Row CivUniqueUnitType="UNIT_SISTER_IMPERIAL_GUARD" ReplacesUnitType="UNIT_MUSKETMAN"/>
+		</UnitReplaces>
+		<!-- クラスとユニットの紐付け -->
+		<TypeTags>
+			<Row Type="UNIT_SISTER_IMPERIAL_GUARD" Tag="CLASS_MELEE"/>
+			<Row Type="UNIT_SISTER_IMPERIAL_GUARD" Tag="CLASS_SIEGE"/>
+		</TypeTags>
+		<!-- ユニットの性能設定 -->
+		<Units>
+			<!--
+			UnitType              : ユニットタイプ。親定義を指定する。
+			BaseMoves             : 移動力
+			Cost                  : 作成コスト
+			AdvisorType           : 助言の設定(たぶん)
+			BaseSightRange        : 視界
+			ZoneOfControl         : ZOCの有無
+			Domain                : ユニットのタイプ
+			FormationClass        : フォーメーション。よくわからない・・・
+			Name                  : ユニットの名前
+			Description           : ユニットの説明文
+			PurchaseYield         : ユニット作成にかかるもの
+			PromotionClass        : 近接なのか遠隔なのかを指定する？
+			Maintenance           : 維持費
+			Combat                : 戦闘力
+			MandatoryObsoleteTech : 陳腐化する条件になるテクノロジー
+			TraitType             : ユニットが属するtrait。ユニークユニットならば文明特性と紐付けるため実質必須。
+			PrereqTech            : 作成に必要なテクノロジー
+		-->
+			<Row UnitType="UNIT_SISTER_IMPERIAL_GUARD" BaseMoves="3" Cost="300" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND"
+				 FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SISTER_IMPERIAL_GUARD_NAME" Description="LOC_UNIT_SISTER_IMPERIAL_GUARD_DESCRIPTION"
+				 PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="5" Combat="55" Bombard="45" Range="2"
+				 MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS"
+				 TraitType="TRAIT_CIVILIZATION_UNIT_SISTER_IMPERIAL_GUARD" PrereqTech="TECH_GUNPOWDER"/>
+		</Units>
+
+		<!-- アップグレード先 -->
+		<UnitUpgrades>
+			<!-- 歩兵 -->
+			<Row Unit="UNIT_SISTER_IMPERIAL_GUARD" UpgradeUnit="UNIT_INFANTRY"/>
+		</UnitUpgrades>
+	
+</GameData>

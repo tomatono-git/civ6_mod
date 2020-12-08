@@ -18,8 +18,9 @@
         <UpdateDatabase id="Gameplay">
           <Criteria>LeaderCriteria</Criteria>
           <File>NewLeader_Felines.xml</File>
-          <File>NewLeader_JasperKitty.xml</File>
+          <File>NewLeader_Leaders.xml</File>
           <File>NewLeader_LitterBox.xml</File>
+          <File>NewLeader_UU1.xm</File>
         </UpdateDatabase>
         <UpdateText id="Text">
           <Criteria>LeaderCriteria</Criteria>
@@ -46,6 +47,9 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="NewLeader_UU1.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Folder Include="Artdefs\" />
     <Folder Include="Data" />
     <Folder Include="Textures\" />
@@ -54,7 +58,7 @@
     <Content Include="NewLeader_ConfigText.xml" />
     <Content Include="NewLeader_Felines.xml" />
     <Content Include="NewLeader_Icons.xml" />
-    <Content Include="NewLeader_JasperKitty.xml" />
+    <Content Include="NewLeader_Leaders.xml" />
     <Content Include="NewLeader_LitterBox.xml" />
     <Content Include="NewLeader_Text.xml" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.dds" />

@@ -4,7 +4,7 @@
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
-			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<LeaderType>LEADER_SISTER_KOTONOHA</LeaderType>
 			<CivilizationName>LOC_CIVILIZATION_FELINE_NAME</CivilizationName>
 			<CivilizationIcon>ICON_CIVILIZATION_FELINE</CivilizationIcon>
 			<LeaderName>LOC_LEADER_JASPER_KITTY_NAME</LeaderName>
@@ -20,7 +20,7 @@
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
-			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<LeaderType>LEADER_SISTER_KOTONOHA</LeaderType>
 			<CivilizationName>LOC_CIVILIZATION_FELINE_NAME</CivilizationName>
 			<CivilizationIcon>ICON_CIVILIZATION_FELINE</CivilizationIcon>
 			<LeaderName>LOC_LEADER_JASPER_KITTY_NAME</LeaderName>
@@ -36,7 +36,7 @@
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
-			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<LeaderType>LEADER_SISTER_KOTONOHA</LeaderType>
 			<CivilizationName>LOC_CIVILIZATION_FELINE_NAME</CivilizationName>
 			<CivilizationIcon>ICON_CIVILIZATION_FELINE</CivilizationIcon>
 			<LeaderName>LOC_LEADER_JASPER_KITTY_NAME</LeaderName>
@@ -54,7 +54,7 @@
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
-			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<LeaderType>LEADER_SISTER_KOTONOHA</LeaderType>
 			<Type>BUILDING_LITTER_BOX</Type>
 			<Name>LOC_BUILDING_LITTER_BOX_NAME</Name>
 			<Description>LOC_BUILDING_LITTER_BOX_DESCRIPTION</Description>
@@ -64,7 +64,7 @@
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
-			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<LeaderType>LEADER_SISTER_KOTONOHA</LeaderType>
 			<Type>BUILDING_LITTER_BOX</Type>
 			<Name>LOC_BUILDING_LITTER_BOX_NAME</Name>
 			<Description>LOC_BUILDING_LITTER_BOX_DESCRIPTION</Description>
@@ -74,12 +74,24 @@
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
-			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<LeaderType>LEADER_SISTER_KOTONOHA</LeaderType>
 			<Type>BUILDING_LITTER_BOX</Type>
 			<Name>LOC_BUILDING_LITTER_BOX_NAME</Name>
 			<Description>LOC_BUILDING_LITTER_BOX_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_LITTER_BOX</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
+
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_SISTER_KOTONOHA_EMPIRE</CivilizationType>
+			<LeaderType>LEADER_SISTER_KOTONOHA</LeaderType>
+			<Type>UNIT_SISTER_IMPERIAL_GUARD</Type>
+			<Name>LOC_UNIT_SISTER_IMPERIAL_GUARD_NAME</Name>
+			<Description>LOC_UNIT_SISTER_IMPERIAL_GUARD_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_SISTER_IMPERIAL_GUARD</Icon>
+			<SortIndex>70</SortIndex>
+		</Row>
+
 	</PlayerItems>
 </GameData>
