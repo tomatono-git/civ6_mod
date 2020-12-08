@@ -38,6 +38,12 @@
 
 	<TraitModifiers>
 
+		<!-- 自動で道が一つできる -->
+		<Row>
+			<TraitType>TRAIT_LEADER_SISTER_KOTONOHA</TraitType>
+			<ModifierId>TRAIT_FREE_ROADS_TO_CAPITAL</ModifierId>
+		</Row>
+
 		<!-- 初期領地が広くなる -->
 		<Row>
 			<TraitType>TRAIT_LEADER_SISTER_KOTONOHA</TraitType>
