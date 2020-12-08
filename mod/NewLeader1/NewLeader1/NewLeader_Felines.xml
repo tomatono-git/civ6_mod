@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!-- 親定義 -->
 	<Types>
 		<Row Type="CIVILIZATION_FELINE" Kind="KIND_CIVILIZATION" />
 		<Row Type="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" Kind="KIND_TRAIT" />
 	</Types>
-	
+
+	<!-- 文明 -->
 	<Civilizations>
 		<Row>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
@@ -15,10 +17,12 @@
 		</Row>
 	</Civilizations>
 
+	<!-- 文明に属する指導者 -->
 	<CivilizationLeaders>
 		<Row CivilizationType="CIVILIZATION_FELINE" LeaderType="LEADER_JASPER_KITTY" CapitalName="LOC_CIVLIZATION_FELINE_CITY_1" />
 	</CivilizationLeaders>
 
+	<!-- 市民名 -->
 	<CivilizationCitizenNames>
 		<Row CivilizationType="CIVILIZATION_FELINE" CitizenName="LOC_CITIZEN_FELINE_MALE_1" Female="0"/>
 		<Row CivilizationType="CIVILIZATION_FELINE" CitizenName="LOC_CITIZEN_FELINE_MALE_2" Female="0"/>
@@ -35,14 +39,17 @@
 		<Row CivilizationType="CIVILIZATION_FELINE" Header="LOC_CIVINFO_BINOMIAL_NAME" Caption="LOC_CIVINFO_FELIS_CATUS" />
 	</CivilizationInfo>
 
+	<!-- 文明の特性 -->
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_FELINE" TraitType="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" />
 	</CivilizationTraits>
 
+	<!-- 特性名と詳細説明の定義 -->
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER" />
 	</Traits>
 
+	<!-- 都市名 -->
 	<CityNames>
 		<Row CivilizationType="CIVILIZATION_FELINE" CityName="LOC_CIVLIZATION_FELINE_CITY_1" />
 		<Row CivilizationType="CIVILIZATION_FELINE" CityName="LOC_CIVLIZATION_FELINE_CITY_2" />
@@ -55,5 +62,5 @@
 		<Row CivilizationType="CIVILIZATION_FELINE" CityName="LOC_CIVLIZATION_FELINE_CITY_9" />
 		<Row CivilizationType="CIVILIZATION_FELINE" CityName="LOC_CIVLIZATION_FELINE_CITY_10" />
 	</CityNames>
-	
+
 </GameData>
