@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!-- 指導者の主定義 -->
 	<Types>
 		<Row Type="LEADER_JASPER_KITTY" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_SISTER_KOTONOHA" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_LEADER_SISTER_KOTONOHA" Kind="KIND_ABILITY"/>
+		<!-- 何もしなくても回復 -->
+		<Row Type="MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION_SISTER" Kind="KIND_MODIFIER"/>
 	</Types>
 
+	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<Leaders>
 		<Row>
 			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
@@ -12,8 +18,81 @@
 		</Row>
 	</Leaders>
 
+	<!-- 指導者が持つ特性 -->
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_JASPER_KITTY" Quote="LOC_LEADER_JASPER_KITTY_QUOTE"/>
 	</LeaderQuotes>
-	
+
+	<!-- 特性の親定義(特性の名称と説明文) -->
+	<Traits>
+		<Row LeaderType="LEADER_JASPER_KITTY" Name="LOC_TRAIT_LEADER_SISTER_KOTONOHA_NAME" Description="LOC_TRAIT_LEADER_SISTER_KOTONOHA_DESCRIPTION"/>
+	</Traits>
+
+	<!--- 固有アジェンダ -->
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_JASPER_KITTY" AgendaType="AGENDA_BUSHIDO"/>
+	</HistoricalAgendas>
+
+
+
+	<TraitModifiers>
+		<!-- 快適性アップ -->
+		<Row>
+			<TraitType>TRAIT_LEADER_SISTER_KOTONOHA</TraitType>
+			<ModifierId>SISTER_AMENITIES_BONUS</ModifierId>
+		</Row>
+
+		<!-- 経済カードスロット+1 -->
+		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_SISTER_ECONOMIC_GOVERNMENT_SLOT"/>
+		<!-- ワイルドカードスロット+1 -->
+		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_SISTER_WILDCARD_GOVERNMENT_SLOT"/>
+
+
+	</TraitModifiers>
+
+	<Modifiers>
+		<!-- 快適性アップ -->
+		<Row>
+			<ModifierId>SISTER_AMENITIES_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+		</Row>
+
+		<!-- 経済カードスロット+1 -->
+		<Row>
+			<ModifierId>TRAIT_SISTER_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+		<!-- ワイルドカードスロット+1 -->
+		<Row>
+			<ModifierId>TRAIT_SISTER_WILDCARD_GOVERNMENT_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+
+
+	</Modifiers>
+
+	<ModifierArguments>
+		<!-- 快適性アップ -->
+		<Row>
+			<ModifierId>SISTER_AMENITIES_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+
+		<!-- 経済カードスロット+1 -->
+		<Row>
+			<ModifierId>TRAIT_SISTER_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_ECONOMIC</Value>
+		</Row>
+		<!-- ワイルドカードスロット+1 -->
+		<Row>
+			<ModifierId>TRAIT_SISTER_WILDCARD_GOVERNMENT_SLOT</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+
+
+	</ModifierArguments>
+
 </GameData>
