@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<!-- 親定義 -->
 	<Types>
 		<Row Type="LEADER_JASPER_KITTY" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_SISTER_KOTONOHA" Kind="KIND_TRAIT"/>
 	</Types>
 
+	<!-- 指導者の主定義 -->
 	<Leaders>
 		<Row>
 			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
@@ -12,8 +15,38 @@
 		</Row>
 	</Leaders>
 
+	<!-- 指導者の一言メッセージ(Civilopedia) -->
 	<LeaderQuotes>
 		<Row LeaderType="LEADER_JASPER_KITTY" Quote="LOC_LEADER_JASPER_KITTY_QUOTE"/>
 	</LeaderQuotes>
-	
+
+	<!-- 指導者が持つ特性 -->
+	<LeaderTraits>
+		<Row LeaderType="LEADER_JASPER_KITTY" TraitType="TRAIT_LEADER_SISTER_KOTONOHA"/>
+	</LeaderTraits>
+
+	<!-- 特性の親定義(特性の名称と説明文) -->
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" Name="LOC_TRAIT_LEADER_SISTER_KOTONOHA_NAME" Description="LOC_TRAIT_LEADER_SISTER_KOTONOHA_DESCRIPTION"/>
+	</Traits>
+
+		<!--- 固有アジェンダ -->
+	<!-- <HistoricalAgendas>
+		<Row LeaderType="LEADER_SISTER_KOTONOHA" AgendaType="AGENDA_BUSHIDO"/>
+	</HistoricalAgendas> -->
+
+
+	<TraitModifiers>
+
+		<!-- 初期領地が広くなる -->
+		<Row>
+			<TraitType>TRAIT_LEADER_SISTER_KOTONOHA</TraitType>
+			<ModifierId>TRAIT_INCREASED_TILES</ModifierId>
+		</Row>
+
+		<!-- 琴葉姉妹の領土で異なる高級資源を一種類開発する毎に、全軍事ユニットの戦闘力に+1のボーナス -->
+		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_COMBAT_BONUS_PER_LUXURY"/>
+
+	</TraitModifiers>
+
 </GameData>
