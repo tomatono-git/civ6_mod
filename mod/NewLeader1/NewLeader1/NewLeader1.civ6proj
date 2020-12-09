@@ -23,6 +23,7 @@
           <File>UU.sql</File>
           <File>Leaders_Movement.sql</File>
           <File>Leaders_Boost.sql</File>
+          <File>Leader_grant.sql</File>
         </UpdateDatabase>
         <UpdateText id="Text">
           <Criteria>LeaderCriteria</Criteria>
@@ -82,6 +83,7 @@
     <Content Include="UU.sql" />
     <Content Include="Leaders_Movement.sql" />
     <Content Include="Leaders_Boost.sql" />
+    <Content Include="Leader_grant.sql" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.dds" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.tex" />
     <None Include="Textures\LEADER_JASPER_KITTY_NEUTRAL.dds" />
