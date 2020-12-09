@@ -2,7 +2,7 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Starting</Name>
+    <Name>Starting Units</Name>
     <Guid>c8b88001-230c-4af2-b0a3-64d073cddb8b</Guid>
     <ProjectGuid>3e51a6c5-1f8d-41d9-af8c-d573d92205be</ProjectGuid>
     <ModVersion>1</ModVersion>

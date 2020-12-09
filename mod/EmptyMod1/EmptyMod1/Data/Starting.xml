@@ -4,8 +4,8 @@
 <!-- DateCreated: 12/8/2020 9:14:05 PM -->
 <GameInfo>
 	<MajorStartingUnits>
-		<Row Unit="UNIT_SCOUT" Era="ERA_ANCIENT" District="DISTRICT_CITY_CENTER" Quantity="2" NotStartTile="true"/>
-		<Row Unit="UNIT_SLINGER" Era="ERA_ANCIENT" District="DISTRICT_CITY_CENTER" Quantity="2" NotStartTile="true"/>
-		<Row Unit="UNIT_BUILDER" Era="ERA_ANCIENT" District="DISTRICT_CITY_CENTER" Quantity="2" NotStartTile="true"/>
+		<Row Unit="UNIT_SCOUT" Era="ERA_ANCIENT" District="DISTRICT_CITY_CENTER" Quantity="1" NotStartTile="true"/>
+		<Row Unit="UNIT_SLINGER" Era="ERA_ANCIENT" District="DISTRICT_CITY_CENTER" Quantity="1" NotStartTile="true"/>
+		<Row Unit="UNIT_BUILDER" Era="ERA_ANCIENT" District="DISTRICT_CITY_CENTER" Quantity="1" NotStartTile="true"/>
 	</MajorStartingUnits>
 </GameInfo>
