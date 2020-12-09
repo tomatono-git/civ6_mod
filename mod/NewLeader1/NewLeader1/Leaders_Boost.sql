@@ -8,8 +8,8 @@ INSERT OR REPLACE INTO Modifiers
 INSERT OR REPLACE INTO ModifierArguments
 		(ModifierId, Name, Value, Extra)
 	VALUES
-		('OOKAMI_MIO_CIVIC_BOOST', 'Amount', 50, -1),
-		('OOKAMI_MIO_TECHNOLOGY_BOOST', 'Amount', 50, -1);
+		('OOKAMI_MIO_CIVIC_BOOST', 'Amount', 60, -1),
+		('OOKAMI_MIO_TECHNOLOGY_BOOST', 'Amount', 60, -1);
 
 INSERT OR REPLACE INTO TraitModifiers
 		(TraitType, ModifierId)
