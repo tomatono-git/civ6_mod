@@ -17,21 +17,21 @@
       <InGameActions>
         <UpdateDatabase id="Gameplay">
           <Criteria>LeaderCriteria</Criteria>
-          <File>NewLeader_Felines.xml</File>
+          <File>Felines.xml</File>
           <File>Leaders.xml</File>
-          <File>NewLeader_LitterBox.xml</File>
+          <File>LitterBox.xml</File>
           <File>UU.sql</File>
           <File>Leaders_Movement.sql</File>
           <File>Leaders_Boost.sql</File>
         </UpdateDatabase>
         <UpdateText id="Text">
           <Criteria>LeaderCriteria</Criteria>
-          <File>NewLeader_ConfigText.xml</File>
-          <File>NewLeader_Text.xml</File>
+          <File>ConfigText.xml</File>
+          <File>Text.xml</File>
         </UpdateText>
         <UpdateIcons id="Icons">
           <Criteria>LeaderCriteria</Criteria>
-          <File>NewLeader_Icons.xml</File>
+          <File>Icons.xml</File>
           </UpdateIcons><UpdateArt id="Art">
           <Criteria>LeaderCriteria</Criteria>
           <File>(Mod Art Dependency File)</File>
@@ -41,13 +41,13 @@
     <FrontEndActionData><![CDATA[
       <FrontEndActions>
           <UpdateDatabase id="Config">
-              <File>NewLeader_Config.xml</File>
+              <File>Config.xml</File>
           </UpdateDatabase>
           <UpdateText id="ConfigText">
-              <File>NewLeader_ConfigText.xml</File>
+              <File>ConfigText.xml</File>
           </UpdateText>
           <UpdateIcons id="ConfigIcons">
-              <File>NewLeader_Icons.xml</File>
+              <File>Icons.xml</File>
           </UpdateIcons>
           <UpdateArt id="ConfigArt">
               <File>(Mod Art Dependency File)</File>
@@ -72,13 +72,13 @@
     <Folder Include="Artdefs\" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />
-    <Content Include="NewLeader_Config.xml" />
-    <Content Include="NewLeader_ConfigText.xml" />
-    <Content Include="NewLeader_Felines.xml" />
-    <Content Include="NewLeader_Icons.xml" />
+    <Content Include="Config.xml" />
+    <Content Include="ConfigText.xml" />
+    <Content Include="Felines.xml" />
+    <Content Include="Icons.xml" />
     <Content Include="Leaders.xml" />
-    <Content Include="NewLeader_LitterBox.xml" />
-    <Content Include="NewLeader_Text.xml" />
+    <Content Include="LitterBox.xml" />
+    <Content Include="Text.xml" />
     <Content Include="UU.sql" />
     <Content Include="Leaders_Movement.sql" />
     <Content Include="Leaders_Boost.sql" />
