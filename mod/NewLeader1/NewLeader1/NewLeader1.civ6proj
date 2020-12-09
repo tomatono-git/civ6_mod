@@ -21,6 +21,7 @@
           <File>NewLeader_JasperKitty.xml</File>
           <File>NewLeader_LitterBox.xml</File>
           <File>UU.sql</File>
+          <File>Movement.sql</File>
         </UpdateDatabase>
         <UpdateText id="Text">
           <Criteria>LeaderCriteria</Criteria>
@@ -57,6 +58,7 @@
     <Content Include="NewLeader_LitterBox.xml" />
     <Content Include="NewLeader_Text.xml" />
     <Content Include="UU.sql" />
+    <Content Include="Movement.sql" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.dds" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.tex" />
     <None Include="Textures\LEADER_JASPER_KITTY_NEUTRAL.dds" />

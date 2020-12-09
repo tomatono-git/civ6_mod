@@ -9,25 +9,26 @@
 			<Set AiOnly="false"/>
 		</Update> -->
 
+		<!-- UNIT_SCOUT:   斥候 -->
+		<!-- UNIT_SLINGER: 投石兵 -->
+		<!-- UNIT_BUILDER: 労働者 -->
+		<!-- UNIT_SETTLER: 開拓者 -->
+
 		<!-- 開始時 -->
-		<!-- 斥候 -->
 		<Row Era="ERA_ANCIENT" Unit="UNIT_SCOUT" District="DISTRICT_CITY_CENTER" Quantity="1" NotStartTile="true"/>
-		<!-- 投石兵 -->
 		<Row Era="ERA_ANCIENT" Unit="UNIT_SLINGER" District="DISTRICT_CITY_CENTER" Quantity="1" NotStartTile="true"/>
-		<!-- 労働者 -->
 		<Row Era="ERA_ANCIENT" Unit="UNIT_BUILDER" District="DISTRICT_CITY_CENTER" Quantity="1" NotStartTile="true"/>
-		<!-- 開拓者 -->
-		<Replace Era="ERA_ANCIENT" Unit="UNIT_SETTLER" District="DISTRICT_CITY_CENTER" Quantity="2" NotStartTile="true" />
+		<Row Era="ERA_ANCIENT" Unit="UNIT_SETTLER" District="DISTRICT_CITY_CENTER" Quantity="1" NotStartTile="true" />
 
 		<!-- 各時代に開拓者を追加 -->
-		<Row Era="ERA_CLASSICAL" Unit="UNIT_SETTLER" AiOnly="false" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>
-		<Row Era="ERA_MEDIEVAL" Unit="UNIT_SETTLER" AiOnly="false" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>
-		<Row Era="ERA_RENAISSANCE" Unit="UNIT_SETTLER" AiOnly="false" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>
-		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_SETTLER" AiOnly="false" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>
-		<Row Era="ERA_MODERN" Unit="UNIT_SETTLER" AiOnly="false" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>
-		<Row Era="ERA_ATOMIC" Unit="UNIT_SETTLER" AiOnly="false" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>
-		<Row Era="ERA_INFORMATION" Unit="UNIT_SETTLER" AiOnly="false" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>
-		<Row Era="ERA_FUTURE" Unit="UNIT_SETTLER" AiOnly="false" MinDifficulty="DIFFICULTY_EMPEROR" DifficultyDelta="0.5" OnDistrictCreated="true"/>
+		<Row Era="ERA_CLASSICAL" Unit="UNIT_SETTLER" District="DISTRICT_CITY_CENTER" Quantity="1" NotStartTile="true"/>
+		<Row Era="ERA_MEDIEVAL" Unit="UNIT_SETTLER" District="DISTRICT_CITY_CENTER" Quantity="1" NotStartTile="true"/>
+		<Row Era="ERA_RENAISSANCE" Unit="UNIT_SETTLER" District="DISTRICT_CITY_CENTER" Quantity="1" NotStartTile="true"/>
+		<Row Era="ERA_INDUSTRIAL" Unit="UNIT_SETTLER" District="DISTRICT_CITY_CENTER" Quantity="1" NotStartTile="true"/>
+		<Row Era="ERA_MODERN" Unit="UNIT_SETTLER" District="DISTRICT_CITY_CENTER" Quantity="1" NotStartTile="true"/>
+		<Row Era="ERA_ATOMIC" Unit="UNIT_SETTLER" District="DISTRICT_CITY_CENTER" Quantity="1" NotStartTile="true"/>
+		<Row Era="ERA_INFORMATION" Unit="UNIT_SETTLER" District="DISTRICT_CITY_CENTER" Quantity="1" NotStartTile="true"/>
+		<Row Era="ERA_FUTURE" Unit="UNIT_SETTLER" District="DISTRICT_CITY_CENTER" Quantity="1" NotStartTile="true"/>
 
 	</MajorStartingUnits>
 </GameInfo>
