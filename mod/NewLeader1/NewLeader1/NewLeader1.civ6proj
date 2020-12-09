@@ -18,7 +18,7 @@
         <UpdateDatabase id="Gameplay">
           <Criteria>LeaderCriteria</Criteria>
           <File>NewLeader_Felines.xml</File>
-          <File>NewLeader_JasperKitty.xml</File>
+          <File>Leaders.xml</File>
           <File>NewLeader_LitterBox.xml</File>
           <File>UU.sql</File>
           <File>Leaders_Movement.sql</File>
@@ -38,8 +38,29 @@
         </UpdateArt>
       </InGameActions>
     ]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>NewLeader_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>NewLeader_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY,Players:Expansion1_Players::LEADER_JASPER_KITTY,Players:Expansion2_Players::LEADER_JASPER_KITTY</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <FrontEndActionData><![CDATA[
+      <FrontEndActions>
+          <UpdateDatabase id="Config">
+              <File>NewLeader_Config.xml</File>
+          </UpdateDatabase>
+          <UpdateText id="ConfigText">
+              <File>NewLeader_ConfigText.xml</File>
+          </UpdateText>
+          <UpdateIcons id="ConfigIcons">
+              <File>NewLeader_Icons.xml</File>
+          </UpdateIcons>
+          <UpdateArt id="ConfigArt">
+              <File>(Mod Art Dependency File)</File>
+          </UpdateArt>
+      </FrontEndActions>
+    ]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[
+      <ActionCriteria>
+          <Criteria id="LeaderCriteria">
+              <LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY,Players:Expansion1_Players::LEADER_JASPER_KITTY,Players:Expansion2_Players::LEADER_JASPER_KITTY</LeaderPlayable>
+          </Criteria>
+      </ActionCriteria>
+    ]]></ActionCriteriaData>
     <!-- <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData> -->
     <AssemblyName>NewLeader1</AssemblyName>
     <RootNamespace>NewLeader1</RootNamespace>
@@ -55,7 +76,7 @@
     <Content Include="NewLeader_ConfigText.xml" />
     <Content Include="NewLeader_Felines.xml" />
     <Content Include="NewLeader_Icons.xml" />
-    <Content Include="NewLeader_JasperKitty.xml" />
+    <Content Include="Leaders.xml" />
     <Content Include="NewLeader_LitterBox.xml" />
     <Content Include="NewLeader_Text.xml" />
     <Content Include="UU.sql" />
