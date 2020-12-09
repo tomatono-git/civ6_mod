@@ -219,13 +219,13 @@
 
 		<!-- 開拓者の生産コスト軽減 -->
 		<Row ModifierId="SISTER_SETTLER_BONUS" Name="UnitType" Value="UNIT_SETTLER"/>
-		<Row ModifierId="SISTER_SETTLER_BONUS" Name="Amount" Value="100"/>
+		<Row ModifierId="SISTER_SETTLER_BONUS" Name="Amount" Value="200"/>
 
 		<!-- 労働者の生産コスト軽減 -->
 		<Row ModifierId="SISTER_BUILDER_BONUS" Name="UnitType" Value="UNIT_BUILDER"/>
-		<Row ModifierId="SISTER_BUILDER_BONUS" Name="Amount" Value="100"/>
+		<Row ModifierId="SISTER_BUILDER_BONUS" Name="Amount" Value="200"/>
 
-		<!-- 大預言者ポイントがスタート時から毎ターン+1 -->
+		<!-- 大預言者ポイントがスタート時から毎ターン+5 -->
 		<Row>
 			<ModifierId>TRAIT_SISTER_INCREASE_GREAT_PROPHET_POINTS</ModifierId>
 			<Name>GreatPersonClassType</Name>
@@ -234,7 +234,7 @@
 		<Row>
 			<ModifierId>TRAIT_SISTER_INCREASE_GREAT_PROPHET_POINTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>5</Value>
 		</Row>
 
 		<!-- 都市の出力アップ -->
