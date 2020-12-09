@@ -13,7 +13,13 @@
 		{
 			"name": "Mods - My Games",
 			"path": "C:/Users/tomato/OneDrive/ドキュメント/My Games/Sid Meier's Civilization VI/Mods"
-		}
+		},
+		{
+			"name": "Logs - My Games",
+			"path": "C:/Users/tomato/OneDrive/ドキュメント/My Games/Sid Meier's Civilization VI/Logs"
+		},
 	],
-	"settings": {}
+	"settings": {
+		"files.autoGuessEncoding": true,
+	}
 }
