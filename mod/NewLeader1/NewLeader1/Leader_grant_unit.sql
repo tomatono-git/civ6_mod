@@ -1,155 +1,90 @@
 -- ユニットを獲得
 
--- テクノロジー：帆走術を取得しているか
+-- 帆走術を取得しているか
 INSERT OR REPLACE INTO Requirements
         (RequirementId, RequirementType)
     VALUES
         ('REQUIRES_TECHNOLOGY_SAILING', 'REQUIREMENT_PLAYER_HAS_TECHNOLOGY');
-
 INSERT OR REPLACE INTO RequirementArguments
         (RequirementId, Name, Value)
     VALUES
         ('REQUIRES_TECHNOLOGY_SAILING', 'TechnologyType', 'TECH_SAILING');
-
 INSERT OR REPLACE INTO RequirementSets
         (RequirementSetId, RequirementSetType)
     VALUES
         ('PLAYER_HAS_SAILING_TECHNOLOGY', 'REQUIREMENTSET_TEST_ALL');
-
 INSERT OR REPLACE INTO RequirementSetRequirements
         (RequirementSetId, RequirementId)
     VALUES
         ('PLAYER_HAS_SAILING_TECHNOLOGY', 'REQUIRES_TECHNOLOGY_SAILING');
 
--- 帆走術研究で沿岸首都に無償のガレー船を付与
+-- 帆走術の研究で沿岸首都にガレー船を付与
 INSERT OR REPLACE INTO Modifiers
         (ModifierId, ModifierType, RunOnce, Permanent, OwnerRequirementsetId)
     VALUES
         ('TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_GALLEY_UNIT', 'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL', 1, 1, 'PLAYER_HAS_SAILING_TECHNOLOGY');
-
 INSERT OR REPLACE INTO ModifierArguments
         (ModifierId, Name, Value)
     VALUES
         ('TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_GALLEY_UNIT', 'UnitType', 'UNIT_GALLEY'),
         ('TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_GALLEY_UNIT', 'Amount', 1),
         ('TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_GALLEY_UNIT', 'AllowUniqueOverride', 0);
-
 INSERT OR REPLACE INTO TraitModifiers
         (TraitType, ModifierId)
     VALUES
         ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_GALLEY_UNIT');
 
--- TraitModifiers
-		-- <!-- ガレー船を獲得する指導者特性指定？ -->
-		-- <Row TraitType="TRAIT_LEADER_FALSE_GODDESS" ModifierId="TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_GALLEY_UNIT"/>
 
--- Modifiers
-		-- <!-- 帆走術研究で沿岸首都に無償のガレー船入手 -->
-		-- <Row>
-		-- 	<ModifierId>TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_GALLEY_UNIT</ModifierId>
-		-- 	<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
-		-- 	<!-- 効果：首都が沿岸都市だとユニット追加 -->
-		-- 	<RunOnce>true</RunOnce>
-		-- 	<!-- 効果：一回だけ発動 -->
-		-- 	<Permanent>true</Permanent>
-		-- 	<!-- 不明 -->
-		-- 	<OwnerRequirementsetId>PLAYER_HAS_SAILING_TECHNOLOGY</OwnerRequirementsetId>
-		-- 	<!-- 条件：帆走術の技術を持っているか -->
-		-- </Row>
+-- 畜産を取得しているか
+INSERT OR REPLACE INTO Requirements
+        (RequirementId, RequirementType)
+    VALUES
+        ('REQUIRES_TECHNOLOGY_ANIMAL_HUSBANDRY', 'REQUIREMENT_PLAYER_HAS_TECHNOLOGY');
+INSERT OR REPLACE INTO RequirementArguments
+        (RequirementId, Name, Value)
+    VALUES
+        ('REQUIRES_TECHNOLOGY_ANIMAL_HUSBANDRY', 'TechnologyType', 'TECH_ANIMAL_HUSBANDRY');
+INSERT OR REPLACE INTO RequirementSets
+        (RequirementSetId, RequirementSetType)
+    VALUES
+        ('PLAYER_HAS_ANIMAL_HUSBANDRY_TECHNOLOGY', 'REQUIREMENTSET_TEST_ALL');
+INSERT OR REPLACE INTO RequirementSetRequirements
+        (RequirementSetId, RequirementId)
+    VALUES
+        ('PLAYER_HAS_ANIMAL_HUSBANDRY_TECHNOLOGY', 'REQUIRES_TECHNOLOGY_ANIMAL_HUSBANDRY');
 
--- ModifierArguments
-		-- <!-- 条件により無償のガレー船一体入手 -->
-		-- <Row>
-		-- 	<ModifierId>TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_GALLEY_UNIT</ModifierId>
-		-- 	<Name>UnitType</Name>
-		-- 	<Value>UNIT_GALLEY</Value>
-		-- </Row>
-		-- <Row>
-		-- 	<ModifierId>TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_GALLEY_UNIT</ModifierId>
-		-- 	<Name>Amount</Name>
-		-- 	<Value>1</Value>
-		-- </Row>
-		-- <Row>
-		-- 	<ModifierId>TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_GALLEY_UNIT</ModifierId>
-		-- 	<Name>AllowUniqueOverride</Name>
-		-- 	<Value>false</Value>
-		-- </Row>
+-- 畜産の研究でユニットを付与
+-- UNIT_SCOUT:   斥候
+-- UNIT_SLINGER: 投石兵
+-- UNIT_BUILDER: 労働者
+-- UNIT_SETTLER: 開拓者
+INSERT OR REPLACE INTO Modifiers
+        (ModifierId, ModifierType, RunOnce, Permanent, OwnerRequirementsetId)
+    VALUES
+        ('TRAIT_PLAYER_GRANT_UNIT_SETTLER', 'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL', 1, 1, 'PLAYER_HAS_ANIMAL_HUSBANDRY_TECHNOLOGY'),
+        ('TRAIT_PLAYER_GRANT_UNIT_BUILDER', 'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL', 1, 1, 'PLAYER_HAS_ANIMAL_HUSBANDRY_TECHNOLOGY'),
+        ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL', 1, 1, 'PLAYER_HAS_ANIMAL_HUSBANDRY_TECHNOLOGY'),
+        ('TRAIT_PLAYER_GRANT_UNIT_SCOUT', 'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL', 1, 1, 'PLAYER_HAS_ANIMAL_HUSBANDRY_TECHNOLOGY');
+INSERT OR REPLACE INTO ModifierArguments
+        (ModifierId, Name, Value)
+    VALUES
+        ('TRAIT_PLAYER_GRANT_UNIT_SETTLER', 'UnitType', 'UNIT_SETTLER'),
+        ('TRAIT_PLAYER_GRANT_UNIT_SETTLER', 'Amount', 1),
+        ('TRAIT_PLAYER_GRANT_UNIT_SETTLER', 'AllowUniqueOverride', 0),
+        ('TRAIT_PLAYER_GRANT_UNIT_BUILDER', 'UnitType', 'UNIT_BUILDER'),
+        ('TRAIT_PLAYER_GRANT_UNIT_BUILDER', 'Amount', 1),
+        ('TRAIT_PLAYER_GRANT_UNIT_BUILDER', 'AllowUniqueOverride', 0),
+        ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'UnitType', 'UNIT_SLINGER'),
+        ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'Amount', 3),
+        ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'AllowUniqueOverride', 0),
+        ('TRAIT_PLAYER_GRANT_UNIT_SCOUT', 'UnitType', 'UNIT_SCOUT'),
+        ('TRAIT_PLAYER_GRANT_UNIT_SCOUT', 'Amount', 3),
+        ('TRAIT_PLAYER_GRANT_UNIT_SCOUT', 'AllowUniqueOverride', 0);
+INSERT OR REPLACE INTO TraitModifiers
+        (TraitType, ModifierId)
+    VALUES
+        ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_UNIT_SETTLER'),
+        ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_UNIT_BUILDER'),
+        ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_UNIT_SLINGER'),
+        ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_UNIT_SCOUT');
 
-
-		-- <!-- オキチタウを獲得する指導者特性指定？ -->
-		-- <Row TraitType="TRAIT_LEADER_FALSE_GODDESS" ModifierId="TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_CREE_OKIHTCITAW_UNIT"/>
-
-
-		-- <!-- 陶磁器研究で無償のオキチタウ入手 -->
-		-- <Row>
-		-- 	<ModifierId>TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_CREE_OKIHTCITAW_UNIT</ModifierId>
-		-- 	<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
-		-- 	<!-- 効果：首都にユニット追加 -->
-		-- 	<RunOnce>true</RunOnce>
-		-- 	<!-- 効果：一回だけ発動 -->
-		-- 	<Permanent>true</Permanent>
-		-- 	<!-- 不明 -->
-		-- 	<OwnerRequirementsetId>PLAYER_HAS_POTTERY_TECHNOLOGY</OwnerRequirementsetId>
-		-- 	<!-- 条件：陶磁器の技術を持っているか -->
-		-- </Row>
-		-- <!-- 帆走術研究で沿岸首都に無償のガレー船入手 -->
-		-- <Row>
-		-- 	<ModifierId>TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_GALLEY_UNIT</ModifierId>
-		-- 	<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
-		-- 	<!-- 効果：首都が沿岸都市だとユニット追加 -->
-		-- 	<RunOnce>true</RunOnce>
-		-- 	<!-- 効果：一回だけ発動 -->
-		-- 	<Permanent>true</Permanent>
-		-- 	<!-- 不明 -->
-		-- 	<OwnerRequirementsetId>PLAYER_HAS_SAILING_TECHNOLOGY</OwnerRequirementsetId>
-		-- 	<!-- 条件：帆走術の技術を持っているか -->
-		-- </Row>
-
-
-		-- <!-- 条件により無償のオキチタウ一体入手 -->
-		-- <Row>
-		-- 	<ModifierId>TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_CREE_OKIHTCITAW_UNIT</ModifierId>
-		-- 	<Name>UnitType</Name>
-		-- 	<Value>UNIT_CREE_OKIHTCITAW</Value>
-		-- </Row>
-		-- <Row>
-		-- 	<ModifierId>TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_CREE_OKIHTCITAW_UNIT</ModifierId>
-		-- 	<Name>Amount</Name>
-		-- 	<Value>1</Value>
-		-- </Row>
-		-- <Row>
-		-- 	<ModifierId>TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_CREE_OKIHTCITAW_UNIT</ModifierId>
-		-- 	<Name>AllowUniqueOverride</Name>
-		-- 	<Value>false</Value>
-		-- </Row>
-
-
-	-- <RequirementSets>
-	-- 	<!-- テクノロジー：帆走術を取得しているか -->
-	-- 	<Row>
-	-- 		<RequirementSetId>PLAYER_HAS_SAILING_TECHNOLOGY</RequirementSetId>
-	-- 		<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-	-- 	</Row>
-	-- </RequirementSets>
-	-- <RequirementSetRequirements>
-	-- 	<!-- テクノロジー：帆走術を取得しているか -->
-	-- 	<Row>
-	-- 		<RequirementSetId>PLAYER_HAS_SAILING_TECHNOLOGY</RequirementSetId>
-	-- 		<RequirementId>REQUIRES_TECHNOLOGY_SAILING</RequirementId>
-	-- 	</Row>
-	-- </RequirementSetRequirements>
-	-- <Requirements>
-	-- 	<!-- テクノロジー：帆走術を取得しているか -->
-	-- 	<Row>
-	-- 		<RequirementId>REQUIRES_TECHNOLOGY_SAILING</RequirementId>
-	-- 		<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
-	-- 	</Row>
-	-- </Requirements>
-	-- <RequirementArguments>
-	-- 	<!-- テクノロジー：帆走術を取得しているか -->
-	-- 	<Row>
-	-- 		<RequirementId>REQUIRES_TECHNOLOGY_SAILING</RequirementId>
-	-- 		<Name>TechnologyType</Name>
-	-- 		<Value>TECH_SAILING</Value>
-	-- 	</Row>
-	-- </RequirementArguments>

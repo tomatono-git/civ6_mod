@@ -2,26 +2,26 @@
 <GameData>
 	<LocalizedText>
 		<Row Tag="LOC_CIVILIZATION_FELINE_NAME" Language="en_US">
-			<Text>The Felines</Text>
+			<Text>Tomato Kingdom</Text>
 		</Row>
 
 		<Row Tag="LOC_CIVILIZATION_FELINE_DESCRIPTION" Language="en_US">
-			<Text>The Majestic Felines</Text>
+			<Text>The Majestic Vegetables</Text>
 		</Row>
 
 		<Row Tag="LOC_CIVILIZATION_FELINE_ADJECTIVE" Language="en_US">
-			<Text>Feline</Text>
+			<Text>Vegetables</Text>
 		</Row>
 
 		<Row Tag="LOC_LEADER_JASPER_KITTY_NAME" Language="en_US">
-			<Text>Jasper Kitty</Text>
+			<Text>Tomato</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_FELINE_NAME" Language="en_US">
-			<Text>Cat like reflexes</Text>
+			<Text>Bright red adorable vegetables</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_FELINE_DESCRIPTION" Language="en_US">
-			<Text>So fast!</Text>
+			<Text>So red!</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_NAME" Language="en_US">

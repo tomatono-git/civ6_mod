@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- 廃止！ Leader_grant_unit.sql を使う -->
+
+
 <GameData>
 
 	<TraitModifiers>
