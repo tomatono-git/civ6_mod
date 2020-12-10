@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_FELINE_NAME" Language="ja_JP">
+			<Text>とまと王国</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FELINE_DESCRIPTION" Language="ja_JP">
+			<Text>とまと王国です。</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_FELINE_ADJECTIVE" Language="ja_JP">
+			<Text>とまと</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_JASPER_KITTY_NAME" Language="ja_JP">
+			<Text>とまとん</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FELINE_NAME" Language="ja_JP">
+			<Text>とまとんの文明特性</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FELINE_DESCRIPTION" Language="ja_JP">
+			<Text>とまとんの文明特性は・・。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_NAME" Language="ja_JP">
+			<Text>とまとんの指導者特性</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_DESCRIPTION" Language="ja_JP">
+			<Text>とまとんの指導者特性は・・。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_LITTER_BOX_NAME" Language="ja_JP">
+			<Text>Litter Box</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION" Language="ja_JP">
+			<Text>ごみ施設。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
