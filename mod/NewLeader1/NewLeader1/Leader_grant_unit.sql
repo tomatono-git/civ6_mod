@@ -72,7 +72,7 @@ INSERT OR REPLACE INTO ModifierArguments
         ('TRAIT_PLAYER_GRANT_UNIT_SETTLER', 'Amount', 1),
         ('TRAIT_PLAYER_GRANT_UNIT_SETTLER', 'AllowUniqueOverride', 0),
         ('TRAIT_PLAYER_GRANT_UNIT_BUILDER', 'UnitType', 'UNIT_BUILDER'),
-        ('TRAIT_PLAYER_GRANT_UNIT_BUILDER', 'Amount', 1),
+        ('TRAIT_PLAYER_GRANT_UNIT_BUILDER', 'Amount', 2),
         ('TRAIT_PLAYER_GRANT_UNIT_BUILDER', 'AllowUniqueOverride', 0),
         ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'UnitType', 'UNIT_SLINGER'),
         ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'Amount', 3),
