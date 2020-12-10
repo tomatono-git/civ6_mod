@@ -1,4 +1,4 @@
--- ユニットを獲得
+-- 技術の研究でユニットを付与
 
 -- 帆走術を取得しているか
 INSERT OR REPLACE INTO Requirements
