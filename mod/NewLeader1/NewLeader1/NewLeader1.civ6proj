@@ -26,9 +26,20 @@
           <File>Leader_grant_technology.sql</File>
           <File>Leader_post_combat_yield.sql</File>
           <File>Leader_grant_unit.sql</File>
-          <File>betterrecon_policy.sql</File>
-          <File>betterrecon_policy_text.sql</File>
+          <File>Leaders_card_slot.xml</File>
         </UpdateDatabase>
+        <UpdateDatabase id="BetterRecon_Policy_Gameplay">
+          <Properties>
+            <LoadOrder>130</LoadOrder>
+          </Properties>
+          <File>betterrecon_policy.sql</File>
+        </UpdateDatabase>
+        <UpdateText id="BetterRecon_Policy_Text">
+          <Properties>
+            <LoadOrder>130</LoadOrder>
+          </Properties>
+          <File>betterrecon_policy_text.sql</File>
+        </UpdateText>
         <UpdateText id="Text">
           <Criteria>LeaderCriteria</Criteria>
           <File>ConfigText.xml</File>
@@ -90,6 +101,7 @@
     <Content Include="Leader_grant_technology.sql" />
     <Content Include="Leader_post_combat_yield.sql" />
     <Content Include="Leader_grant_unit.sql" />
+    <Content Include="Leaders_card_slot.xml" />
     <Content Include="betterrecon_policy.sql" />
     <Content Include="betterrecon_policy_text.sql" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.dds" />

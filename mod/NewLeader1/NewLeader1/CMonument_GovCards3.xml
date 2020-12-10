@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CMonument_GovCards3 -->
+<!-- Author: Zur13 -->
+<!-- DateCreated: 8/9/2020 2:53:08 PM -->
+<GameInfo>
+	<Modifiers>
+		<Row ModifierId="CMONUMENT_MILITARY1" ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		<Row ModifierId="CMONUMENT_MILITARY2" ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		<Row ModifierId="CMONUMENT_MILITARY3" ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+
+		<Row ModifierId="CMONUMENT_ECONOMIC1" ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		<Row ModifierId="CMONUMENT_ECONOMIC2" ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		<Row ModifierId="CMONUMENT_ECONOMIC3" ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+
+		<Row ModifierId="CMONUMENT_DIPLOMATIC1" ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		<Row ModifierId="CMONUMENT_DIPLOMATIC2" ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		<Row ModifierId="CMONUMENT_DIPLOMATIC3" ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+
+		<Row ModifierId="CMONUMENT_WILDCARD1" ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		<Row ModifierId="CMONUMENT_WILDCARD2" ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+		<Row ModifierId="CMONUMENT_WILDCARD3" ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" OwnerRequirementSetId="PLAYER_IS_HUMAN"/>
+	</Modifiers>
+	<ModifierArguments>
+		<Row ModifierId="CMONUMENT_MILITARY1" Name="GovernmentSlotType" Value="SLOT_MILITARY"/>
+		<Row ModifierId="CMONUMENT_MILITARY2" Name="GovernmentSlotType" Value="SLOT_MILITARY"/>
+		<Row ModifierId="CMONUMENT_MILITARY3" Name="GovernmentSlotType" Value="SLOT_MILITARY"/>
+
+		<Row ModifierId="CMONUMENT_ECONOMIC1" Name="GovernmentSlotType" Value="SLOT_ECONOMIC"/>
+		<Row ModifierId="CMONUMENT_ECONOMIC2" Name="GovernmentSlotType" Value="SLOT_ECONOMIC"/>
+		<Row ModifierId="CMONUMENT_ECONOMIC3" Name="GovernmentSlotType" Value="SLOT_ECONOMIC"/>
+
+		<Row ModifierId="CMONUMENT_DIPLOMATIC1" Name="GovernmentSlotType" Value="SLOT_DIPLOMATIC"/>
+		<Row ModifierId="CMONUMENT_DIPLOMATIC2" Name="GovernmentSlotType" Value="SLOT_DIPLOMATIC"/>
+		<Row ModifierId="CMONUMENT_DIPLOMATIC3" Name="GovernmentSlotType" Value="SLOT_DIPLOMATIC"/>
+
+		<Row ModifierId="CMONUMENT_WILDCARD1" Name="GovernmentSlotType" Value="SLOT_WILDCARD"/>
+		<Row ModifierId="CMONUMENT_WILDCARD2" Name="GovernmentSlotType" Value="SLOT_WILDCARD"/>
+		<Row ModifierId="CMONUMENT_WILDCARD3" Name="GovernmentSlotType" Value="SLOT_WILDCARD"/>
+	</ModifierArguments>
+	
+	<!--<BuildingModifiers>
+		<Row BuildingType="BUILDING_CMONUMENT" ModifierId="CMONUMENT_MILITARY1"/>
+		<Row BuildingType="BUILDING_CMONUMENT" ModifierId="CMONUMENT_MILITARY2"/>
+		<Row BuildingType="BUILDING_CMONUMENT" ModifierId="CMONUMENT_MILITARY3"/>
+
+		<Row BuildingType="BUILDING_CMONUMENT" ModifierId="CMONUMENT_ECONOMIC1"/>
+		<Row BuildingType="BUILDING_CMONUMENT" ModifierId="CMONUMENT_ECONOMIC2"/>
+		<Row BuildingType="BUILDING_CMONUMENT" ModifierId="CMONUMENT_ECONOMIC3"/>
+
+		<Row BuildingType="BUILDING_CMONUMENT" ModifierId="CMONUMENT_DIPLOMATIC1"/>
+		<Row BuildingType="BUILDING_CMONUMENT" ModifierId="CMONUMENT_DIPLOMATIC2"/>
+		<Row BuildingType="BUILDING_CMONUMENT" ModifierId="CMONUMENT_DIPLOMATIC3"/>
+
+		<Row BuildingType="BUILDING_CMONUMENT" ModifierId="CMONUMENT_WILDCARD1"/>
+		<Row BuildingType="BUILDING_CMONUMENT" ModifierId="CMONUMENT_WILDCARD2"/>
+		<Row BuildingType="BUILDING_CMONUMENT" ModifierId="CMONUMENT_WILDCARD3"/>
+	</BuildingModifiers>-->
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CMONUMENT_MILITARY1"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CMONUMENT_MILITARY2"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CMONUMENT_MILITARY3"/>
+
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CMONUMENT_ECONOMIC1"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CMONUMENT_ECONOMIC2"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CMONUMENT_ECONOMIC3"/>
+
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CMONUMENT_DIPLOMATIC1"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CMONUMENT_DIPLOMATIC2"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CMONUMENT_DIPLOMATIC3"/>
+
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CMONUMENT_WILDCARD1"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CMONUMENT_WILDCARD2"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="CMONUMENT_WILDCARD3"/>
+	</TraitModifiers>
+	
+	
+	<!-- Empty policy cards -->
+	<Types>
+		<Row Type="POLICY_EMPTY1" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_EMPTY2" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_EMPTY3" Kind="KIND_POLICY"/>
+
+		<Row Type="POLICY_EMPTY4" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_EMPTY5" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_EMPTY6" Kind="KIND_POLICY"/>
+
+		<Row Type="POLICY_EMPTY7" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_EMPTY8" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_EMPTY9" Kind="KIND_POLICY"/>
+
+		<Row Type="POLICY_EMPTY10" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_EMPTY11" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_EMPTY12" Kind="KIND_POLICY"/>
+	</Types>
+	<Policies>
+		<Row PolicyType="POLICY_EMPTY1" Name="Empty 1" Description="This policy do nothing" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_MILITARY"/>
+		<Row PolicyType="POLICY_EMPTY2" Name="Empty 2" Description="This policy do nothing" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_MILITARY"/>
+		<Row PolicyType="POLICY_EMPTY3" Name="Empty 3" Description="This policy do nothing" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_MILITARY"/>
+
+		<Row PolicyType="POLICY_EMPTY4" Name="Empty 1" Description="This policy do nothing" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Row PolicyType="POLICY_EMPTY5" Name="Empty 2" Description="This policy do nothing" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_ECONOMIC"/>
+		<Row PolicyType="POLICY_EMPTY6" Name="Empty 3" Description="This policy do nothing" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_ECONOMIC"/>
+		
+		<Row PolicyType="POLICY_EMPTY7" Name="Empty 1" Description="This policy do nothing" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+		<Row PolicyType="POLICY_EMPTY8" Name="Empty 2" Description="This policy do nothing" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+		<Row PolicyType="POLICY_EMPTY9" Name="Empty 3" Description="This policy do nothing" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+
+		<Row PolicyType="POLICY_EMPTY10" Name="Empty 1" Description="This policy do nothing" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_GREAT_PERSON"/>
+		<Row PolicyType="POLICY_EMPTY11" Name="Empty 2" Description="This policy do nothing" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_GREAT_PERSON"/>
+		<Row PolicyType="POLICY_EMPTY12" Name="Empty 3" Description="This policy do nothing" PrereqCivic="CIVIC_CODE_OF_LAWS" GovernmentSlotType="SLOT_GREAT_PERSON"/>
+	</Policies>
+</GameInfo>

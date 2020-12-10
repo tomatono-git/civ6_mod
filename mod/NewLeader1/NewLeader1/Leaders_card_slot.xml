@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<TraitModifiers>
+
+		<!-- 軍事カードスロット+1 -->
+		<!-- <Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_SISTER_MILITARY_GOVERNMENT_SLOT"/> -->
+		<!-- 経済カードスロット+1 -->
+		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_SISTER_ECONOMIC_GOVERNMENT_SLOT"/>
+		<!-- ワイルドカードスロット+1 -->
+		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_SISTER_WILDCARD_GOVERNMENT_SLOT"/>
+
+	</TraitModifiers>
+
+
+	<Modifiers>
+
+		<!-- 軍事カードスロット+1 -->
+		<!-- <Row>
+			<ModifierId>TRAIT_SISTER_MILITARY_GOVERNMENT_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row> -->
+		<!-- 経済カードスロット+1 -->
+		<Row>
+			<ModifierId>TRAIT_SISTER_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+		<!-- ワイルドカードスロット+1 -->
+		<Row>
+			<ModifierId>TRAIT_SISTER_WILDCARD_GOVERNMENT_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+
+	</Modifiers>
+
+
+	<ModifierArguments>
+
+		<!-- 軍事カードスロット+1 -->
+		<!-- <Row>
+			<ModifierId>TRAIT_SISTER_MILITARY_GOVERNMENT_SLOT</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_MILITARY</Value>
+		</Row> -->
+		<!-- 経済カードスロット+1 -->
+		<Row>
+			<ModifierId>TRAIT_SISTER_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_ECONOMIC</Value>
+		</Row>
+		<!-- ワイルドカードスロット+1 -->
+		<Row>
+			<ModifierId>TRAIT_SISTER_WILDCARD_GOVERNMENT_SLOT</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+
+	</ModifierArguments>
+
+</GameData>
+

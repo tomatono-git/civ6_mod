@@ -45,9 +45,9 @@
 		</Row>
 
 		<!-- 経済カードスロット+1 -->
-		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_SISTER_ECONOMIC_GOVERNMENT_SLOT"/>
+		<!-- <Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_SISTER_ECONOMIC_GOVERNMENT_SLOT"/> -->
 		<!-- ワイルドカードスロット+1 -->
-		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_SISTER_WILDCARD_GOVERNMENT_SLOT"/>
+		<!-- <Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_SISTER_WILDCARD_GOVERNMENT_SLOT"/> -->
 
 		<!-- ワイルドカードで外交的支持向上 -->
 		<!-- <Row>
@@ -102,15 +102,15 @@
 		</Row>
 
 		<!-- 経済カードスロット+1 -->
-		<Row>
+		<!-- <Row>
 			<ModifierId>TRAIT_SISTER_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
-		</Row>
+		</Row> -->
 		<!-- ワイルドカードスロット+1 -->
-		<Row>
+		<!-- <Row>
 			<ModifierId>TRAIT_SISTER_WILDCARD_GOVERNMENT_SLOT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
-		</Row>
+		</Row> -->
 
 		<!-- ワイルドカードで外交的支持向上 -->
 		<!-- <Row>
@@ -176,17 +176,17 @@
 		</Row>
 
 		<!-- 経済カードスロット+1 -->
-		<Row>
+		<!-- <Row>
 			<ModifierId>TRAIT_SISTER_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
 			<Name>GovernmentSlotType</Name>
 			<Value>SLOT_ECONOMIC</Value>
-		</Row>
+		</Row> -->
 		<!-- ワイルドカードスロット+1 -->
-		<Row>
+		<!-- <Row>
 			<ModifierId>TRAIT_SISTER_WILDCARD_GOVERNMENT_SLOT</ModifierId>
 			<Name>GovernmentSlotType</Name>
 			<Value>SLOT_WILDCARD</Value>
-		</Row>
+		</Row> -->
 
 		<!-- ワイルドカードで外交的支持向上 -->
 		<!-- <Row>
