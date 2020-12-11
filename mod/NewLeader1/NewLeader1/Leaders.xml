@@ -52,9 +52,6 @@
 		<!-- 宮殿万能スロット7 -->
 		<!-- <Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_PALACE_EXTRA_GREAT_WORK_SLOTS"/> -->
 
-		<!-- 大預言者ポイントがスタート時から毎ターン+1 -->
-		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_SISTER_INCREASE_GREAT_PROPHET_POINTS"/>
-
 		<!-- 自動で道が一つできる -->
 		<Row>
 			<TraitType>TRAIT_LEADER_SISTER_KOTONOHA</TraitType>
@@ -91,12 +88,6 @@
 			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_PALACE_EXTRA_GREAT_WORK_SLOTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
 		</Row> -->
-
-		<!-- 大預言者ポイントがスタート時から毎ターン+1 -->
-		<Row>
-			<ModifierId>TRAIT_SISTER_INCREASE_GREAT_PROPHET_POINTS</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-		</Row>
 
 	</Modifiers>
 
@@ -138,18 +129,6 @@
 			<Name>Amount</Name>
 			<Value>6</Value>
 		</Row> -->
-
-		<!-- 大預言者ポイントがスタート時から毎ターン+5 -->
-		<Row>
-			<ModifierId>TRAIT_SISTER_INCREASE_GREAT_PROPHET_POINTS</ModifierId>
-			<Name>GreatPersonClassType</Name>
-			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_SISTER_INCREASE_GREAT_PROPHET_POINTS</ModifierId>
-			<Name>Amount</Name>
-			<Value>5</Value>
-		</Row>
 
 	</ModifierArguments>
 

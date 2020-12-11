@@ -30,6 +30,7 @@
           <File>Leader_unit_production.xml</File>
           <File>Leader_district_production.xml</File>
           <File>Leader_government_slot.sql</File>
+          <File>Leader_great_person_points.xml</File>
         </UpdateDatabase>
         <UpdateText id="Text">
           <Criteria>LeaderCriteria</Criteria>
@@ -96,6 +97,7 @@
     <Content Include="Leader_unit_production.xml" />
     <Content Include="Leader_district_production.xml" />
     <Content Include="Leader_government_slot.sql" />
+    <Content Include="Leader_great_person_points.xml" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.dds" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.tex" />
     <None Include="Textures\LEADER_JASPER_KITTY_NEUTRAL.dds" />
