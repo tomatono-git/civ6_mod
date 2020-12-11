@@ -29,19 +29,8 @@
           <File>Leaders_card_slot.xml</File>
           <File>Leader_city_yield.xml</File>
           <File>Leader_unit_production.xml</File>
+          <File>Leader_district_production.xml</File>
         </UpdateDatabase>
-        <UpdateDatabase id="BetterRecon_Policy_Gameplay">
-          <Properties>
-            <LoadOrder>130</LoadOrder>
-          </Properties>
-          <File>betterrecon_policy.sql</File>
-        </UpdateDatabase>
-        <UpdateText id="BetterRecon_Policy_Text">
-          <Properties>
-            <LoadOrder>130</LoadOrder>
-          </Properties>
-          <File>betterrecon_policy_text.sql</File>
-        </UpdateText>
         <UpdateText id="Text">
           <Criteria>LeaderCriteria</Criteria>
           <File>ConfigText.xml</File>
@@ -106,8 +95,7 @@
     <Content Include="Leaders_card_slot.xml" />
     <Content Include="Leader_city_yield.xml" />
     <Content Include="Leader_unit_production.xml" />
-    <Content Include="betterrecon_policy.sql" />
-    <Content Include="betterrecon_policy_text.sql" />
+    <Content Include="Leader_district_production.xml" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.dds" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.tex" />
     <None Include="Textures\LEADER_JASPER_KITTY_NEUTRAL.dds" />
