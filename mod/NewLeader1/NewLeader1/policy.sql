@@ -62,9 +62,14 @@ INSERT INTO UnitAbilityModifiers(UnitAbilityType, ModifierId) VALUES
     ('ABILITY_BETTER_RECON_SPOTTER', 'MODIFIER_BETTER_RECON_SPOTTER_GRANT_BONUS_SIGHT'),
     ('ABILITY_BETTER_RECON_SPOTTER', 'MODIFIER_BETTER_RECON_SPOTTER_GRANT_BONUS_RANGE');
 
--- Reduce EXP bonus
+-- 蛮族相手の戦闘力
 UPDATE ModifierArguments
 SET Value = 50
+WHERE ModifierId = 'DISCIPLINE_BARBARIANCOMBAT' AND Name = 'Amount';
+
+-- Reduce EXP bonus
+UPDATE ModifierArguments
+SET Value = 200
 WHERE ModifierId = 'SURVEY_RECONUNITEXPERIENCE' AND Name = 'Amount';
 
 -- Attach Policy Cards to Modifiers and reconfigure

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_POLICY_BETTER_RECON_EARLY_EXPLORATION_NAME" Language="ja_JP">
+			<Text>Early Exploration</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_BETTER_RECON_CIVILIZED_MILITIA_NAME" Language="ja_JP">
+			<Text>Civilized Militia</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_BETTER_RECON_NEW_WORLD_EXPLORATION_NAME" Language="ja_JP">
+			<Text>New World Exploration</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_BETTER_RECON_SPOTTER_NAME" Language="ja_JP">
+			<Text>Spotters</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_BETTER_RECON_SPOTTER_NAME" Language="ja_JP">
+			<Text>Spotters</Text>
+		</Row>
+
+		<Row Tag="LOC_POLICY_BETTER_RECON_EARLY_EXPLORATION_DESC" Language="ja_JP">
+			<Text>+200% [ICON_Production] 偵察ユニットの生産。</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_BETTER_RECON_CIVILIZED_MILITIA_DESC" Language="ja_JP">
+			<Text>蛮族相手の戦闘力 +50 [ICON_Strength]。偵察ユニットの生産 +200% [ICON_Production]。</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_BETTER_RECON_NEW_WORLD_EXPLORATION_DESC" Language="ja_JP">
+			<Text>+100% [ICON_Production] Production towards Recon units and they gain +50% experience.</Text>
+		</Row>
+		<Row Tag="LOC_POLICY_BETTER_RECON_SPOTTER_DESC" Language="ja_JP">
+			<Text>Ranged Units next to Recon units gain +1 Sight Range and +1 [ICON_Range] Range.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_BETTER_RECON_SPOTTER_DESC" Language="ja_JP">
+			<Text>Adjacent Range units gain +1 Sight Range and +1 [ICON_Range] Range.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

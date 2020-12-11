@@ -32,6 +32,19 @@
           <File>Leader_government_slot.sql</File>
           <File>Leader_great_person_points.xml</File>
         </UpdateDatabase>
+        <UpdateDatabase id="Policy_Gameplay">
+          <Properties>
+            <LoadOrder>130</LoadOrder>
+          </Properties>
+          <File>policy.sql</File>
+        </UpdateDatabase>
+        <UpdateText id="Policy_Text">
+          <Properties>
+            <LoadOrder>130</LoadOrder>
+          </Properties>
+          <File>policy_text.xml</File>
+          <File>policy_text_ja_JP.xml</File>
+        </UpdateText>
         <UpdateText id="Text">
           <Criteria>LeaderCriteria</Criteria>
           <File>ConfigText.xml</File>
@@ -98,6 +111,9 @@
     <Content Include="Leader_district_production.xml" />
     <Content Include="Leader_government_slot.sql" />
     <Content Include="Leader_great_person_points.xml" />
+    <Content Include="policy.sql" />
+    <Content Include="policy_text.xml" />
+    <Content Include="policy_text_ja_JP.xml" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.dds" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.tex" />
     <None Include="Textures\LEADER_JASPER_KITTY_NEUTRAL.dds" />
