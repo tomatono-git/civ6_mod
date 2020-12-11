@@ -64,7 +64,7 @@ INSERT INTO UnitAbilityModifiers(UnitAbilityType, ModifierId) VALUES
 
 -- 蛮族相手の戦闘力
 UPDATE ModifierArguments
-SET Value = 50
+SET Value = 30
 WHERE ModifierId = 'DISCIPLINE_BARBARIANCOMBAT' AND Name = 'Amount';
 
 -- Reduce EXP bonus

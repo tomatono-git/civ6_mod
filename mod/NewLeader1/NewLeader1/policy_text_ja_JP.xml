@@ -18,7 +18,7 @@
 		</Row>
 
 		<Row Tag="LOC_POLICY_BETTER_RECON_EARLY_EXPLORATION_DESC" Language="ja_JP">
-			<Text>+200% [ICON_Production] 偵察ユニットの生産。</Text>
+			<Text>偵察ユニットの生産 +200% [ICON_Production]。</Text>
 		</Row>
 		<Row Tag="LOC_POLICY_BETTER_RECON_CIVILIZED_MILITIA_DESC" Language="ja_JP">
 			<Text>蛮族相手の戦闘力 +50 [ICON_Strength]。偵察ユニットの生産 +200% [ICON_Production]。</Text>
