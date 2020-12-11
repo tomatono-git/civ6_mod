@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<TraitModifiers>
+		<!-- 開拓者の生産コスト軽減 -->
+		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="SISTER_SETTLER_BONUS"/>
+		<!-- 労働者の生産コスト軽減 -->
+		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="SISTER_BUILDER_BONUS"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<!-- 開拓者の生産コスト軽減 -->
+		<Row ModifierId="SISTER_SETTLER_BONUS" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION"/>
+		<!-- 労働者の生産コスト軽減 -->
+		<Row ModifierId="SISTER_BUILDER_BONUS" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION"/>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!-- 開拓者の生産コスト軽減 -->
+		<Row ModifierId="SISTER_SETTLER_BONUS" Name="UnitType" Value="UNIT_SETTLER"/>
+		<Row ModifierId="SISTER_SETTLER_BONUS" Name="Amount" Value="200"/>
+		<!-- 労働者の生産コスト軽減 -->
+		<Row ModifierId="SISTER_BUILDER_BONUS" Name="UnitType" Value="UNIT_BUILDER"/>
+		<Row ModifierId="SISTER_BUILDER_BONUS" Name="Amount" Value="200"/>
+	</ModifierArguments>
+
+</GameData>
+

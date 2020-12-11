@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<TraitModifiers>
+		<!-- 都市の出力アップ -->
+		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_CITY_GOLD"/>
+		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_CITY_FOOD"/>
+		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_CITY_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_CITY_CULTURE"/>
+		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_CITY_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_CITY_FAITH"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<!-- 都市の出力アップ -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<!-- 都市の出力アップ -->
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+
+</GameData>
+

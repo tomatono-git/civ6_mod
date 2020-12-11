@@ -43,12 +43,6 @@
 			<TraitType>TRAIT_LEADER_SISTER_KOTONOHA</TraitType>
 			<ModifierId>SISTER_AMENITIES_BONUS</ModifierId>
 		</Row>
-
-		<!-- 経済カードスロット+1 -->
-		<!-- <Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_SISTER_ECONOMIC_GOVERNMENT_SLOT"/> -->
-		<!-- ワイルドカードスロット+1 -->
-		<!-- <Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_SISTER_WILDCARD_GOVERNMENT_SLOT"/> -->
-
 		<!-- ワイルドカードで外交的支持向上 -->
 		<!-- <Row>
 			<TraitType>TRAIT_LEADER_SISTER_KOTONOHA</TraitType>
@@ -58,23 +52,8 @@
 		<!-- 宮殿万能スロット7 -->
 		<!-- <Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_PALACE_EXTRA_GREAT_WORK_SLOTS"/> -->
 
-		<!-- 開拓者の生産コスト軽減 -->
-		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="SISTER_SETTLER_BONUS"/>
-
-		<!-- 労働者の生産コスト軽減 -->
-		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="SISTER_BUILDER_BONUS"/>
-
 		<!-- 大預言者ポイントがスタート時から毎ターン+1 -->
 		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_SISTER_INCREASE_GREAT_PROPHET_POINTS"/>
-
-		<!-- 都市の出力アップ -->
-		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_CITY_GOLD"/>
-		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_CITY_FOOD"/>
-		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_CITY_SCIENCE"/>
-		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_CITY_CULTURE"/>
-		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_CITY_PRODUCTION"/>
-		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_LEADER_SISTER_KOTONOHA_CITY_FAITH"/>
-
 
 		<!-- 自動で道が一つできる -->
 		<Row>
@@ -101,17 +80,6 @@
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
 		</Row>
 
-		<!-- 経済カードスロット+1 -->
-		<!-- <Row>
-			<ModifierId>TRAIT_SISTER_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
-		</Row> -->
-		<!-- ワイルドカードスロット+1 -->
-		<!-- <Row>
-			<ModifierId>TRAIT_SISTER_WILDCARD_GOVERNMENT_SLOT</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
-		</Row> -->
-
 		<!-- ワイルドカードで外交的支持向上 -->
 		<!-- <Row>
 			<ModifierId>TRAIT_WILD_CARD_FAVOR_SISTER</ModifierId>
@@ -124,44 +92,11 @@
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
 		</Row> -->
 
-		<!-- 開拓者の生産コスト軽減 -->
-		<Row ModifierId="SISTER_SETTLER_BONUS" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION"/>
-
-		<!-- 労働者の生産コスト軽減 -->
-		<Row ModifierId="SISTER_BUILDER_BONUS" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION"/>
-
 		<!-- 大預言者ポイントがスタート時から毎ターン+1 -->
 		<Row>
 			<ModifierId>TRAIT_SISTER_INCREASE_GREAT_PROPHET_POINTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
 		</Row>
-
-		<!-- 都市の出力アップ -->
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_GOLD</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_FOOD</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_SCIENCE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_FAITH</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
-		</Row>
-
 
 	</Modifiers>
 
@@ -174,19 +109,6 @@
 			<Name>Amount</Name>
 			<Value>3</Value>
 		</Row>
-
-		<!-- 経済カードスロット+1 -->
-		<!-- <Row>
-			<ModifierId>TRAIT_SISTER_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
-			<Name>GovernmentSlotType</Name>
-			<Value>SLOT_ECONOMIC</Value>
-		</Row> -->
-		<!-- ワイルドカードスロット+1 -->
-		<!-- <Row>
-			<ModifierId>TRAIT_SISTER_WILDCARD_GOVERNMENT_SLOT</ModifierId>
-			<Name>GovernmentSlotType</Name>
-			<Value>SLOT_WILDCARD</Value>
-		</Row> -->
 
 		<!-- ワイルドカードで外交的支持向上 -->
 		<!-- <Row>
@@ -217,14 +139,6 @@
 			<Value>6</Value>
 		</Row> -->
 
-		<!-- 開拓者の生産コスト軽減 -->
-		<Row ModifierId="SISTER_SETTLER_BONUS" Name="UnitType" Value="UNIT_SETTLER"/>
-		<Row ModifierId="SISTER_SETTLER_BONUS" Name="Amount" Value="200"/>
-
-		<!-- 労働者の生産コスト軽減 -->
-		<Row ModifierId="SISTER_BUILDER_BONUS" Name="UnitType" Value="UNIT_BUILDER"/>
-		<Row ModifierId="SISTER_BUILDER_BONUS" Name="Amount" Value="200"/>
-
 		<!-- 大預言者ポイントがスタート時から毎ターン+5 -->
 		<Row>
 			<ModifierId>TRAIT_SISTER_INCREASE_GREAT_PROPHET_POINTS</ModifierId>
@@ -233,73 +147,6 @@
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_SISTER_INCREASE_GREAT_PROPHET_POINTS</ModifierId>
-			<Name>Amount</Name>
-			<Value>5</Value>
-		</Row>
-
-		<!-- 都市の出力アップ -->
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_GOLD</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_GOLD</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_GOLD</ModifierId>
-			<Name>Amount</Name>
-			<Value>5</Value>
-		</Row>
-
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_FOOD</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_FOOD</ModifierId>
-			<Name>Amount</Name>
-			<Value>5</Value>
-		</Row>
-
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_CULTURE</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_CULTURE</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_CULTURE</ModifierId>
-			<Name>Amount</Name>
-			<Value>5</Value>
-		</Row>
-
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_SCIENCE</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_SCIENCE</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_SCIENCE</ModifierId>
-			<Name>Amount</Name>
-			<Value>5</Value>
-		</Row>
-
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_PRODUCTION</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_PRODUCTION</ModifierId>
-			<Name>Amount</Name>
-			<Value>5</Value>
-		</Row>
-
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_FAITH</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FAITH</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEADER_SISTER_KOTONOHA_CITY_FAITH</ModifierId>
 			<Name>Amount</Name>
 			<Value>5</Value>
 		</Row>
