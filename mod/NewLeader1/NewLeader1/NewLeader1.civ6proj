@@ -26,10 +26,10 @@
           <File>Leader_grant_technology.sql</File>
           <File>Leader_post_combat_yield.sql</File>
           <File>Leader_grant_unit.sql</File>
-          <File>Leaders_card_slot.xml</File>
           <File>Leader_city_yield.xml</File>
           <File>Leader_unit_production.xml</File>
           <File>Leader_district_production.xml</File>
+          <File>Leader_government_slot.sql</File>
         </UpdateDatabase>
         <UpdateText id="Text">
           <Criteria>LeaderCriteria</Criteria>
@@ -92,10 +92,10 @@
     <Content Include="Leader_grant_technology.sql" />
     <Content Include="Leader_post_combat_yield.sql" />
     <Content Include="Leader_grant_unit.sql" />
-    <Content Include="Leaders_card_slot.xml" />
     <Content Include="Leader_city_yield.xml" />
     <Content Include="Leader_unit_production.xml" />
     <Content Include="Leader_district_production.xml" />
+    <Content Include="Leader_government_slot.sql" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.dds" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.tex" />
     <None Include="Textures\LEADER_JASPER_KITTY_NEUTRAL.dds" />
