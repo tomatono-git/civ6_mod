@@ -2,9 +2,9 @@
 <GameData>
 	<LocalizedText>
 
-		<Replace Tag="LOC_POLICY_DISCIPLINE_DESCRIPTION" Language="en_US">
+		<!-- <Replace Tag="LOC_POLICY_DISCIPLINE_DESCRIPTION" Language="en_US">
 			<Text>+50 [ICON_Strength] Unit Combat Strength when fighting Barbarians. +200% experience for recon units.</Text>
-		</Replace>
+		</Replace> -->
 
 		<!-- <Row Tag="LOC_POLICY_BETTER_RECON_EARLY_EXPLORATION_NAME" Language="en_US">
 			<Text>Early Exploration</Text>
