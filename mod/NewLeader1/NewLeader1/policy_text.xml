@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<Row Tag="LOC_POLICY_BETTER_RECON_EARLY_EXPLORATION_NAME" Language="en_US">
+
+		<Replace Tag="LOC_POLICY_DISCIPLINE_DESCRIPTION" Language="en_US">
+			<Text>+50 [ICON_Strength] Unit Combat Strength when fighting Barbarians. +200% experience for recon units.</Text>
+		</Replace>
+
+		<!-- <Row Tag="LOC_POLICY_BETTER_RECON_EARLY_EXPLORATION_NAME" Language="en_US">
 			<Text>Early Exploration</Text>
 		</Row>
 		<Row Tag="LOC_POLICY_BETTER_RECON_CIVILIZED_MILITIA_NAME" Language="en_US">
@@ -31,6 +36,6 @@
 		</Row>
 		<Row Tag="LOC_ABILITY_BETTER_RECON_SPOTTER_DESC" Language="en_US">
 			<Text>Adjacent Range units gain +1 Sight Range and +1 [ICON_Range] Range.</Text>
-		</Row>
+		</Row> -->
 	</LocalizedText>
 </GameData>

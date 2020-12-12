@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<Row Tag="LOC_POLICY_BETTER_RECON_EARLY_EXPLORATION_NAME" Language="ja_JP">
+		<Replace Tag="LOC_POLICY_DISCIPLINE_DESCRIPTION" Language="en_US">
+			<Text>蛮族相手の [ICON_Strength] 戦闘力 +50。偵察ユニットへの経験値3倍。</Text>
+		</Replace>
+
+		<!-- <Row Tag="LOC_POLICY_BETTER_RECON_EARLY_EXPLORATION_NAME" Language="ja_JP">
 			<Text>Early Exploration</Text>
 		</Row>
 		<Row Tag="LOC_POLICY_BETTER_RECON_CIVILIZED_MILITIA_NAME" Language="ja_JP">
@@ -31,6 +35,6 @@
 		</Row>
 		<Row Tag="LOC_ABILITY_BETTER_RECON_SPOTTER_DESC" Language="ja_JP">
 			<Text>Adjacent Range units gain +1 Sight Range and +1 [ICON_Range] Range.</Text>
-		</Row>
+		</Row> -->
 	</LocalizedText>
 </GameData>
