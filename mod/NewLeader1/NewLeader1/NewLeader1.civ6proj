@@ -28,7 +28,7 @@
           <File>Leader_grant_unit.sql</File>
           <File>Leader_city_yield.sql</File>
           <File>Leader_unit_production.xml</File>
-          <File>Leader_district_production.xml</File>
+          <File>Leader_district_production.sql</File>
           <File>Leader_government_slot.sql</File>
           <File>Leader_great_person_points.xml</File>
           <File>Leader_city_growth.sql</File>
@@ -110,7 +110,7 @@
     <Content Include="Leader_grant_unit.sql" />
     <Content Include="Leader_city_yield.sql" />
     <Content Include="Leader_unit_production.xml" />
-    <Content Include="Leader_district_production.xml" />
+    <Content Include="Leader_district_production.sql" />
     <Content Include="Leader_government_slot.sql" />
     <Content Include="Leader_great_person_points.xml" />
     <Content Include="Leader_city_growth.sql" />
