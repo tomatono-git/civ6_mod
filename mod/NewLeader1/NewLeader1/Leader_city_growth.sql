@@ -1,0 +1,15 @@
+--	指導者特性：全都市成長速度補正
+INSERT OR REPLACE INTO Modifiers
+		(ModifierId, ModifierType)
+	VALUES
+		('USADA_PEKORA_CITY_GROWTH', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_GROWTH');
+
+INSERT OR REPLACE INTO ModifierArguments
+		(ModifierId, Name, Value)
+	VALUES
+		('USADA_PEKORA_CITY_GROWTH', 'Amount', 100);
+
+INSERT OR REPLACE INTO TraitModifiers
+		(TraitType, ModifierId)
+	VALUES
+		('TRAIT_LEADER_SISTER_KOTONOHA', 'USADA_PEKORA_CITY_GROWTH');

@@ -31,6 +31,7 @@
           <File>Leader_district_production.xml</File>
           <File>Leader_government_slot.sql</File>
           <File>Leader_great_person_points.xml</File>
+          <File>Leader_city_growth.sql</File>
         </UpdateDatabase>
         <UpdateDatabase id="Policy_Gameplay">
           <Properties>
@@ -111,6 +112,7 @@
     <Content Include="Leader_district_production.xml" />
     <Content Include="Leader_government_slot.sql" />
     <Content Include="Leader_great_person_points.xml" />
+    <Content Include="Leader_city_growth.sql" />
     <Content Include="policy.sql" />
     <Content Include="policy_text.xml" />
     <Content Include="policy_text_ja_JP.xml" />
