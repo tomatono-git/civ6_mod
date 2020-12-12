@@ -11,7 +11,7 @@ INSERT OR REPLACE INTO ModifierArguments
         (ModifierId, Name, Value)
     VALUES
         ('TOMATO_POST_COMBAT_YIELD_GOLD', 'YieldType', 'YIELD_GOLD'),
-        ('TOMATO_POST_COMBAT_YIELD_GOLD', 'PercentDefeatedStrength', 300),
+        ('TOMATO_POST_COMBAT_YIELD_GOLD', 'PercentDefeatedStrength', 600),
         ('TOMATO_POST_COMBAT_YIELD_SCIENCE', 'YieldType', 'YIELD_SCIENCE'),
         ('TOMATO_POST_COMBAT_YIELD_SCIENCE', 'PercentDefeatedStrength', 300),
         ('TOMATO_POST_COMBAT_YIELD_CULTURE', 'YieldType', 'YIELD_CULTURE'),
