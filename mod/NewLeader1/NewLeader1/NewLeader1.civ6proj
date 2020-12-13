@@ -2,7 +2,7 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>$name$</Name>
+    <Name>とまとん (tomaton)</Name>
     <Guid>4da356ad-86ef-430a-bf35-3ae4c2cdfbd3</Guid>
     <ProjectGuid>495657a2-c5a8-4ef4-9a4f-53b37521ff4f</ProjectGuid>
     <ModVersion>1</ModVersion>
@@ -17,7 +17,7 @@
       <InGameActions>
         <UpdateDatabase id="Gameplay">
           <Criteria>LeaderCriteria</Criteria>
-          <File>Felines.xml</File>
+          <File>Civilization.xml</File>
           <File>Leaders.xml</File>
           <File>LitterBox.xml</File>
           <File>UU.sql</File>
@@ -56,6 +56,7 @@
           <Criteria>LeaderCriteria</Criteria>
           <File>ConfigText.xml</File>
           <File>Text.xml</File>
+          <File>Text_ja_JP.xml</File>
         </UpdateText>
         <UpdateIcons id="Icons">
           <Criteria>LeaderCriteria</Criteria>
@@ -102,11 +103,12 @@
     <Folder Include="XLPs\" />
     <Content Include="Config.xml" />
     <Content Include="ConfigText.xml" />
-    <Content Include="Felines.xml" />
+    <Content Include="Civilization.xml" />
     <Content Include="Icons.xml" />
     <Content Include="Leaders.xml" />
     <Content Include="LitterBox.xml" />
     <Content Include="Text.xml" />
+    <Content Include="Text_ja_JP.xml" />
     <Content Include="UU.sql" />
     <Content Include="Leaders_Movement.sql" />
     <Content Include="Leaders_Boost.sql" />
