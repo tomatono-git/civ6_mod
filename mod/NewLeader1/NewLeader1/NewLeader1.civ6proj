@@ -18,6 +18,8 @@
         <UpdateDatabase id="Gameplay">
           <Criteria>LeaderCriteria</Criteria>
           <File>Civilization.xml</File>
+          <File>Civilization_start_bias.sql</File>
+
           <File>Leaders.xml</File>
           <File>LitterBox.xml</File>
           <File>UU.sql</File>
@@ -38,6 +40,7 @@
           <File>Leader_combat.sql</File>
           <File>Leader_wars_production.sql</File>
           <File>Leader_trade_route.sql</File>
+          <File>Leader_enable_unit_purchase_faith.sql</File>
         </UpdateDatabase>
         <UpdateDatabase id="Policy_Gameplay">
           <Properties>
@@ -104,6 +107,8 @@
     <Content Include="Config.xml" />
     <Content Include="ConfigText.xml" />
     <Content Include="Civilization.xml" />
+    <Content Include="Civilization_start_bias.sql" />
+
     <Content Include="Icons.xml" />
     <Content Include="Leaders.xml" />
     <Content Include="LitterBox.xml" />
@@ -127,6 +132,8 @@
     <Content Include="Leader_combat.sql" />
     <Content Include="Leader_wars_production.sql" />
     <Content Include="Leader_trade_route.sql" />
+    <Content Include="Leader_enable_unit_purchase_faith.sql" />
+
     <Content Include="policy.sql" />
     <Content Include="policy_text.xml" />
     <Content Include="policy_text_ja_JP.xml" />
