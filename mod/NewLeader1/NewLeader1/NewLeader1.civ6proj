@@ -36,6 +36,7 @@
           <File>Leader_plot_yeld_feature.sql</File>
           <File>Leader_plot_yeld_terrain.sql</File>
           <File>Leader_combat.sql</File>
+          <File>Leader_wars_production.sql</File>
         </UpdateDatabase>
         <UpdateDatabase id="Policy_Gameplay">
           <Properties>
@@ -121,6 +122,7 @@
     <Content Include="Leader_plot_yeld_feature.sql" />
     <Content Include="Leader_plot_yeld_terrain.sql" />
     <Content Include="Leader_combat.sql" />
+    <Content Include="Leader_wars_production.sql" />
     <Content Include="policy.sql" />
     <Content Include="policy_text.xml" />
     <Content Include="policy_text_ja_JP.xml" />
