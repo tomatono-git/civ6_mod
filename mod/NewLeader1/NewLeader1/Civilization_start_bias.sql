@@ -5,10 +5,10 @@ INSERT OR REPLACE INTO StartBiasResources
         (CivilizationType, ResourceType, Tier)
     VALUES
         -- 米
-        ('CIVILIZATION_FELINE', 'RESOURCE_RICE', 3),
+        ('CIVILIZATION_FELINE', 'RESOURCE_RICE', 2),
         -- 小麦
-        ('CIVILIZATION_FELINE', 'RESOURCE_WHEAT', 3),
-        --牛
+        ('CIVILIZATION_FELINE', 'RESOURCE_WHEAT', 2),
+        -- 牛
         ('CIVILIZATION_FELINE', 'RESOURCE_CATTLE', 5),
         -- 羊
         ('CIVILIZATION_FELINE', 'RESOURCE_SHEEP', 5),
@@ -17,13 +17,13 @@ INSERT OR REPLACE INTO StartBiasResources
         -- 鉄
         ('CIVILIZATION_FELINE', 'RESOURCE_IRON', 1),
         -- 石油
-        ('CIVILIZATION_FELINE', 'RESOURCE_OIL', 4),
+        ('CIVILIZATION_FELINE', 'RESOURCE_OIL', 3),
         -- アルミニウム
-        ('CIVILIZATION_FELINE', 'RESOURCE_ALUMINUM', 4),
+        ('CIVILIZATION_FELINE', 'RESOURCE_ALUMINUM', 3),
         -- ウラン
-        ('CIVILIZATION_FELINE', 'RESOURCE_URANIUM', 3),
+        ('CIVILIZATION_FELINE', 'RESOURCE_URANIUM', 2),
         -- 硝石
-        ('CIVILIZATION_FELINE', 'RESOURCE_NITER', 4);
+        ('CIVILIZATION_FELINE', 'RESOURCE_NITER', 3);
 
 -- 特徴
 -- INSERT OR REPLACE INTO StartBiasFeatures
