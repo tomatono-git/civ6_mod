@@ -9,10 +9,10 @@ INSERT OR REPLACE INTO Modifiers
 INSERT OR REPLACE INTO ModifierArguments
 		(ModifierId, Name, Value)
 	VALUES
-        -- ユニットの戦闘力 +5
-		('TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_COMBAT', 'Amount', 5),
-        -- ユニットの戦闘力(対蛮族) +50
-		('TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_EXTRA_COMBAT', 'Amount', 50);
+        -- ユニットの戦闘力 +15
+		('TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_COMBAT', 'Amount', 15),
+        -- ユニットの戦闘力(対蛮族) +45
+		('TRAIT_CHARLEMAGNE_SABER_JOYEUSE_ORDRE_EXTRA_COMBAT', 'Amount', 45);
 
 INSERT OR REPLACE INTO TraitModifiers
 		(TraitType, ModifierId)
