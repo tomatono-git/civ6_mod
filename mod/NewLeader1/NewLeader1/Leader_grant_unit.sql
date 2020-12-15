@@ -1,4 +1,4 @@
--- 技術の研究でユニットを付与
+-- 技術の研究で首都にユニットを付与
 
 -- 帆走術を取得しているか
 INSERT OR REPLACE INTO Requirements
@@ -22,17 +22,17 @@ INSERT OR REPLACE INTO RequirementSetRequirements
 INSERT OR REPLACE INTO Modifiers
         (ModifierId, ModifierType, RunOnce, Permanent, OwnerRequirementsetId)
     VALUES
-        ('TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_GALLEY_UNIT', 'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL', 1, 1, 'PLAYER_HAS_SAILING_TECHNOLOGY');
+        ('TRAIT_PLAYER_GRANT_UNIT_GALLEY', 'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL', 1, 1, 'PLAYER_HAS_SAILING_TECHNOLOGY');
 INSERT OR REPLACE INTO ModifierArguments
         (ModifierId, Name, Value)
     VALUES
-        ('TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_GALLEY_UNIT', 'UnitType', 'UNIT_GALLEY'),
-        ('TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_GALLEY_UNIT', 'Amount', 1),
-        ('TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_GALLEY_UNIT', 'AllowUniqueOverride', 0);
+        ('TRAIT_PLAYER_GRANT_UNIT_GALLEY', 'UnitType', 'UNIT_GALLEY'),
+        ('TRAIT_PLAYER_GRANT_UNIT_GALLEY', 'Amount', 1),
+        ('TRAIT_PLAYER_GRANT_UNIT_GALLEY', 'AllowUniqueOverride', 1);
 INSERT OR REPLACE INTO TraitModifiers
         (TraitType, ModifierId)
     VALUES
-        ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_FALSE_GODDESS_UNIQUE_LEADER_ADD_GALLEY_UNIT');
+        ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_UNIT_GALLEY');
 
 
 -- 畜産を取得しているか
@@ -76,10 +76,10 @@ INSERT OR REPLACE INTO ModifierArguments
         ('TRAIT_PLAYER_GRANT_UNIT_BUILDER', 'AllowUniqueOverride', 0),
         ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'UnitType', 'UNIT_SLINGER'),
         ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'Amount', 3),
-        ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'AllowUniqueOverride', 0),
+        ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'AllowUniqueOverride', 1),
         ('TRAIT_PLAYER_GRANT_UNIT_SCOUT', 'UnitType', 'UNIT_SCOUT'),
         ('TRAIT_PLAYER_GRANT_UNIT_SCOUT', 'Amount', 3),
-        ('TRAIT_PLAYER_GRANT_UNIT_SCOUT', 'AllowUniqueOverride', 0);
+        ('TRAIT_PLAYER_GRANT_UNIT_SCOUT', 'AllowUniqueOverride', 1);
 INSERT OR REPLACE INTO TraitModifiers
         (TraitType, ModifierId)
     VALUES
@@ -88,3 +88,37 @@ INSERT OR REPLACE INTO TraitModifiers
         ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_UNIT_SLINGER'),
         ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_UNIT_SCOUT');
 
+
+-- 騎乗を取得しているか
+INSERT OR REPLACE INTO Requirements
+        (RequirementId, RequirementType)
+    VALUES
+        ('REQUIRES_TECHNOLOGY_HORSEBACK_RIDING', 'REQUIREMENT_PLAYER_HAS_TECHNOLOGY');
+INSERT OR REPLACE INTO RequirementArguments
+        (RequirementId, Name, Value)
+    VALUES
+        ('REQUIRES_TECHNOLOGY_HORSEBACK_RIDING', 'TechnologyType', 'TECH_HORSEBACK_RIDING');
+INSERT OR REPLACE INTO RequirementSets
+        (RequirementSetId, RequirementSetType)
+    VALUES
+        ('PLAYER_HAS_HORSEBACK_RIDING_TECHNOLOGY', 'REQUIREMENTSET_TEST_ALL');
+INSERT OR REPLACE INTO RequirementSetRequirements
+        (RequirementSetId, RequirementId)
+    VALUES
+        ('PLAYER_HAS_HORSEBACK_RIDING_TECHNOLOGY', 'REQUIRES_TECHNOLOGY_HORSEBACK_RIDING');
+
+-- 騎乗の研究でユニットを付与
+INSERT OR REPLACE INTO Modifiers
+        (ModifierId, ModifierType, RunOnce, Permanent, OwnerRequirementsetId)
+    VALUES
+        ('TRAIT_PLAYER_GRANT_UNIT_HORSEMAN', 'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL', 1, 1, 'PLAYER_HAS_HORSEBACK_RIDING_TECHNOLOGY');
+INSERT OR REPLACE INTO ModifierArguments
+        (ModifierId, Name, Value)
+    VALUES
+        ('TRAIT_PLAYER_GRANT_UNIT_HORSEMAN', 'UnitType', 'UNIT_HORSEMAN'),
+        ('TRAIT_PLAYER_GRANT_UNIT_HORSEMAN', 'Amount', 3),
+        ('TRAIT_PLAYER_GRANT_UNIT_HORSEMAN', 'AllowUniqueOverride', 1);
+INSERT OR REPLACE INTO TraitModifiers
+        (TraitType, ModifierId)
+    VALUES
+        ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_UNIT_HORSEMAN');
