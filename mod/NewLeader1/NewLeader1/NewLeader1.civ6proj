@@ -42,6 +42,7 @@
           <File>Leader_trade_route.sql</File>
           <File>Leader_enable_unit_purchase_faith.sql</File>
           <File>Leader_resource_visibility.sql</File>
+          <File>Leader_diplomatic.sql</File>
         </UpdateDatabase>
         <UpdateDatabase id="Policy_Gameplay">
           <Properties>
@@ -135,6 +136,7 @@
     <Content Include="Leader_trade_route.sql" />
     <Content Include="Leader_enable_unit_purchase_faith.sql" />
     <Content Include="Leader_resource_visibility.sql" />
+    <Content Include="Leader_diplomatic.sql" />
 
     <Content Include="policy.sql" />
     <Content Include="policy_text.xml" />

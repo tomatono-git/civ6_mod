@@ -38,5 +38,18 @@
 		<Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION" Language="en_US">
 			<Text>The litter box is a unique building that only Felines get.</Text>
 		</Row>
+
+
+
+		<!-- <Row Tag="LOC_VIZSOURCE_FLAC_MISAKI" Language="en_US">
+			<Text>Misaki's mind-reading</Text>
+		</Row>
+		<Row Tag="LOC_VIZSOURCE_ACTION_FLAC_MISAKI" Language="en_US">
+			<Text>Play as Misaki Shokuhou.</Text>
+		</Row>
+		<Row Tag="LOC_GOSSIP_SOURCE_FLAC_MISAKI" Language="en_US">
+			<Text>Misaki Shokuhou was informed by mind reading: </Text>
+		</Row> -->
+
 	</LocalizedText>
 </GameData>
