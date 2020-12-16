@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<!-- <Replace Tag="LOC_CIVILIZATION_FELINE_NAME" Language="ja_JP">
+		<Row Tag="LOC_CIVILIZATION_FELINE_NAME" Language="ja_JP">
 			<Text>とまと王国</Text>
-		</Replace>
+		</Row>
 
-		<Replace Tag="LOC_CIVILIZATION_FELINE_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_CIVILIZATION_FELINE_DESCRIPTION" Language="ja_JP">
 			<Text>とまと王国です。</Text>
-		</Replace>
+		</Row>
 
-		<Replace Tag="LOC_CIVILIZATION_FELINE_ADJECTIVE" Language="ja_JP">
+		<Row Tag="LOC_CIVILIZATION_FELINE_ADJECTIVE" Language="ja_JP">
 			<Text>とまと</Text>
-		</Replace>
+		</Row>
 
-		<Replace Tag="LOC_LEADER_JASPER_KITTY_NAME" Language="ja_JP">
-			<Text>とまとん</Text>
-		</Replace>
+		<Row Tag="LOC_LEADER_JASPER_KITTY_NAME" Language="ja_JP">
+			<Text>Tomaton(とまとん)</Text>
+		</Row>
 
-		<Replace Tag="LOC_TRAIT_CIVILIZATION_FELINE_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FELINE_NAME" Language="ja_JP">
 			<Text>とまとんの文明特性</Text>
-		</Replace>
-		<Replace Tag="LOC_TRAIT_CIVILIZATION_FELINE_DESCRIPTION" Language="ja_JP">
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FELINE_DESCRIPTION" Language="ja_JP">
 			<Text>とまとんの文明特性は・・。</Text>
-		</Replace>
+		</Row>
 
-		<Replace Tag="LOC_TRAIT_LEADER_JASPER_KITTY_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_NAME" Language="ja_JP">
 			<Text>とまとんの指導者特性</Text>
-		</Replace>
-		<Replace Tag="LOC_TRAIT_LEADER_JASPER_KITTY_DESCRIPTION" Language="ja_JP">
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_DESCRIPTION" Language="ja_JP">
 			<Text>とまとんの指導者特性は・・。</Text>
-		</Replace>
+		</Row>
 
-		<Replace Tag="LOC_UNIT_SCOUT_2_NAME" Language="ja_JP">
-			<Text>斥候くん。</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_SCOUT_2_DESCRIPTION" Language="ja_JP">
-			<Text>移動速度に優れ過ぎな太古の偵察ユニットくん。</Text>
-		</Replace>
-		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_SCOUT_2_NAME" Language="ja_JP">
-			<Text>とまと王国固有ユニット: 斥候くん。</Text>
-		</Replace> -->
+		<Row Tag="LOC_UNIT_SCOUT_2_NAME" Language="ja_JP">
+			<Text>斥候わんこ。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SCOUT_2_DESCRIPTION" Language="ja_JP">
+			<Text>移動速度に優れ過ぎな太古の偵察わんこユニット。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SCOUT_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 斥候わんこ。</Text>
+		</Row>
 
 	</LocalizedText>
 </GameData>
