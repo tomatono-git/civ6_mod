@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
     <LocalizedText>
-        <Row Tag="LOC_CIVILIZATION_FELINE_NAME" Language="ja_JP">
+        <!-- <Row Tag="LOC_CIVILIZATION_FELINE_NAME" Language="ja_JP">
             <Text>とまと王国</Text>
         </Row>
 
@@ -29,7 +29,7 @@
         </Row>
         <Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_DESCRIPTION" Language="ja_JP">
             <Text>とまとんの指導者特性は・・。</Text>
-        </Row>
+        </Row> -->
 
         <!-- <Row Tag="LOC_BUILDING_LITTER_BOX_NAME" Language="ja_JP">
             <Text>Litter Box</Text>

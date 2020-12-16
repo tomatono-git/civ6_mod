@@ -59,6 +59,7 @@
         <UpdateText id="Text">
           <Criteria>LeaderCriteria</Criteria>
           <File>ConfigText.xml</File>
+          <File>ConfigText_ja_JP.xml</File>
           <File>Text.xml</File>
           <File>Text_ja_JP.xml</File>
         </UpdateText>
@@ -78,6 +79,7 @@
           </UpdateDatabase>
           <UpdateText id="ConfigText">
               <File>ConfigText.xml</File>
+              <File>ConfigText_ja_JP.xml</File>
           </UpdateText>
           <UpdateIcons id="ConfigIcons">
               <File>Icons.xml</File>
@@ -107,6 +109,7 @@
     <Folder Include="XLPs\" />
     <Content Include="Config.xml" />
     <Content Include="ConfigText.xml" />
+    <Content Include="ConfigText_ja_JP.xml" />
     <Content Include="Civilization.xml" />
     <Content Include="Civilization_start_bias.sql" />
 
