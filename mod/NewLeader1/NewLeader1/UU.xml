@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="UNIT_SCOUT_2" Kind="KIND_UNIT"/>
+	</Types>
+	<!-- ユニットのAI・タイプ設定 -->
+	<UnitAiInfos>
+		<Row UnitType="UNIT_SCOUT_2" AiType="UNITAI_COMBAT"/>		  <!-- 戦闘ユニット -->
+		<Row UnitType="UNIT_SCOUT_2" AiType="UNITAI_EXPLORE"/>		  <!-- 探索する -->
+		<Row UnitType="UNIT_SCOUT_2" AiType="UNITTYPE_MELEE"/>       <!-- 近接ユニット -->
+		<Row UnitType="UNIT_SCOUT_2" AiType="UNITTYPE_LAND_COMBAT"/> <!-- 陸上タイプ -->
+	</UnitAiInfos>
+	<!-- 置き換え対象のユニット。定義しない場合はアップグレードで作れないユニットになる。 -->
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_SCOUT_2" ReplacesUnitType="UNIT_SCOUT"/>
+		<!-- <Row CivUniqueUnitType="UNIT_GREAT_ELECTRIC_FIRE" ReplacesUnitType="UNIT_HORSEMAN"/> -->
+	</UnitReplaces>
+	<!-- クラスとユニットの紐付け -->
+	<TypeTags>
+		<Row Type="UNIT_SCOUT_2" Tag="CLASS_RECON"/>
+	</TypeTags>
+	<!-- ユニットの性能設定 -->
+	<Units>
+		<!--
+			UnitType              : ユニットタイプ。親定義を指定する。
+			BaseMoves             : 移動力
+			Cost                  : 作成コスト
+			AdvisorType           : 助言タイプ
+			BaseSightRange        : 視界
+			ZoneOfControl         : ZOCの有無
+			Domain                : ユニットのタイプ
+			FormationClass        : 陣形クラス
+			Name                  : ユニットの名前
+			Description           : ユニットの説明文
+			PurchaseYield         : ユニット作成にかかるもの
+			PromotionClass        : 近接なのか遠隔なのかを指定する？
+			Maintenance           : 維持費
+			Combat                : 戦闘力
+			RangedCombat          : 長距離戦闘力
+			Range                 : 射程
+			MandatoryObsoleteTech : 陳腐化する条件になる技術
+			TraitType             : ユニットが属するtrait。ユニークユニットならば文明特性と紐付けるため実質必須。
+			PrereqTech            : 前提条件となる技術
+			StrategicResource     : 必要な戦略リソース
+		-->
+		<Row UnitType="UNIT_SCOUT_2"
+			Cost="15" BaseMoves="30" BaseSightRange="4" Combat="10"
+			ZoneOfControl="true" Domain="DOMAIN_LAND"
+			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_GENERIC"
+			Name="LOC_UNIT_SCOUT_2_NAME" Description="LOC_UNIT_SCOUT_2_DESCRIPTION"
+			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"/>
+
+	</Units>
+
+	<Units_XP2>
+		<!-- <Row UnitType="UNIT_SCOUT_2" ResourceCost="10"/> -->
+	</Units_XP2>
+
+	<!-- アップグレード先 -->
+	<UnitUpgrades>
+		<!-- 散兵 -->
+		<Row Unit="UNIT_SCOUT_2" UpgradeUnit="UNIT_SKIRMISHER"/>
+	</UnitUpgrades>
+</GameInfo>
