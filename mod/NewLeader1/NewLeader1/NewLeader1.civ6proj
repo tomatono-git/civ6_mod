@@ -21,7 +21,6 @@
           <File>Civilization_start_bias.sql</File>
 
           <File>Leaders.xml</File>
-          <File>LitterBox.xml</File>
           <File>UU.sql</File>
           <File>Leaders_Movement.sql</File>
           <File>Leaders_Boost.sql</File>
@@ -113,7 +112,6 @@
 
     <Content Include="Icons.xml" />
     <Content Include="Leaders.xml" />
-    <Content Include="LitterBox.xml" />
     <Content Include="Text.xml" />
     <Content Include="Text_ja_JP.xml" />
     <Content Include="UU.sql" />

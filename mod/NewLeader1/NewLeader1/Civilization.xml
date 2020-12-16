@@ -2,7 +2,7 @@
 <GameData>
 	<Types>
 		<Row Type="CIVILIZATION_FELINE" Kind="KIND_CIVILIZATION" />
-		<Row Type="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" Kind="KIND_TRAIT" />
+		<!-- <Row Type="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" Kind="KIND_TRAIT" /> -->
 	</Types>
 
 	<Civilizations>
@@ -36,11 +36,12 @@
 	</CivilizationInfo>
 
 	<CivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_FELINE" TraitType="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" />
+		<!-- <Row CivilizationType="CIVILIZATION_FELINE" TraitType="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" /> -->
+		<Row CivilizationType="CIVILIZATION_FELINE" TraitType="TRAIT_CIVILIZATION_UNIT_SUMERIAN_WAR_CART"/>
 	</CivilizationTraits>
 
 	<Traits>
-		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER" />
+		<!-- <Row TraitType="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER" /> -->
 	</Traits>
 
 	<CityNames>
