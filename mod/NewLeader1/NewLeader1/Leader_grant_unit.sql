@@ -77,7 +77,7 @@ INSERT OR REPLACE INTO ModifierArguments
         ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'UnitType', 'UNIT_SLINGER'),
         ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'Amount', 3),
         ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'AllowUniqueOverride', 1),
-        ('TRAIT_PLAYER_GRANT_UNIT_SCOUT', 'UnitType', 'UNIT_SCOUT'),
+        ('TRAIT_PLAYER_GRANT_UNIT_SCOUT', 'UnitType', 'UNIT_SCOUT_2'),
         ('TRAIT_PLAYER_GRANT_UNIT_SCOUT', 'Amount', 3),
         ('TRAIT_PLAYER_GRANT_UNIT_SCOUT', 'AllowUniqueOverride', 1);
 INSERT OR REPLACE INTO TraitModifiers
