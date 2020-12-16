@@ -39,6 +39,16 @@
 			<Text>The litter box is a unique building that only Felines get.</Text>
 		</Row>
 
+		<Row Tag="LOC_UNIT_SCOUT_2_NAME" Language="en_US">
+			<Text>Scout2</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SCOUT_2_DESCRIPTION" Language="en_US">
+			<Text>Fast-moving Ancient era recon unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SCOUT_2_NAME" Language="en_US">
+			<Text>Tomato UU: Scout2</Text>
+		</Row>
+
 
 
 		<!-- <Row Tag="LOC_VIZSOURCE_FLAC_MISAKI" Language="en_US">

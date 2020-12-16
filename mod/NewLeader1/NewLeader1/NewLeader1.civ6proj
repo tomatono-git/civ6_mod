@@ -21,7 +21,7 @@
           <File>Civilization_start_bias.sql</File>
 
           <File>Leaders.xml</File>
-          <File>UU.sql</File>
+          <File>UU.xml</File>
           <File>Leaders_Movement.sql</File>
           <File>Leaders_Boost.sql</File>
           <File>Leader_grant_technology.sql</File>
@@ -59,6 +59,7 @@
         <UpdateText id="Text">
           <Criteria>LeaderCriteria</Criteria>
           <File>ConfigText.xml</File>
+          <File>ConfigText_ja_JP.xml</File>
           <File>Text.xml</File>
           <File>Text_ja_JP.xml</File>
         </UpdateText>
@@ -78,6 +79,7 @@
           </UpdateDatabase>
           <UpdateText id="ConfigText">
               <File>ConfigText.xml</File>
+              <File>ConfigText_ja_JP.xml</File>
           </UpdateText>
           <UpdateIcons id="ConfigIcons">
               <File>Icons.xml</File>
@@ -107,6 +109,7 @@
     <Folder Include="XLPs\" />
     <Content Include="Config.xml" />
     <Content Include="ConfigText.xml" />
+    <Content Include="ConfigText_ja_JP.xml" />
     <Content Include="Civilization.xml" />
     <Content Include="Civilization_start_bias.sql" />
 
@@ -114,7 +117,7 @@
     <Content Include="Leaders.xml" />
     <Content Include="Text.xml" />
     <Content Include="Text_ja_JP.xml" />
-    <Content Include="UU.sql" />
+    <Content Include="UU.xml" />
     <Content Include="Leaders_Movement.sql" />
     <Content Include="Leaders_Boost.sql" />
     <Content Include="Leader_grant_technology.sql" />

@@ -62,6 +62,17 @@
 			<Icon>ICON_UNIT_SUMERIAN_WAR_CART</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_SCOUT_2</Type>
+			<Name>LOC_UNIT_SCOUT_2_NAME</Name>
+			<Description>LOC_UNIT_SCOUT_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_SCOUT</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+
 		<!-- Expansion1 Support -->
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -73,6 +84,17 @@
 			<Icon>ICON_UNIT_SUMERIAN_WAR_CART</Icon>
 			<SortIndex>10</SortIndex>
 		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_SCOUT_2</Type>
+			<Name>LOC_UNIT_SCOUT_2_NAME</Name>
+			<Description>LOC_UNIT_SCOUT_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_SCOUT</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+
 		<!-- Expansion2 Support -->
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
@@ -83,6 +105,16 @@
 			<Description>LOC_UNIT_SUMERIAN_WAR_CART_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_SUMERIAN_WAR_CART</Icon>
 			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_SCOUT_2</Type>
+			<Name>LOC_UNIT_SCOUT_2_NAME</Name>
+			<Description>LOC_UNIT_SCOUT_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_SCOUT</Icon>
+			<SortIndex>20</SortIndex>
 		</Row>
 
 

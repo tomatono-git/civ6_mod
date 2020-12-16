@@ -1,61 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<LocalizedText>
-		<Row Tag="LOC_CIVILIZATION_FELINE_NAME" Language="ja_JP">
-			<Text>とまと王国</Text>
+    <LocalizedText>
+        <Row Tag="LOC_CIVILIZATION_FELINE_NAME" Language="ja_JP">
+            <Text>とまと王国</Text>
+        </Row>
+
+        <Row Tag="LOC_CIVILIZATION_FELINE_DESCRIPTION" Language="ja_JP">
+            <Text>とまと王国です。</Text>
+        </Row>
+
+        <Row Tag="LOC_CIVILIZATION_FELINE_ADJECTIVE" Language="ja_JP">
+            <Text>とまと</Text>
+        </Row>
+
+        <Row Tag="LOC_LEADER_JASPER_KITTY_NAME" Language="ja_JP">
+            <Text>とまとん</Text>
+        </Row>
+
+        <Row Tag="LOC_TRAIT_CIVILIZATION_FELINE_NAME" Language="ja_JP">
+            <Text>とまとんの文明特性</Text>
+        </Row>
+        <Row Tag="LOC_TRAIT_CIVILIZATION_FELINE_DESCRIPTION" Language="ja_JP">
+            <Text>とまとんの文明特性は・・。</Text>
+        </Row>
+
+        <Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_NAME" Language="ja_JP">
+            <Text>とまとんの指導者特性</Text>
+        </Row>
+        <Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_DESCRIPTION" Language="ja_JP">
+            <Text>とまとんの指導者特性は・・。</Text>
+        </Row>
+
+        <Row Tag="LOC_BUILDING_LITTER_BOX_NAME" Language="ja_JP">
+            <Text>Litter Box</Text>
+        </Row>
+
+        <Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION" Language="ja_JP">
+            <Text>ごみ施設。</Text>
+        </Row>
+
+        <Row Tag="LOC_UNIT_SCOUT_2_NAME" Language="ja_JP">
+            <Text>斥候くん。</Text>
+        </Row>
+        <Row Tag="LOC_UNIT_SCOUT_2_DESCRIPTION" Language="ja_JP">
+            <Text>移動速度に優れ過ぎな太古の偵察ユニットくん。</Text>
+        </Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SCOUT_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 斥候くん。</Text>
 		</Row>
 
-		<Row Tag="LOC_CIVILIZATION_FELINE_DESCRIPTION" Language="ja_JP">
-			<Text>とまと王国です。</Text>
-		</Row>
+        <!--
+        <Row Tag="LOC_TRAIT_LEADER_FLAC_MISAKI_NAME" Language="ja_JP">
+            <Text>心理掌握(メンタルアウト)</Text>
+        </Row>
+        <Row Tag="LOC_TRAIT_LEADER_FLAC_MISAKI_DESCRIPTION" Language="ja_JP">
+            <Text>Has 5 level of [ICON_VisLimited] Diplomatic Visibility greater than normal with every civilization that she's met, and generates 50% less [ICON_STAT_GRIEVANCE] Grievances to other Leaders. Other leaders will be friendlier (+20) to Misaki. Land Melee units, Anti Cavalry units and Warrior Monks have chance to capture non-barbarian enemy unit when defeaded it.</Text>
+        </Row>
 
-		<Row Tag="LOC_CIVILIZATION_FELINE_ADJECTIVE" Language="ja_JP">
-			<Text>とまと</Text>
-		</Row>
+        <Row Tag="LOC_VIZSOURCE_FLAC_MISAKI" Language="ja_JP">
+            <Text>心理掌握(メンタルアウト)</Text>
+        </Row>
+        <Row Tag="LOC_VIZSOURCE_ACTION_FLAC_MISAKI" Language="ja_JP">
+            <Text>食蜂操祈（しょくほう　みさき）としてプレイ。</Text>
+        </Row>
+        <Row Tag="LOC_GOSSIP_SOURCE_FLAC_MISAKI" Language="ja_JP">
+            <Text>食蜂操祈とは、ライトノベル『とある魔術の禁書目録』及びそのスピンオフ漫画『とある科学の超電磁砲』に登場するキャラクターである。 </Text>
+        </Row> -->
 
-		<Row Tag="LOC_LEADER_JASPER_KITTY_NAME" Language="ja_JP">
-			<Text>とまとん</Text>
-		</Row>
-
-		<Row Tag="LOC_TRAIT_CIVILIZATION_FELINE_NAME" Language="ja_JP">
-			<Text>とまとんの文明特性</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_FELINE_DESCRIPTION" Language="ja_JP">
-			<Text>とまとんの文明特性は・・。</Text>
-		</Row>
-
-		<Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_NAME" Language="ja_JP">
-			<Text>とまとんの指導者特性</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_DESCRIPTION" Language="ja_JP">
-			<Text>とまとんの指導者特性は・・。</Text>
-		</Row>
-
-		<Row Tag="LOC_BUILDING_LITTER_BOX_NAME" Language="ja_JP">
-			<Text>Litter Box</Text>
-		</Row>
-
-		<Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION" Language="ja_JP">
-			<Text>ごみ施設。</Text>
-		</Row>
-
-<!--
-		<Row Tag="LOC_TRAIT_LEADER_FLAC_MISAKI_NAME" Language="ja_JP">
-			<Text>心理掌握(メンタルアウト)</Text>
-		</Row>
-		<Row Tag="LOC_TRAIT_LEADER_FLAC_MISAKI_DESCRIPTION" Language="ja_JP">
-			<Text>Has 5 level of [ICON_VisLimited] Diplomatic Visibility greater than normal with every civilization that she's met, and generates 50% less [ICON_STAT_GRIEVANCE] Grievances to other Leaders. Other leaders will be friendlier (+20) to Misaki. Land Melee units, Anti Cavalry units and Warrior Monks have chance to capture non-barbarian enemy unit when defeaded it.</Text>
-		</Row>
-
-		<Row Tag="LOC_VIZSOURCE_FLAC_MISAKI" Language="ja_JP">
-			<Text>心理掌握(メンタルアウト)</Text>
-		</Row>
-		<Row Tag="LOC_VIZSOURCE_ACTION_FLAC_MISAKI" Language="ja_JP">
-			<Text>食蜂操祈（しょくほう　みさき）としてプレイ。</Text>
-		</Row>
-		<Row Tag="LOC_GOSSIP_SOURCE_FLAC_MISAKI" Language="ja_JP">
-			<Text>食蜂操祈とは、ライトノベル『とある魔術の禁書目録』及びそのスピンオフ漫画『とある科学の超電磁砲』に登場するキャラクターである。 </Text>
-		</Row> -->
-
-	</LocalizedText>
+    </LocalizedText>
 </GameData>
