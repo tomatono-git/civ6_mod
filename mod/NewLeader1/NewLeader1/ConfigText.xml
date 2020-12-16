@@ -1,64 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-    <LocalizedText>
-        <Row Tag="LOC_CIVILIZATION_FELINE_NAME" Language="en_US">
-            <Text>Tomato Kingdom</Text>
-        </Row>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_FELINE_NAME" Language="en_US">
+			<Text>Tomato Kingdom</Text>
+		</Row>
 
-        <Row Tag="LOC_CIVILIZATION_FELINE_DESCRIPTION" Language="en_US">
-            <Text>The Majestic Vegetables</Text>
-        </Row>
+		<Row Tag="LOC_CIVILIZATION_FELINE_DESCRIPTION" Language="en_US">
+			<Text>The Majestic Vegetables</Text>
+		</Row>
 
-        <Row Tag="LOC_CIVILIZATION_FELINE_ADJECTIVE" Language="en_US">
-            <Text>Vegetables</Text>
-        </Row>
+		<Row Tag="LOC_CIVILIZATION_FELINE_ADJECTIVE" Language="en_US">
+			<Text>Vegetables</Text>
+		</Row>
 
-        <Row Tag="LOC_LEADER_JASPER_KITTY_NAME" Language="en_US">
-            <Text>Tomato</Text>
-        </Row>
+		<Row Tag="LOC_LEADER_JASPER_KITTY_NAME" Language="en_US">
+			<Text>Tomato</Text>
+		</Row>
 
-        <Row Tag="LOC_TRAIT_CIVILIZATION_FELINE_NAME" Language="en_US">
-            <Text>Bright red adorable vegetables</Text>
-        </Row>
-        <Row Tag="LOC_TRAIT_CIVILIZATION_FELINE_DESCRIPTION" Language="en_US">
-            <Text>So red!</Text>
-        </Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FELINE_NAME" Language="en_US">
+			<Text>Bright red adorable vegetables</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FELINE_DESCRIPTION" Language="en_US">
+			<Text>So red!</Text>
+		</Row>
 
-        <Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_NAME" Language="en_US">
-            <Text>Kitty Claws</Text>
-        </Row>
-        <Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_DESCRIPTION" Language="en_US">
-            <Text>So sharp!</Text>
-        </Row>
+		<Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_NAME" Language="en_US">
+			<Text>Kitty Claws</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_JASPER_KITTY_DESCRIPTION" Language="en_US">
+			<Text>So sharp!</Text>
+		</Row>
 
-        <Row Tag="LOC_BUILDING_LITTER_BOX_NAME" Language="en_US">
-            <Text>Litter Box</Text>
-        <!-- </Row>
+		<Row Tag="LOC_UNIT_SCOUT_2_NAME" Language="en_US">
+			<Text>Scout 2</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SCOUT_2_DESCRIPTION" Language="en_US">
+			<Text>Fast-moving Ancient era recon unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SCOUT_2_NAME" Language="en_US">
+			<Text>Tomato UU: Scout 2</Text>
+		</Row>
 
-        <Row Tag="LOC_BUILDING_LITTER_BOX_DESCRIPTION" Language="en_US">
-            <Text>The litter box is a unique building that only Felines get.</Text>
-        </Row> -->
-
-        <Row Tag="LOC_UNIT_SCOUT_2_NAME" Language="en_US">
-            <Text>Scout 2</Text>
-        </Row>
-        <Row Tag="LOC_UNIT_SCOUT_2_DESCRIPTION" Language="en_US">
-            <Text>Fast-moving Ancient era recon unit.</Text>
-        </Row>
-        <Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SCOUT_2_NAME" Language="en_US">
-            <Text>Tomato UU: Scout 2</Text>
-        </Row>
-
-
-        <!-- <Row Tag="LOC_VIZSOURCE_FLAC_MISAKI" Language="en_US">
-            <Text>Misaki's mind-reading</Text>
-        </Row>
-        <Row Tag="LOC_VIZSOURCE_ACTION_FLAC_MISAKI" Language="en_US">
-            <Text>Play as Misaki Shokuhou.</Text>
-        </Row>
-        <Row Tag="LOC_GOSSIP_SOURCE_FLAC_MISAKI" Language="en_US">
-            <Text>Misaki Shokuhou was informed by mind reading: </Text>
-        </Row> -->
-
-    </LocalizedText>
+	</LocalizedText>
 </GameData>

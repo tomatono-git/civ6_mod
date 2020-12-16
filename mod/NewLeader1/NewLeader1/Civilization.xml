@@ -40,6 +40,7 @@
     <CivilizationTraits>
         <!-- <Row CivilizationType="CIVILIZATION_FELINE" TraitType="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" /> -->
         <Row CivilizationType="CIVILIZATION_FELINE" TraitType="TRAIT_CIVILIZATION_UNIT_SUMERIAN_WAR_CART"/>
+        <Row CivilizationType="CIVILIZATION_FELINE" TraitType="TRAIT_CIVILIZATION_UNIT_SCOUT_2"/>
     </CivilizationTraits>
 
     <Traits>
