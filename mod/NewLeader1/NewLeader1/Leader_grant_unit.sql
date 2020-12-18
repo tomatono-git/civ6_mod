@@ -122,3 +122,38 @@ INSERT OR REPLACE INTO TraitModifiers
         (TraitType, ModifierId)
     VALUES
         ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_UNIT_HORSEMAN');
+
+
+-- 青銅器を取得しているか
+INSERT OR REPLACE INTO Requirements
+        (RequirementId, RequirementType)
+    VALUES
+        ('REQUIRES_TECHNOLOGY_BRONZE_WORKING', 'REQUIREMENT_PLAYER_HAS_TECHNOLOGY');
+INSERT OR REPLACE INTO RequirementArguments
+        (RequirementId, Name, Value)
+    VALUES
+        ('REQUIRES_TECHNOLOGY_BRONZE_WORKING', 'TechnologyType', 'TECH_BRONZE_WORKING');
+INSERT OR REPLACE INTO RequirementSets
+        (RequirementSetId, RequirementSetType)
+    VALUES
+        ('PLAYER_HAS_BRONZE_WORKING_TECHNOLOGY', 'REQUIREMENTSET_TEST_ALL');
+INSERT OR REPLACE INTO RequirementSetRequirements
+        (RequirementSetId, RequirementId)
+    VALUES
+        ('PLAYER_HAS_BRONZE_WORKING_TECHNOLOGY', 'REQUIRES_TECHNOLOGY_BRONZE_WORKING');
+
+-- 青銅器の研究でユニットを付与
+INSERT OR REPLACE INTO Modifiers
+        (ModifierId, ModifierType, RunOnce, Permanent, OwnerRequirementsetId)
+    VALUES
+        ('TRAIT_PLAYER_GRANT_UNIT_SPEARMAN', 'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL', 1, 1, 'PLAYER_HAS_BRONZE_WORKING_TECHNOLOGY');
+INSERT OR REPLACE INTO ModifierArguments
+        (ModifierId, Name, Value)
+    VALUES
+        ('TRAIT_PLAYER_GRANT_UNIT_SPEARMAN', 'UnitType', 'UNIT_SPEARMAN'),
+        ('TRAIT_PLAYER_GRANT_UNIT_SPEARMAN', 'Amount', 2),
+        ('TRAIT_PLAYER_GRANT_UNIT_SPEARMAN', 'AllowUniqueOverride', 1);
+INSERT OR REPLACE INTO TraitModifiers
+        (TraitType, ModifierId)
+    VALUES
+        ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_UNIT_SPEARMAN');
