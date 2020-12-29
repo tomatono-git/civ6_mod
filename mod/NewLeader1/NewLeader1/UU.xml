@@ -45,7 +45,7 @@
 			StrategicResource     : 必要な戦略リソース
 		-->
 		<Row UnitType="UNIT_SCOUT_2"
-			Cost="5" BaseMoves="30" BaseSightRange="4" Combat="10"
+			Cost="5" BaseMoves="60" BaseSightRange="6" Combat="10"
 			ZoneOfControl="true" Domain="DOMAIN_LAND"
 			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_GENERIC"
 			Name="LOC_UNIT_SCOUT_2_NAME" Description="LOC_UNIT_SCOUT_2_DESCRIPTION"
