@@ -3,6 +3,7 @@
     <Types>
         <Row Type="CIVILIZATION_FELINE" Kind="KIND_CIVILIZATION" />
         <Row Type="TRAIT_CIVILIZATION_UNIT_SCOUT_2" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_GOKOKU_SHRINE" Kind="KIND_TRAIT"/>
         <!-- <Row Type="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" Kind="KIND_TRAIT" /> -->
     </Types>
 
@@ -18,7 +19,6 @@
 
     <CivilizationLeaders>
         <Row CivilizationType="CIVILIZATION_FELINE" LeaderType="LEADER_JASPER_KITTY" CapitalName="LOC_CIVLIZATION_FELINE_CITY_1" />
-        <Row CivilizationType="CIVILIZATION_FELINE" TraitType="TRAIT_CIVILIZATION_UNIT_SCOUT_2"/>
     </CivilizationLeaders>
 
     <CivilizationCitizenNames>
@@ -39,13 +39,17 @@
 
     <CivilizationTraits>
         <!-- <Row CivilizationType="CIVILIZATION_FELINE" TraitType="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" /> -->
-        <Row CivilizationType="CIVILIZATION_FELINE" TraitType="TRAIT_CIVILIZATION_UNIT_SUMERIAN_WAR_CART"/>
+        <!-- <Row CivilizationType="CIVILIZATION_FELINE" TraitType="TRAIT_CIVILIZATION_UNIT_SUMERIAN_WAR_CART"/> -->
+		<!-- UU -->
         <Row CivilizationType="CIVILIZATION_FELINE" TraitType="TRAIT_CIVILIZATION_UNIT_SCOUT_2"/>
+		<!-- UB -->
+		<Row CivilizationType="CIVILIZATION_FELINE" TraitType="TRAIT_CIVILIZATION_BUILDING_GOKOKU_SHRINE" />
     </CivilizationTraits>
 
     <Traits>
         <!-- <Row TraitType="TRAIT_CIVILIZATION_BUILDING_LITTER_BOX" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER" /> -->
         <Row TraitType="TRAIT_CIVILIZATION_UNIT_SCOUT_2" Name="LOC_TRAIT_CIVILIZATION_UNIT_SCOUT_2_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_GOKOKU_SHRINE" Name="LOC_PLACEHOLDER" Description="LOC_PLACEHOLDER" />
     </Traits>
 
     <CityNames>

@@ -38,11 +38,11 @@
 		<!-- 金 -->
 		<Row BuildingType="BUILDING_GOKOKU_SHRINE" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<!-- 科学 -->
-		<Row BuildingType="BUILDING_GOKOKU_SHRINE" YieldType="YIELD_SIENCE" YieldChange="1"/>
+		<!-- <Row BuildingType="BUILDING_GOKOKU_SHRINE" YieldType="YIELD_SIENCE" YieldChange="1"/> -->
 		<!-- 文化 -->
-		<Row BuildingType="BUILDING_GOKOKU_SHRINE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<!-- <Row BuildingType="BUILDING_GOKOKU_SHRINE" YieldType="YIELD_CULTURE" YieldChange="1"/> -->
 		<!-- 生産 -->
-		<Row BuildingType="BUILDING_GOKOKU_SHRINE" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<!-- <Row BuildingType="BUILDING_GOKOKU_SHRINE" YieldType="YIELD_PRODUCTION" YieldChange="2"/> -->
 	</Building_YieldChanges>
 
 	<!-- 建造物を建てることで得られる偉人ポイントのボーナス -->
