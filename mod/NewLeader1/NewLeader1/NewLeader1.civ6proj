@@ -44,6 +44,7 @@
           <File>Leader_enable_unit_purchase_faith.sql</File>
           <File>Leader_resource_visibility.sql</File>
           <File>Leader_diplomatic.sql</File>
+          <File>Leader_purchasing_building_by_faith.sql</File>
         </UpdateDatabase>
         <UpdateDatabase id="Policy_Gameplay">
           <Properties>
@@ -142,6 +143,7 @@
     <Content Include="Leader_enable_unit_purchase_faith.sql" />
     <Content Include="Leader_resource_visibility.sql" />
     <Content Include="Leader_diplomatic.sql" />
+    <Content Include="Leader_purchasing_building_by_faith.sql" />
 
     <Content Include="policy.sql" />
     <Content Include="policy_text.xml" />
