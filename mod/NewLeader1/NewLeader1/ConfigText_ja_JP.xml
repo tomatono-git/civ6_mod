@@ -41,5 +41,20 @@
 			<Text>とまと王国固有ユニット: 斥候わんこ。</Text>
 		</Row>
 
+		<!-- ユニーク建造物の名称 -->
+		<Replace Tag="LOC_BUILDING_GOKOKU_SHRINE_NAME" Language="ja_JP">
+			<Text>護国神社</Text>
+		</Replace>
+		<!-- ユニーク建造物の説明 -->
+		<Replace Tag="LOC_BUILDING_GOKOKU_SHRINE_DESCRIPTION" Language="ja_JP">
+			<Text>信仰力[ICON_Faith]が増加し、[ICON_Food][ICON_Gold][ICON_Housing][ICON_Amenities]が少しずつ得られる、社の代替。</Text>
+		</Replace>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_GOKOKU_SHRINE_NAME" Language="ja_JP">
+			<Text>UB（固有の建造物）「護国神社」</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOKOKU_SHRINE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>UB（固有の建造物）「護国神社」</Text>
+		</Row>
+
 	</LocalizedText>
 </GameData>

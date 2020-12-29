@@ -21,5 +21,8 @@
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_SCOUT_2_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="17"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_SCOUT_2_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="17"/>
 
+		<!-- ユニーク建造物のアイコン。バニラのIndex:5は社 -->
+		<Row Name="ICON_BUILDING_GOKOKU_SHRINE" Atlas="ICON_ATLAS_BUILDINGS" Index="5"/>
+
 	</IconDefinitions>
 </GameData>

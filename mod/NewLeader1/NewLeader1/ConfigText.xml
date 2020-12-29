@@ -41,5 +41,20 @@
 			<Text>Tomato UU: Scout 2</Text>
 		</Row>
 
+		<!-- ユニーク建造物の名称 -->
+		<Replace Tag="LOC_BUILDING_GOKOKU_SHRINE_NAME" Language="en_US">
+			<Text>Gokoku shrine</Text>
+		</Replace>
+		<!-- ユニーク建造物の説明 -->
+		<Replace Tag="LOC_BUILDING_GOKOKU_SHRINE_DESCRIPTION" Language="en_US">
+			<Text>Increasing faith power [ICON_Faith] and gaining [ICON_Food][ICON_Gold][ICON_Housing][ICON_Amenities] in small increments, shrine alternative.</Text>
+		</Replace>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BUILDING_GOKOKU_SHRINE_NAME" Language="en_US">
+			<Text>UB (unique building) "Gokoku shrine"</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GOKOKU_SHRINE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>UB (unique building) "Gokoku shrine"</Text>
+		</Row>
+
 	</LocalizedText>
 </GameData>

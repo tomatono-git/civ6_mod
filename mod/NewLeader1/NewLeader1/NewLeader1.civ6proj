@@ -23,6 +23,7 @@
           <File>Leaders.xml</File>
           <File>UU.sql</File>
           <File>UU.xml</File>
+          <File>UB.xml</File>
           <File>Leaders_Movement.sql</File>
           <File>Leaders_Boost.sql</File>
           <File>Leader_grant_technology.sql</File>
@@ -120,6 +121,7 @@
     <Content Include="Text_ja_JP.xml" />
     <Content Include="UU.sql" />
     <Content Include="UU.xml" />
+    <Content Include="UB.xml" />
     <Content Include="Leaders_Movement.sql" />
     <Content Include="Leaders_Boost.sql" />
     <Content Include="Leader_grant_technology.sql" />

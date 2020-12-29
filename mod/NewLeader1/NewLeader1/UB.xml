@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_GOKOKU_SHRINE" Kind="KIND_BUILDING" />
+	</Types>
+
+	<!-- 建造物のメイン設定 -->
+	<Buildings>
+		<!--
+		PrereqDistrict : 何の区域に建設できるか
+		TraitType      : 何の特性に紐付くのか(文明固有として実装するには必須)
+		PrereqTech     : 解禁に必要な技術
+		PurchaseYield  : 購入に必要な資源(普通はゴールド。建造物以外だと、使徒や伝道師は信仰になっている)
+		Cost           : 生産コスト
+		AdvisorType    : 助言が発動する場合、どのセリフを言うか(推測)
+		  (バニラでもかなり後期の時代のものにもついているが、開始時代の変更にも対応しているのだと思われる)
+		Entertainment  : 快適性
+		Maintenance    : 維持コスト
+		CitizenSlots   : 住宅スロット
+		RegionalRange  : 効果範囲
+		-->
+		<Row BuildingType="BUILDING_GOKOKU_SHRINE" Name="LOC_BUILDING_GOKOKU_SHRINE_NAME" PrereqDistrict="DISTRICT_HOLY_SITE"
+			TraitType="TRAIT_CIVILIZATION_BUILDING_GOKOKU_SHRINE"
+			PrereqTech="TECH_ASTROLOGY" PurchaseYield="YIELD_GOLD" Cost="35" AdvisorType="ADVISOR_GENERIC" Housing="2" Entertainment="2" Maintenance="0" CitizenSlots="1"/>
+	</Buildings>
+
+	<!-- ユニークである場合の置き換え対象。これがない場合は置き換えではなく別枠になる(サンプルのLITTER_BOXがそうなっている) -->
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_GOKOKU_SHRINE" ReplacesBuildingType="BUILDING_SHRINE"/>
+	</BuildingReplaces>
+
+	<!-- 建物の能力。何のボーナスを得るかという設定 -->
+	<Building_YieldChanges>
+		<!-- 信仰 -->
+		<Row BuildingType="BUILDING_GOKOKU_SHRINE" YieldType="YIELD_FAITH" YieldChange="5"/>
+		<!-- 食糧 -->
+		<Row BuildingType="BUILDING_GOKOKU_SHRINE" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<!-- 金 -->
+		<Row BuildingType="BUILDING_GOKOKU_SHRINE" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<!-- 科学 -->
+		<Row BuildingType="BUILDING_GOKOKU_SHRINE" YieldType="YIELD_SIENCE" YieldChange="1"/>
+		<!-- 文化 -->
+		<Row BuildingType="BUILDING_GOKOKU_SHRINE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<!-- 生産 -->
+		<Row BuildingType="BUILDING_GOKOKU_SHRINE" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	</Building_YieldChanges>
+
+	<!-- 建造物を建てることで得られる偉人ポイントのボーナス -->
+	<Building_GreatPersonPoints>
+		<!--
+			GreatPersonClassType : 偉人の種類
+			PointsPerTurn        : ターンごとのポイント
+		-->
+		<Row BuildingType="BUILDING_GOKOKU_SHRINE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+
+	<!-- これで伝道師を買えるようになる？ -->
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_MISSIONARY" PrereqBuilding="BUILDING_GOKOKU_SHRINE"/>
+	</Unit_BuildingPrereqs>
+</GameData>
