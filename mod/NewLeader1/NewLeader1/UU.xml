@@ -3,22 +3,31 @@
 	<!-- 親定義 -->
 	<Types>
 		<Row Type="UNIT_SCOUT_2" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SLINGER_2" Kind="KIND_UNIT"/>
 	</Types>
 	<!-- ユニットのAI・タイプ設定 -->
 	<UnitAiInfos>
+		<!-- 斥候 -->
 		<Row UnitType="UNIT_SCOUT_2" AiType="UNITAI_COMBAT"/>		  <!-- 戦闘ユニット -->
 		<Row UnitType="UNIT_SCOUT_2" AiType="UNITAI_EXPLORE"/>		  <!-- 探索する -->
 		<Row UnitType="UNIT_SCOUT_2" AiType="UNITTYPE_MELEE"/>       <!-- 近接ユニット -->
 		<Row UnitType="UNIT_SCOUT_2" AiType="UNITTYPE_LAND_COMBAT"/> <!-- 陸上タイプ -->
+		<!-- 投石 -->
+		<Row UnitType="UNIT_SLINGER_2" AiType="UNITAI_COMBAT"/>		  <!-- 戦闘ユニット -->
+		<Row UnitType="UNIT_SLINGER_2" AiType="UNITAI_EXPLORE"/>		  <!-- 探索する -->
+		<Row UnitType="UNIT_SLINGER_2" AiType="UNITTYPE_MELEE"/>       <!-- 近接ユニット -->
+		<Row UnitType="UNIT_SLINGER_2" AiType="UNITTYPE_LAND_COMBAT"/> <!-- 陸上タイプ -->
 	</UnitAiInfos>
 	<!-- 置き換え対象のユニット。定義しない場合はアップグレードで作れないユニットになる。 -->
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_SCOUT_2" ReplacesUnitType="UNIT_SCOUT"/>
+		<Row CivUniqueUnitType="UNIT_SLINGER_2" ReplacesUnitType="UNIT_SLINGER"/>
 		<!-- <Row CivUniqueUnitType="UNIT_GREAT_ELECTRIC_FIRE" ReplacesUnitType="UNIT_HORSEMAN"/> -->
 	</UnitReplaces>
 	<!-- クラスとユニットの紐付け -->
 	<TypeTags>
 		<Row Type="UNIT_SCOUT_2" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_SLINGER_2" Tag="CLASS_RANGED"/>
 	</TypeTags>
 	<!-- ユニットの性能設定 -->
 	<Units>
@@ -44,13 +53,22 @@
 			PrereqTech            : 前提条件となる技術
 			StrategicResource     : 必要な戦略リソース
 		-->
+
+		<!-- 斥候 -->
 		<Row UnitType="UNIT_SCOUT_2"
-			Cost="5" BaseMoves="60" BaseSightRange="6" Combat="10"
+			Cost="1" BaseMoves="60" BaseSightRange="6" Combat="10"
 			ZoneOfControl="true" Domain="DOMAIN_LAND"
 			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_GENERIC"
 			Name="LOC_UNIT_SCOUT_2_NAME" Description="LOC_UNIT_SCOUT_2_DESCRIPTION"
 			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"/>
 
+		<!-- 投石 -->
+		<Row UnitType="UNIT_SLINGER_2"
+			Cost="1" BaseMoves="60" BaseSightRange="6" Combat="10" RangedCombat="40" Range="6"
+			ZoneOfControl="true" Domain="DOMAIN_LAND"
+			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_GENERIC"
+			Name="LOC_UNIT_SLINGER_2_NAME" Description="LOC_UNIT_SLINGER_2_DESCRIPTION"
+			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"/>
 	</Units>
 
 	<Units_XP2>
@@ -61,5 +79,7 @@
 	<UnitUpgrades>
 		<!-- 散兵 -->
 		<Row Unit="UNIT_SCOUT_2" UpgradeUnit="UNIT_SKIRMISHER"/>
+		<!-- 弓兵 -->
+		<Row Unit="UNIT_SLINGER_2" UpgradeUnit="UNIT_ARCHER"/>
 	</UnitUpgrades>
 </GameInfo>

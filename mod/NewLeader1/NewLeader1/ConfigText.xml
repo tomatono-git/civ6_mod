@@ -31,6 +31,7 @@
 			<Text>So sharp!</Text>
 		</Row>
 
+		<!-- ユニークユニットの名称 -->
 		<Row Tag="LOC_UNIT_SCOUT_2_NAME" Language="en_US">
 			<Text>Scout 2</Text>
 		</Row>
@@ -39,6 +40,16 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SCOUT_2_NAME" Language="en_US">
 			<Text>Tomato UU: Scout 2</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_SLINGER_2_NAME" Language="en_US">
+			<Text>Slinger 2</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SLINGER_2_DESCRIPTION" Language="en_US">
+			<Text>Fast-moving Ancient era ranged unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SLINGER_2_NAME" Language="en_US">
+			<Text>Tomato UU: Slinger 2</Text>
 		</Row>
 
 		<!-- ユニーク建造物の名称 -->

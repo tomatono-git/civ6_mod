@@ -31,6 +31,7 @@
 			<Text>とまとんの指導者特性は・・。</Text>
 		</Row>
 
+		<!-- ユニークユニットの名称 -->
 		<Row Tag="LOC_UNIT_SCOUT_2_NAME" Language="ja_JP">
 			<Text>斥候わんこ。</Text>
 		</Row>
@@ -39,6 +40,16 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SCOUT_2_NAME" Language="ja_JP">
 			<Text>とまと王国固有ユニット: 斥候わんこ。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_SLINGER_2_NAME" Language="ja_JP">
+			<Text>石投げさん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SLINGER_2_DESCRIPTION" Language="ja_JP">
+			<Text>移動速度に優れ過ぎな古代の石を投げる人。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SLINGER_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 石投げさん。</Text>
 		</Row>
 
 		<!-- ユニーク建造物の名称 -->
