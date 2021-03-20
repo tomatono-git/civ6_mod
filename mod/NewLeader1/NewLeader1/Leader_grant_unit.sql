@@ -74,7 +74,7 @@ INSERT OR REPLACE INTO ModifierArguments
         ('TRAIT_PLAYER_GRANT_UNIT_BUILDER', 'UnitType', 'UNIT_BUILDER'),
         ('TRAIT_PLAYER_GRANT_UNIT_BUILDER', 'Amount', 2),
         ('TRAIT_PLAYER_GRANT_UNIT_BUILDER', 'AllowUniqueOverride', 0),
-        ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'UnitType', 'UNIT_SLINGER'),
+        ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'UnitType', 'UNIT_SLINGER_2'),
         ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'Amount', 3),
         ('TRAIT_PLAYER_GRANT_UNIT_SLINGER', 'AllowUniqueOverride', 1),
         ('TRAIT_PLAYER_GRANT_UNIT_SCOUT', 'UnitType', 'UNIT_SCOUT_2'),
@@ -157,3 +157,42 @@ INSERT OR REPLACE INTO TraitModifiers
         (TraitType, ModifierId)
     VALUES
         ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_UNIT_SPEARMAN');
+
+
+
+
+
+-- 採鉱を取得しているか
+INSERT OR REPLACE INTO Requirements
+        (RequirementId, RequirementType)
+    VALUES
+        ('REQUIRES_TECHNOLOGY_MINING', 'REQUIREMENT_PLAYER_HAS_TECHNOLOGY');
+INSERT OR REPLACE INTO RequirementArguments
+        (RequirementId, Name, Value)
+    VALUES
+        ('REQUIRES_TECHNOLOGY_MINING', 'TechnologyType', 'TECH_MINING');
+INSERT OR REPLACE INTO RequirementSets
+        (RequirementSetId, RequirementSetType)
+    VALUES
+        ('PLAYER_HAS_MINING_TECHNOLOGY', 'REQUIREMENTSET_TEST_ALL');
+INSERT OR REPLACE INTO RequirementSetRequirements
+        (RequirementSetId, RequirementId)
+    VALUES
+        ('PLAYER_HAS_MINING_TECHNOLOGY', 'REQUIRES_TECHNOLOGY_MINING');
+
+-- 採鉱の研究でユニットを付与
+-- UNIT_SETTLER: 開拓者
+INSERT OR REPLACE INTO Modifiers
+        (ModifierId, ModifierType, RunOnce, Permanent, OwnerRequirementsetId)
+    VALUES
+        ('TRAIT_PLAYER_GRANT_UNIT_SETTLER_MINING', 'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL', 1, 1, 'PLAYER_HAS_MINING_TECHNOLOGY');
+INSERT OR REPLACE INTO ModifierArguments
+        (ModifierId, Name, Value)
+    VALUES
+        ('TRAIT_PLAYER_GRANT_UNIT_SETTLER_MINING', 'UnitType', 'UNIT_SETTLER'),
+        ('TRAIT_PLAYER_GRANT_UNIT_SETTLER_MINING', 'Amount', 2),
+        ('TRAIT_PLAYER_GRANT_UNIT_SETTLER_MINING', 'AllowUniqueOverride', 0);
+INSERT OR REPLACE INTO TraitModifiers
+        (TraitType, ModifierId)
+    VALUES
+        ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_UNIT_SETTLER_MINING');
