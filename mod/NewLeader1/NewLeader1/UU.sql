@@ -7,7 +7,7 @@ INSERT OR REPLACE INTO Modifiers
 INSERT OR REPLACE INTO ModifierArguments
 		(ModifierId, Name, Value)
 	VALUES
-		('MURASAKI_SHION_ATTACK_RANGE', 'Amount', 3);
+		('MURASAKI_SHION_ATTACK_RANGE', 'Amount', 6);
 
 --	ユニット能力：射程増加補正
 INSERT OR REPLACE INTO Types

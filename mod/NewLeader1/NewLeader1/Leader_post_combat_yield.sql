@@ -17,7 +17,7 @@ INSERT OR REPLACE INTO ModifierArguments
         ('TOMATO_POST_COMBAT_YIELD_CULTURE', 'YieldType', 'YIELD_CULTURE'),
         ('TOMATO_POST_COMBAT_YIELD_CULTURE', 'PercentDefeatedStrength', 300),
         ('TOMATO_POST_COMBAT_YIELD_FAITH', 'YieldType', 'YIELD_FAITH'),
-        ('TOMATO_POST_COMBAT_YIELD_FAITH', 'PercentDefeatedStrength', 500);
+        ('TOMATO_POST_COMBAT_YIELD_FAITH', 'PercentDefeatedStrength', 700);
 
 INSERT OR REPLACE INTO TraitModifiers
         (TraitType, ModifierId)

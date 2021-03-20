@@ -25,7 +25,7 @@
 		<Row>
 			<ModifierId>TRAIT_BOOST_HOLY_SITE_PRODUCTION_KIRITAN</ModifierId>
 			<Name>Amount</Name>
-			<Value>200</Value>
+			<Value>300</Value>
 		</Row>
 	</ModifierArguments>
 

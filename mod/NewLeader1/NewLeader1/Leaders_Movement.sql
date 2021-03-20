@@ -3,7 +3,7 @@
 -- ('MOVEMENT_MOVES_ATTACH'),
 -- ('MOVEMENT_SIGHT_ATTACH');
 
--- 全てのユニットの視界と移動を +1
+-- 全てのユニットの視界と移動を +2
 INSERT INTO TraitModifiers(TraitType, ModifierId) VALUES
 ('TRAIT_LEADER_SISTER_KOTONOHA', 'MOVEMENT_MOVES_ATTACH'),
 ('TRAIT_LEADER_SISTER_KOTONOHA', 'MOVEMENT_SIGHT_ATTACH');
@@ -16,6 +16,6 @@ INSERT INTO Modifiers(ModifierId, ModifierType) VALUES
 
 INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES
 ('MOVEMENT_MOVES_ATTACH', 'ModifierId', 'MOVEMENT_MOVES'),
-('MOVEMENT_MOVES', 'Amount', '1'),
+('MOVEMENT_MOVES', 'Amount', 2),
 ('MOVEMENT_SIGHT_ATTACH', 'ModifierId', 'MOVEMENT_SIGHT'),
-('MOVEMENT_SIGHT', 'Amount', '1');
+('MOVEMENT_SIGHT', 'Amount', 2);

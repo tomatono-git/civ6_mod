@@ -29,7 +29,7 @@ INSERT OR REPLACE INTO ModifierArguments
 		('SHIROGANE_NOEL_CITY_YIELD_PRODUCTION', 'Amount', 100),
         -- 信仰
 		('SHIROGANE_NOEL_CITY_YIELD_FAITH', 'YieldType', 'YIELD_FAITH'),
-		('SHIROGANE_NOEL_CITY_YIELD_FAITH', 'Amount', 100);
+		('SHIROGANE_NOEL_CITY_YIELD_FAITH', 'Amount', 200);
 
 INSERT OR REPLACE INTO TraitModifiers
 		(TraitType, ModifierId)

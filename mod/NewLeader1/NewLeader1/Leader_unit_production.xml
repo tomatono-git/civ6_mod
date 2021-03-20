@@ -18,7 +18,7 @@
 	<ModifierArguments>
 		<!-- 開拓者の生産コスト軽減 -->
 		<Row ModifierId="SISTER_SETTLER_BONUS" Name="UnitType" Value="UNIT_SETTLER"/>
-		<Row ModifierId="SISTER_SETTLER_BONUS" Name="Amount" Value="200"/>
+		<Row ModifierId="SISTER_SETTLER_BONUS" Name="Amount" Value="300"/>
 		<!-- 労働者の生産コスト軽減 -->
 		<Row ModifierId="SISTER_BUILDER_BONUS" Name="UnitType" Value="UNIT_BUILDER"/>
 		<Row ModifierId="SISTER_BUILDER_BONUS" Name="Amount" Value="200"/>
