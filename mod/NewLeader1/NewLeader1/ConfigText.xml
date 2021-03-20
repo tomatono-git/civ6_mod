@@ -52,6 +52,56 @@
 			<Text>Tomato UU: Slinger 2</Text>
 		</Row>
 
+		<Row Tag="LOC_UNIT_ARCHER_2_NAME" Language="en_US">
+			<Text>ARCHER 2</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ARCHER_2_DESCRIPTION" Language="en_US">
+			<Text>Fast-moving Ancient era ranged unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_ARCHER_2_NAME" Language="en_US">
+			<Text>Tomato UU: ARCHER 2</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_CROSSBOWMAN_2_NAME" Language="en_US">
+			<Text>CROSSBOWMAN 2</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CROSSBOWMAN_2_DESCRIPTION" Language="en_US">
+			<Text>Fast-moving Ancient era ranged unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CROSSBOWMAN_2_NAME" Language="en_US">
+			<Text>Tomato UU: CROSSBOWMAN 2</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_FIELD_CANNON_2_NAME" Language="en_US">
+			<Text>FIELD_CANNON 2</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FIELD_CANNON_2_DESCRIPTION" Language="en_US">
+			<Text>Fast-moving Ancient era ranged unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_FIELD_CANNON_2_NAME" Language="en_US">
+			<Text>Tomato UU: FIELD_CANNON 2</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_MACHINE_GUN_2_NAME" Language="en_US">
+			<Text>MACHINE_GUN 2</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MACHINE_GUN_2_DESCRIPTION" Language="en_US">
+			<Text>Fast-moving Ancient era ranged unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MACHINE_GUN_2_NAME" Language="en_US">
+			<Text>Tomato UU: MACHINE_GUN 2</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_HORSEMAN_2_NAME" Language="en_US">
+			<Text>HORSEMAN 2</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HORSEMAN_2_DESCRIPTION" Language="en_US">
+			<Text>Fast-moving Ancient era ranged unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_HORSEMAN_2_NAME" Language="en_US">
+			<Text>Tomato UU: HORSEMAN 2</Text>
+		</Row>
+
 		<!-- ユニーク建造物の名称 -->
 		<Replace Tag="LOC_BUILDING_GOKOKU_SHRINE_NAME" Language="en_US">
 			<Text>Gokoku shrine</Text>

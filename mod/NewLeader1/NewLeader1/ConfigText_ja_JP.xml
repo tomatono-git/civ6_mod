@@ -52,6 +52,56 @@
 			<Text>とまと王国固有ユニット: 石投げさん。</Text>
 		</Row>
 
+		<Row Tag="LOC_UNIT_ARCHER_2_NAME" Language="ja_JP">
+			<Text>弓兵さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ARCHER_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごい弓兵さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_ARCHER_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 弓兵さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_CROSSBOWMAN_2_NAME" Language="ja_JP">
+			<Text>弩兵さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CROSSBOWMAN_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごい弩兵さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CROSSBOWMAN_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 弩兵さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_FIELD_CANNON_2_NAME" Language="ja_JP">
+			<Text>野戦砲さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FIELD_CANNON_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごい野戦砲さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_FIELD_CANNON_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 野戦砲さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_MACHINE_GUN_2_NAME" Language="ja_JP">
+			<Text>機関銃さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MACHINE_GUN_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごい機関銃さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MACHINE_GUN_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 機関銃さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_HORSEMAN_2_NAME" Language="ja_JP">
+			<Text>騎馬兵さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HORSEMAN_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごい騎馬兵さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_HORSEMAN_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 騎馬兵さん。</Text>
+		</Row>
+
 		<!-- ユニーク建造物の名称 -->
 		<Replace Tag="LOC_BUILDING_GOKOKU_SHRINE_NAME" Language="ja_JP">
 			<Text>護国神社</Text>

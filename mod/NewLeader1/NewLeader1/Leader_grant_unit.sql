@@ -115,7 +115,7 @@ INSERT OR REPLACE INTO Modifiers
 INSERT OR REPLACE INTO ModifierArguments
         (ModifierId, Name, Value)
     VALUES
-        ('TRAIT_PLAYER_GRANT_UNIT_HORSEMAN', 'UnitType', 'UNIT_HORSEMAN'),
+        ('TRAIT_PLAYER_GRANT_UNIT_HORSEMAN', 'UnitType', 'UNIT_HORSEMAN_2'),
         ('TRAIT_PLAYER_GRANT_UNIT_HORSEMAN', 'Amount', 3),
         ('TRAIT_PLAYER_GRANT_UNIT_HORSEMAN', 'AllowUniqueOverride', 1);
 INSERT OR REPLACE INTO TraitModifiers

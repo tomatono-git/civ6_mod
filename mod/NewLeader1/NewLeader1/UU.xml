@@ -2,8 +2,22 @@
 <GameInfo>
 	<!-- 親定義 -->
 	<Types>
+		<!-- 斥候 -->
 		<Row Type="UNIT_SCOUT_2" Kind="KIND_UNIT"/>
+
+		<!-- 投石兵 -->
 		<Row Type="UNIT_SLINGER_2" Kind="KIND_UNIT"/>
+		<!-- 弓兵 -->
+		<Row Type="UNIT_ARCHER_2" Kind="KIND_UNIT"/>
+		<!-- 弩兵 -->
+		<Row Type="UNIT_CROSSBOWMAN_2" Kind="KIND_UNIT"/>
+		<!-- 野戦砲 -->
+		<Row Type="UNIT_FIELD_CANNON_2" Kind="KIND_UNIT"/>
+		<!-- 機関銃 -->
+		<Row Type="UNIT_MACHINE_GUN_2" Kind="KIND_UNIT"/>
+
+		<!-- 騎馬兵 -->
+		<Row Type="UNIT_HORSEMAN_2" Kind="KIND_UNIT"/>
 	</Types>
 	<!-- ユニットのAI・タイプ設定 -->
 	<UnitAiInfos>
@@ -12,22 +26,52 @@
 		<Row UnitType="UNIT_SCOUT_2" AiType="UNITAI_EXPLORE"/>		  <!-- 探索する -->
 		<Row UnitType="UNIT_SCOUT_2" AiType="UNITTYPE_MELEE"/>       <!-- 近接ユニット -->
 		<Row UnitType="UNIT_SCOUT_2" AiType="UNITTYPE_LAND_COMBAT"/> <!-- 陸上タイプ -->
-		<!-- 投石 -->
-		<Row UnitType="UNIT_SLINGER_2" AiType="UNITAI_COMBAT"/>		  <!-- 戦闘ユニット -->
-		<Row UnitType="UNIT_SLINGER_2" AiType="UNITAI_EXPLORE"/>		  <!-- 探索する -->
-		<Row UnitType="UNIT_SLINGER_2" AiType="UNITTYPE_MELEE"/>       <!-- 近接ユニット -->
-		<Row UnitType="UNIT_SLINGER_2" AiType="UNITTYPE_LAND_COMBAT"/> <!-- 陸上タイプ -->
+		<!-- 投石兵 -->
+		<Row UnitType="UNIT_SLINGER_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SLINGER_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_SLINGER_2" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_ARCHER_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_ARCHER_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_ARCHER_2" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_CROSSBOWMAN_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CROSSBOWMAN_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_CROSSBOWMAN_2" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_FIELD_CANNON_2" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_FIELD_CANNON_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_FIELD_CANNON_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MACHINE_GUN_2" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_MACHINE_GUN_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_MACHINE_GUN_2" AiType="UNITAI_COMBAT"/>
+		<!-- 軽騎兵 -->
+		<Row UnitType="UNIT_HORSEMAN_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_HORSEMAN_2" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_HORSEMAN_2" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_HORSEMAN_2" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HORSEMAN_2" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	<!-- 置き換え対象のユニット。定義しない場合はアップグレードで作れないユニットになる。 -->
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_SCOUT_2" ReplacesUnitType="UNIT_SCOUT"/>
 		<Row CivUniqueUnitType="UNIT_SLINGER_2" ReplacesUnitType="UNIT_SLINGER"/>
+		<Row CivUniqueUnitType="UNIT_ARCHER_2" ReplacesUnitType="UNIT_ARCHER"/>
+		<Row CivUniqueUnitType="UNIT_CROSSBOWMAN_2" ReplacesUnitType="UNIT_CROSSBOWMAN"/>
+		<Row CivUniqueUnitType="UNIT_FIELD_CANNON_2" ReplacesUnitType="UNIT_FIELD_CANNON"/>
+		<Row CivUniqueUnitType="UNIT_MACHINE_GUN_2" ReplacesUnitType="UNIT_MACHINE_GUN"/>
+		<!-- 軽騎兵 -->
+		<Row CivUniqueUnitType="UNIT_HORSEMAN_2" ReplacesUnitType="UNIT_HORSEMAN"/>
 		<!-- <Row CivUniqueUnitType="UNIT_GREAT_ELECTRIC_FIRE" ReplacesUnitType="UNIT_HORSEMAN"/> -->
 	</UnitReplaces>
 	<!-- クラスとユニットの紐付け -->
 	<TypeTags>
 		<Row Type="UNIT_SCOUT_2" Tag="CLASS_RECON"/>
+
 		<Row Type="UNIT_SLINGER_2" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_ARCHER_2" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_CROSSBOWMAN_2" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_FIELD_CANNON_2" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_MACHINE_GUN_2" Tag="CLASS_RANGED"/>
+
+		<Row Type="UNIT_HORSEMAN_2" Tag="CLASS_RANGED"/>
 	</TypeTags>
 	<!-- ユニットの性能設定 -->
 	<Units>
@@ -62,13 +106,60 @@
 			Name="LOC_UNIT_SCOUT_2_NAME" Description="LOC_UNIT_SCOUT_2_DESCRIPTION"
 			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"/>
 
-		<!-- 投石 -->
+		<!-- 投石兵 -->
 		<Row UnitType="UNIT_SLINGER_2"
-			Cost="1" BaseMoves="60" BaseSightRange="6" Combat="10" RangedCombat="40" Range="6"
+			Cost="1" Maintenance="0" BaseMoves="60" BaseSightRange="6" Combat="10" RangedCombat="35" Range="6"
 			ZoneOfControl="true" Domain="DOMAIN_LAND"
 			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_GENERIC"
 			Name="LOC_UNIT_SLINGER_2_NAME" Description="LOC_UNIT_SLINGER_2_DESCRIPTION"
 			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"/>
+		<!-- <Row UnitType="UNIT_SLINGER" Cost="35" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="5" RangedCombat="15" Range="1" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_SLINGER_NAME" Description="LOC_UNIT_SLINGER_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_MACHINERY"/> -->
+
+		<!-- 弓兵 -->
+		<Row UnitType="UNIT_ARCHER_2"
+			Cost="1" Maintenance="0"  BaseMoves="60" BaseSightRange="6" Combat="15" RangedCombat="40" Range="6"
+			ZoneOfControl="false" Domain="DOMAIN_LAND"
+			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_ARCHER_2_NAME" Description="LOC_UNIT_ARCHER_2_DESCRIPTION"
+			PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_BALLISTICS" PrereqTech="TECH_ARCHERY"/>
+		<!-- <Row UnitType="UNIT_ARCHER" Cost="60" Maintenance="1" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="15" RangedCombat="25" Range="2" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_ARCHER_NAME" Description="LOC_UNIT_ARCHER_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_BALLISTICS" PrereqTech="TECH_ARCHERY"/> -->
+
+		<!-- 弩兵 -->
+		<Row UnitType="UNIT_CROSSBOWMAN_2"
+			Cost="1" Maintenance="0"  BaseMoves="60" BaseSightRange="6" Combat="30" RangedCombat="50" Range="6"
+			ZoneOfControl="false" Domain="DOMAIN_LAND"
+			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_CROSSBOWMAN_2_NAME" Description="LOC_UNIT_CROSSBOWMAN_2_DESCRIPTION"
+			PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_MACHINERY"/>
+		<!-- <Row UnitType="UNIT_CROSSBOWMAN" Cost="180" Maintenance="3" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="30" RangedCombat="40" Range="2" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_CROSSBOWMAN_NAME" Description="LOC_UNIT_CROSSBOWMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_ADVANCED_BALLISTICS" PrereqTech="TECH_MACHINERY"/> -->
+
+		<!-- 野戦砲 -->
+		<Row UnitType="UNIT_FIELD_CANNON_2"
+			Cost="1" Maintenance="0"  BaseMoves="60" BaseSightRange="6" Combat="50" RangedCombat="70" Range="6"
+			ZoneOfControl="false" Domain="DOMAIN_LAND"
+			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_FIELD_CANNON_2_NAME" Description="LOC_UNIT_FIELD_CANNON_2_DESCRIPTION"
+			PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_TELECOMMUNICATIONS" PrereqTech="TECH_BALLISTICS"/>
+		<!-- <Row UnitType="UNIT_FIELD_CANNON" Cost="330" Maintenance="5" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="50" RangedCombat="60" Range="2" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_FIELD_CANNON_NAME" Description="LOC_UNIT_FIELD_CANNON_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_TELECOMMUNICATIONS" PrereqTech="TECH_BALLISTICS"/> -->
+
+		<!-- 機関銃 -->
+		<Row UnitType="UNIT_MACHINE_GUN_2"
+			Cost="1" Maintenance="0"  BaseMoves="60" BaseSightRange="6" Combat="65" RangedCombat="85" Range="6"
+			ZoneOfControl="false" Domain="DOMAIN_LAND"
+			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_MACHINE_GUN_2_NAME" Description="LOC_UNIT_MACHINE_GUN_2_DESCRIPTION"
+			PurchaseYield="YIELD_GOLD" PrereqTech="TECH_ADVANCED_BALLISTICS"/>
+		<!-- <Row UnitType="UNIT_MACHINE_GUN" Cost="540" Maintenance="6" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="65" RangedCombat="75" Range="2" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_MACHINE_GUN_NAME" Description="LOC_UNIT_MACHINE_GUN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_ADVANCED_BALLISTICS"/> -->
+
+		<!-- 騎馬兵 -->
+		<Row UnitType="UNIT_HORSEMAN_2"
+			Cost="1" Maintenance="0" BaseMoves="60" BaseSightRange="6" Combat="40"
+			ZoneOfControl="true" Domain="DOMAIN_LAND"
+			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_HORSEMAN_2_NAME" Description="LOC_UNIT_HORSEMAN_2_DESCRIPTION"
+			PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_HORSEBACK_RIDING"/>
+		<!-- <Row UnitType="UNIT_HORSEMAN" Cost="80" Maintenance="2" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="36" StrategicResource="RESOURCE_HORSES" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HORSEMAN_NAME" Description="LOC_UNIT_HORSEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_HORSEBACK_RIDING"/> -->
+
 	</Units>
 
 	<Units_XP2>
@@ -77,9 +168,20 @@
 
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
-		<!-- 散兵 -->
+		<!-- 偵察 -->
 		<Row Unit="UNIT_SCOUT_2" UpgradeUnit="UNIT_SKIRMISHER"/>
-		<!-- 弓兵 -->
-		<Row Unit="UNIT_SLINGER_2" UpgradeUnit="UNIT_ARCHER"/>
+		<!-- <Row Unit="UNIT_SKIRMISHER" UpgradeUnit="UNIT_RANGER"/> -->
+
+		<!-- 遠隔 -->
+		<Row Unit="UNIT_SLINGER_2" UpgradeUnit="UNIT_ARCHER_2"/>
+		<Row Unit="UNIT_ARCHER_2" UpgradeUnit="UNIT_CROSSBOWMAN_2"/>
+		<Row Unit="UNIT_CROSSBOWMAN_2" UpgradeUnit="UNIT_FIELD_CANNON_2"/>
+		<Row Unit="UNIT_FIELD_CANNON_2" UpgradeUnit="UNIT_MACHINE_GUN_2"/>
+
+		<!-- 軽騎兵 -->
+		<Row Unit="UNIT_HORSEMAN_2" UpgradeUnit="UNIT_COURSER"/>
+		<!-- <Row Unit="UNIT_COURSER" UpgradeUnit="UNIT_CAVALRY"/> -->
+
+		<!-- <Row Unit="UNIT_CAVALRY" UpgradeUnit="UNIT_HELICOPTER"/> -->
 	</UnitUpgrades>
 </GameInfo>
