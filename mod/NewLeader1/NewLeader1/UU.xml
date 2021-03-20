@@ -66,7 +66,7 @@
 		<Row UnitType="UNIT_SLINGER_2"
 			Cost="1" BaseMoves="60" BaseSightRange="6" Combat="10" RangedCombat="40" Range="6"
 			ZoneOfControl="true" Domain="DOMAIN_LAND"
-			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_GENERIC"
+			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_GENERIC"
 			Name="LOC_UNIT_SLINGER_2_NAME" Description="LOC_UNIT_SLINGER_2_DESCRIPTION"
 			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"/>
 	</Units>
