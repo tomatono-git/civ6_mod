@@ -27,3 +27,7 @@
 ### 本体
 - データ
     C:\Program Files (x86)\Steam\steamapps\common\Sid Meier's Civilization VI\Base\Assets\Gameplay\Data
+
+### サブスクライブしたModのインストール先
+
+C:\Program Files (x86)\Steam\steamapps\workshop\content\289070
