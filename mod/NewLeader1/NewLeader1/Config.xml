@@ -136,6 +136,56 @@
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
 			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_CATAPULT_2</Type>
+			<Name>LOC_UNIT_CATAPULT_2_NAME</Name>
+			<Description>LOC_UNIT_CATAPULT_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_CATAPULT_2</Icon>
+			<SortIndex>26</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_TREBUCHET_2</Type>
+			<Name>LOC_UNIT_TREBUCHET_2_NAME</Name>
+			<Description>LOC_UNIT_TREBUCHET_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_TREBUCHET_2</Icon>
+			<SortIndex>26</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_BOMBARD_2</Type>
+			<Name>LOC_UNIT_BOMBARD_2_NAME</Name>
+			<Description>LOC_UNIT_BOMBARD_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_BOMBARD_2</Icon>
+			<SortIndex>26</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_ARTILLERY_2</Type>
+			<Name>LOC_UNIT_ARTILLERY_2_NAME</Name>
+			<Description>LOC_UNIT_ARTILLERY_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_ARTILLERY_2</Icon>
+			<SortIndex>26</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_ROCKET_ARTILLERY_2</Type>
+			<Name>LOC_UNIT_ROCKET_ARTILLERY_2_NAME</Name>
+			<Description>LOC_UNIT_ROCKET_ARTILLERY_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_ROCKET_ARTILLERY_2</Icon>
+			<SortIndex>26</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
 			<Type>BUILDING_GOKOKU_SHRINE</Type>
 			<Name>LOC_BUILDING_GOKOKU_SHRINE_NAME</Name>
 			<Description>LOC_BUILDING_GOKOKU_SHRINE_DESCRIPTION</Description>
@@ -228,6 +278,56 @@
 			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
 			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_CATAPULT_2</Type>
+			<Name>LOC_UNIT_CATAPULT_2_NAME</Name>
+			<Description>LOC_UNIT_CATAPULT_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_CATAPULT_2</Icon>
+			<SortIndex>26</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_TREBUCHET_2</Type>
+			<Name>LOC_UNIT_TREBUCHET_2_NAME</Name>
+			<Description>LOC_UNIT_TREBUCHET_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_TREBUCHET_2</Icon>
+			<SortIndex>26</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_BOMBARD_2</Type>
+			<Name>LOC_UNIT_BOMBARD_2_NAME</Name>
+			<Description>LOC_UNIT_BOMBARD_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_BOMBARD_2</Icon>
+			<SortIndex>26</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_ARTILLERY_2</Type>
+			<Name>LOC_UNIT_ARTILLERY_2_NAME</Name>
+			<Description>LOC_UNIT_ARTILLERY_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_ARTILLERY_2</Icon>
+			<SortIndex>26</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_ROCKET_ARTILLERY_2</Type>
+			<Name>LOC_UNIT_ROCKET_ARTILLERY_2_NAME</Name>
+			<Description>LOC_UNIT_ROCKET_ARTILLERY_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_ROCKET_ARTILLERY_2</Icon>
+			<SortIndex>26</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
 			<Type>BUILDING_GOKOKU_SHRINE</Type>
 			<Name>LOC_BUILDING_GOKOKU_SHRINE_NAME</Name>
 			<Description>LOC_BUILDING_GOKOKU_SHRINE_DESCRIPTION</Description>
@@ -314,6 +414,56 @@
 			<Name>LOC_UNIT_HORSEMAN_2_NAME</Name>
 			<Description>LOC_UNIT_HORSEMAN_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_HORSEMAN_2</Icon>
+			<SortIndex>26</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_CATAPULT_2</Type>
+			<Name>LOC_UNIT_CATAPULT_2_NAME</Name>
+			<Description>LOC_UNIT_CATAPULT_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_CATAPULT_2</Icon>
+			<SortIndex>26</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_TREBUCHET_2</Type>
+			<Name>LOC_UNIT_TREBUCHET_2_NAME</Name>
+			<Description>LOC_UNIT_TREBUCHET_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_TREBUCHET_2</Icon>
+			<SortIndex>26</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_BOMBARD_2</Type>
+			<Name>LOC_UNIT_BOMBARD_2_NAME</Name>
+			<Description>LOC_UNIT_BOMBARD_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_BOMBARD_2</Icon>
+			<SortIndex>26</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_ARTILLERY_2</Type>
+			<Name>LOC_UNIT_ARTILLERY_2_NAME</Name>
+			<Description>LOC_UNIT_ARTILLERY_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_ARTILLERY_2</Icon>
+			<SortIndex>26</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_ROCKET_ARTILLERY_2</Type>
+			<Name>LOC_UNIT_ROCKET_ARTILLERY_2_NAME</Name>
+			<Description>LOC_UNIT_ROCKET_ARTILLERY_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_ROCKET_ARTILLERY_2</Icon>
 			<SortIndex>26</SortIndex>
 		</Row>
 		<Row>

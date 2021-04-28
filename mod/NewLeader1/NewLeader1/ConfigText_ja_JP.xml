@@ -102,6 +102,56 @@
 			<Text>とまと王国固有ユニット: 騎馬兵さん。</Text>
 		</Row>
 
+		<Row Tag="LOC_UNIT_CATAPULT_2_NAME" Language="ja_JP">
+			<Text>カタパルトさん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CATAPULT_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごいカタパルトさん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CATAPULT_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: カタパルトさん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_TREBUCHET_2_NAME" Language="ja_JP">
+			<Text>トレビュシェットさん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TREBUCHET_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごいトレビュシェットさん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_TREBUCHET_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: トレビュシェットさん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_BOMBARD_2_NAME" Language="ja_JP">
+			<Text>射石砲さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BOMBARD_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごい射石砲さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_BOMBARD_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 射石砲さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_ARTILLERY_2_NAME" Language="ja_JP">
+			<Text>大砲さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ARTILLERY_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごい大砲さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_ARTILLERY_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 大砲さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_ROCKET_ARTILLERY_2_NAME" Language="ja_JP">
+			<Text>ロケット砲さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ROCKET_ARTILLERY_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごいロケット砲さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_ROCKET_ARTILLERY_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: ロケット砲さん。</Text>
+		</Row>
+
 		<!-- ユニーク建造物の名称 -->
 		<Replace Tag="LOC_BUILDING_GOKOKU_SHRINE_NAME" Language="ja_JP">
 			<Text>護国神社</Text>
