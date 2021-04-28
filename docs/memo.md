@@ -31,3 +31,13 @@
 ### サブスクライブしたModのインストール先
 
 C:\Program Files (x86)\Steam\steamapps\workshop\content\289070
+
+### インストール先の移動
+
+C:\Program Files (x86)\Steam ->　G:\game\Steam
+
+### Modプロジェクトの場所
+
+G:\pg\Civilization_6\mod\NewLeader1
+
+
