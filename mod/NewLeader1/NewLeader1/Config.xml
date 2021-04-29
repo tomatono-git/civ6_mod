@@ -136,11 +136,41 @@
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
 			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_COURSER_2</Type>
+			<Name>LOC_UNIT_COURSER_2_NAME</Name>
+			<Description>LOC_UNIT_COURSER_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_COURSER_2</Icon>
+			<SortIndex>27</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_CAVALRY_2</Type>
+			<Name>LOC_UNIT_CAVALRY_2_NAME</Name>
+			<Description>LOC_UNIT_CAVALRY_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_CAVALRY_2</Icon>
+			<SortIndex>28</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_HELICOPTER_2</Type>
+			<Name>LOC_UNIT_HELICOPTER_2_NAME</Name>
+			<Description>LOC_UNIT_HELICOPTER_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_HELICOPTER_2</Icon>
+			<SortIndex>29</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
 			<Type>UNIT_CATAPULT_2</Type>
 			<Name>LOC_UNIT_CATAPULT_2_NAME</Name>
 			<Description>LOC_UNIT_CATAPULT_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_CATAPULT_2</Icon>
-			<SortIndex>26</SortIndex>
+			<SortIndex>30</SortIndex>
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>
@@ -150,7 +180,7 @@
 			<Name>LOC_UNIT_TREBUCHET_2_NAME</Name>
 			<Description>LOC_UNIT_TREBUCHET_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_TREBUCHET_2</Icon>
-			<SortIndex>26</SortIndex>
+			<SortIndex>31</SortIndex>
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>
@@ -160,7 +190,7 @@
 			<Name>LOC_UNIT_BOMBARD_2_NAME</Name>
 			<Description>LOC_UNIT_BOMBARD_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_BOMBARD_2</Icon>
-			<SortIndex>26</SortIndex>
+			<SortIndex>32</SortIndex>
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>
@@ -170,7 +200,7 @@
 			<Name>LOC_UNIT_ARTILLERY_2_NAME</Name>
 			<Description>LOC_UNIT_ARTILLERY_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_ARTILLERY_2</Icon>
-			<SortIndex>26</SortIndex>
+			<SortIndex>33</SortIndex>
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>
@@ -180,7 +210,7 @@
 			<Name>LOC_UNIT_ROCKET_ARTILLERY_2_NAME</Name>
 			<Description>LOC_UNIT_ROCKET_ARTILLERY_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_ROCKET_ARTILLERY_2</Icon>
-			<SortIndex>26</SortIndex>
+			<SortIndex>34</SortIndex>
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>
@@ -190,7 +220,7 @@
 			<Name>LOC_BUILDING_GOKOKU_SHRINE_NAME</Name>
 			<Description>LOC_BUILDING_GOKOKU_SHRINE_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_GOKOKU_SHRINE</Icon>
-			<SortIndex>19</SortIndex>
+			<SortIndex>36</SortIndex>
 		</Row>
 
 		<!-- Expansion1 Support -->
@@ -278,11 +308,41 @@
 			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
 			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_COURSER_2</Type>
+			<Name>LOC_UNIT_COURSER_2_NAME</Name>
+			<Description>LOC_UNIT_COURSER_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_COURSER_2</Icon>
+			<SortIndex>27</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_CAVALRY_2</Type>
+			<Name>LOC_UNIT_CAVALRY_2_NAME</Name>
+			<Description>LOC_UNIT_CAVALRY_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_CAVALRY_2</Icon>
+			<SortIndex>28</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_HELICOPTER_2</Type>
+			<Name>LOC_UNIT_HELICOPTER_2_NAME</Name>
+			<Description>LOC_UNIT_HELICOPTER_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_HELICOPTER_2</Icon>
+			<SortIndex>29</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
 			<Type>UNIT_CATAPULT_2</Type>
 			<Name>LOC_UNIT_CATAPULT_2_NAME</Name>
 			<Description>LOC_UNIT_CATAPULT_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_CATAPULT_2</Icon>
-			<SortIndex>26</SortIndex>
+			<SortIndex>30</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -292,7 +352,7 @@
 			<Name>LOC_UNIT_TREBUCHET_2_NAME</Name>
 			<Description>LOC_UNIT_TREBUCHET_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_TREBUCHET_2</Icon>
-			<SortIndex>26</SortIndex>
+			<SortIndex>31</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -302,7 +362,7 @@
 			<Name>LOC_UNIT_BOMBARD_2_NAME</Name>
 			<Description>LOC_UNIT_BOMBARD_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_BOMBARD_2</Icon>
-			<SortIndex>26</SortIndex>
+			<SortIndex>32</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -312,7 +372,7 @@
 			<Name>LOC_UNIT_ARTILLERY_2_NAME</Name>
 			<Description>LOC_UNIT_ARTILLERY_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_ARTILLERY_2</Icon>
-			<SortIndex>26</SortIndex>
+			<SortIndex>33</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -322,7 +382,7 @@
 			<Name>LOC_UNIT_ROCKET_ARTILLERY_2_NAME</Name>
 			<Description>LOC_UNIT_ROCKET_ARTILLERY_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_ROCKET_ARTILLERY_2</Icon>
-			<SortIndex>26</SortIndex>
+			<SortIndex>34</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -332,7 +392,7 @@
 			<Name>LOC_BUILDING_GOKOKU_SHRINE_NAME</Name>
 			<Description>LOC_BUILDING_GOKOKU_SHRINE_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_GOKOKU_SHRINE</Icon>
-			<SortIndex>19</SortIndex>
+			<SortIndex>35</SortIndex>
 		</Row>
 
 		<!-- Expansion2 Support -->
@@ -420,11 +480,41 @@
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
 			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_COURSER_2</Type>
+			<Name>LOC_UNIT_COURSER_2_NAME</Name>
+			<Description>LOC_UNIT_COURSER_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_COURSER_2</Icon>
+			<SortIndex>27</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_CAVALRY_2</Type>
+			<Name>LOC_UNIT_CAVALRY_2_NAME</Name>
+			<Description>LOC_UNIT_CAVALRY_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_CAVALRY_2</Icon>
+			<SortIndex>28</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_HELICOPTER_2</Type>
+			<Name>LOC_UNIT_HELICOPTER_2_NAME</Name>
+			<Description>LOC_UNIT_HELICOPTER_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_HELICOPTER_2</Icon>
+			<SortIndex>29</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
 			<Type>UNIT_CATAPULT_2</Type>
 			<Name>LOC_UNIT_CATAPULT_2_NAME</Name>
 			<Description>LOC_UNIT_CATAPULT_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_CATAPULT_2</Icon>
-			<SortIndex>26</SortIndex>
+			<SortIndex>30</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
@@ -434,7 +524,7 @@
 			<Name>LOC_UNIT_TREBUCHET_2_NAME</Name>
 			<Description>LOC_UNIT_TREBUCHET_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_TREBUCHET_2</Icon>
-			<SortIndex>26</SortIndex>
+			<SortIndex>31</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
@@ -444,7 +534,7 @@
 			<Name>LOC_UNIT_BOMBARD_2_NAME</Name>
 			<Description>LOC_UNIT_BOMBARD_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_BOMBARD_2</Icon>
-			<SortIndex>26</SortIndex>
+			<SortIndex>32</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
@@ -454,7 +544,7 @@
 			<Name>LOC_UNIT_ARTILLERY_2_NAME</Name>
 			<Description>LOC_UNIT_ARTILLERY_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_ARTILLERY_2</Icon>
-			<SortIndex>26</SortIndex>
+			<SortIndex>33</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
@@ -464,7 +554,7 @@
 			<Name>LOC_UNIT_ROCKET_ARTILLERY_2_NAME</Name>
 			<Description>LOC_UNIT_ROCKET_ARTILLERY_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_ROCKET_ARTILLERY_2</Icon>
-			<SortIndex>26</SortIndex>
+			<SortIndex>34</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
@@ -474,7 +564,7 @@
 			<Name>LOC_BUILDING_GOKOKU_SHRINE_NAME</Name>
 			<Description>LOC_BUILDING_GOKOKU_SHRINE_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_GOKOKU_SHRINE</Icon>
-			<SortIndex>19</SortIndex>
+			<SortIndex>35</SortIndex>
 		</Row>
 
 

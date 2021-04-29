@@ -102,6 +102,36 @@
 			<Text>とまと王国固有ユニット: 騎馬兵さん。</Text>
 		</Row>
 
+		<Row Tag="LOC_UNIT_COURSER_2_NAME" Language="ja_JP">
+			<Text>コーサーさん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_COURSER_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごいコーサーさん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_COURSER_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: コーサーさん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_CAVALRY_2_NAME" Language="ja_JP">
+			<Text>騎兵さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CAVALRY_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごい騎兵さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CAVALRY_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 騎兵さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_HELICOPTER_2_NAME" Language="ja_JP">
+			<Text>ヘリコプターさん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HELICOPTER_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごいヘリコプターさん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_HELICOPTER_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: ヘリコプターさん。</Text>
+		</Row>
+
 		<Row Tag="LOC_UNIT_CATAPULT_2_NAME" Language="ja_JP">
 			<Text>カタパルトさん。</Text>
 		</Row>

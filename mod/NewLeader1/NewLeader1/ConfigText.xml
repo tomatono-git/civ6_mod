@@ -102,43 +102,73 @@
 			<Text>Tomato UU: HORSEMAN 2</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_CATAPULT_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_COURSER_2_NAME" Language="en_US">
+			<Text>コーサーさん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_COURSER_2_DESCRIPTION" Language="en_US">
+			<Text>すごいコーサーさん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_COURSER_2_NAME" Language="en_US">
+			<Text>とまと王国固有ユニット: コーサーさん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_CAVALRY_2_NAME" Language="en_US">
+			<Text>騎兵さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CAVALRY_2_DESCRIPTION" Language="en_US">
+			<Text>すごい騎兵さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CAVALRY_2_NAME" Language="en_US">
+			<Text>とまと王国固有ユニット: 騎兵さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_HELICOPTER_2_NAME" Language="en_US">
+			<Text>ヘリコプターさん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HELICOPTER_2_DESCRIPTION" Language="en_US">
+			<Text>すごいヘリコプターさん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_HELICOPTER_2_NAME" Language="en_US">
+			<Text>とまと王国固有ユニット: ヘリコプターさん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_CATAPULT_2_NAME" Language="en_US">
 			<Text>カタパルトさん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_CATAPULT_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_CATAPULT_2_DESCRIPTION" Language="en_US">
 			<Text>すごいカタパルトさん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CATAPULT_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CATAPULT_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: カタパルトさん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_TREBUCHET_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_TREBUCHET_2_NAME" Language="en_US">
 			<Text>トレビュシェットさん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_TREBUCHET_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_TREBUCHET_2_DESCRIPTION" Language="en_US">
 			<Text>すごいトレビュシェットさん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_TREBUCHET_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_TREBUCHET_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: トレビュシェットさん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_BOMBARD_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_BOMBARD_2_NAME" Language="en_US">
 			<Text>射石砲さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_BOMBARD_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_BOMBARD_2_DESCRIPTION" Language="en_US">
 			<Text>すごい射石砲さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_BOMBARD_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_BOMBARD_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 射石砲さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_ARTILLERY_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_ARTILLERY_2_NAME" Language="en_US">
 			<Text>大砲さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_ARTILLERY_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_ARTILLERY_2_DESCRIPTION" Language="en_US">
 			<Text>すごい大砲さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_ARTILLERY_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_ARTILLERY_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 大砲さん。</Text>
 		</Row>
 
