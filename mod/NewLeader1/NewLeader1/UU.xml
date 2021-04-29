@@ -440,7 +440,7 @@
 			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" Combat="80" Bombard="120" Range="6"
 			ZoneOfControl="false" Domain="DOMAIN_LAND"
 			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" AdvisorType="ADVISOR_CONQUEST"
-			Name="LOC_UNIT_ROCKET_2_ARTILLERY_NAME" Description="LOC_UNIT_ROCKET_2_ARTILLERY_DESCRIPTION"
+			Name="LOC_UNIT_ROCKET_ARTILLERY_2_NAME" Description="LOC_UNIT_ROCKET_ARTILLERY_2_DESCRIPTION"
 			PurchaseYield="YIELD_GOLD" PrereqTech="TECH_GUIDANCE_SYSTEMS"/>
 		<!-- <Row UnitType="UNIT_ROCKET_ARTILLERY" Cost="680" Maintenance="8" BaseMoves="3" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="70" Bombard="100" Range="3" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_ROCKET_ARTILLERY_NAME" Description="LOC_UNIT_ROCKET_ARTILLERY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_GUIDANCE_SYSTEMS"/> -->
 
