@@ -182,6 +182,116 @@
 			<Text>とまと王国固有ユニット: ロケット砲さん。</Text>
 		</Row>
 
+		<Row Tag="LOC_UNIT_GALLEY_2_NAME" Language="ja_JP">
+			<Text>ガレー船さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GALLEY_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごいガレー船さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_GALLEY_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: ガレー船さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_CARAVEL_2_NAME" Language="ja_JP">
+			<Text>キャラベル船さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CARAVEL_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごいキャラベル船さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CARAVEL_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: キャラベル船さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_IRONCLAD_2_NAME" Language="ja_JP">
+			<Text>装甲艦さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_IRONCLAD_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごい装甲艦さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_IRONCLAD_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 装甲艦さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_DESTROYER_2_NAME" Language="ja_JP">
+			<Text>駆逐艦さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DESTROYER_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごい駆逐艦さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_DESTROYER_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 駆逐艦さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_QUADRIREME_2_NAME" Language="ja_JP">
+			<Text>カドリレームさん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_QUADRIREME_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごいカドリレームさん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_QUADRIREME_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: カドリレームさん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_FRIGATE_2_NAME" Language="ja_JP">
+			<Text>フリゲート艦さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FRIGATE_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごいフリゲート艦さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_FRIGATE_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: フリゲート艦さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_BATTLESHIP_2_NAME" Language="ja_JP">
+			<Text>戦艦さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BATTLESHIP_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごい戦艦さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_BATTLESHIP_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 戦艦さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_MISSILE_CRUISER_2_NAME" Language="ja_JP">
+			<Text>ミサイル巡洋艦さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MISSILE_CRUISER_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごいミサイル巡洋艦さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MISSILE_CRUISER_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: ミサイル巡洋艦さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_PRIVATEER_2_NAME" Language="ja_JP">
+			<Text>私掠船さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PRIVATEER_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごい私掠船さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_PRIVATEER_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 私掠船さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_SUBMARINE_2_NAME" Language="ja_JP">
+			<Text>潜水艦さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SUBMARINE_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごい潜水艦さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SUBMARINE_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 潜水艦さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_NUCLEAR_SUBMARINE_2_NAME" Language="ja_JP">
+			<Text>原子力潜水艦さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_NUCLEAR_SUBMARINE_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごい原子力潜水艦さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_NUCLEAR_SUBMARINE_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 原子力潜水艦さん。</Text>
+		</Row>
+
 		<!-- ユニーク建造物の名称 -->
 		<Replace Tag="LOC_BUILDING_GOKOKU_SHRINE_NAME" Language="ja_JP">
 			<Text>護国神社</Text>
