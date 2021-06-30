@@ -212,7 +212,7 @@
 			<Icon>ICON_UNIT_ROCKET_ARTILLERY_2</Icon>
 			<SortIndex>34</SortIndex>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
 			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
@@ -321,7 +321,7 @@
 			<Description>LOC_UNIT_NUCLEAR_SUBMARINE_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_NUCLEAR_SUBMARINE_2</Icon>
 			<SortIndex>45</SortIndex>
-		</Row>
+		</Row> -->
 		<Row>
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
@@ -495,7 +495,7 @@
 			<SortIndex>34</SortIndex>
 		</Row>
 
-		<Row>
+		<!-- <Row>
 			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
 			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
@@ -604,7 +604,7 @@
 			<Description>LOC_UNIT_NUCLEAR_SUBMARINE_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_NUCLEAR_SUBMARINE_2</Icon>
 			<SortIndex>45</SortIndex>
-		</Row>
+		</Row> -->
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
@@ -777,7 +777,7 @@
 			<Icon>ICON_UNIT_ROCKET_ARTILLERY_2</Icon>
 			<SortIndex>34</SortIndex>
 		</Row>
-		<Row>
+		<!-- <Row>
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
 			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
@@ -886,7 +886,7 @@
 			<Description>LOC_UNIT_NUCLEAR_SUBMARINE_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_NUCLEAR_SUBMARINE_2</Icon>
 			<SortIndex>45</SortIndex>
-		</Row>
+		</Row> -->
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
