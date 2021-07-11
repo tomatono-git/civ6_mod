@@ -216,11 +216,121 @@
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
 			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_GALLEY_2</Type>
+			<Name>LOC_UNIT_GALLEY_2_NAME</Name>
+			<Description>LOC_UNIT_GALLEY_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_GALLEY_2</Icon>
+			<SortIndex>35</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_CARAVEL_2</Type>
+			<Name>LOC_UNIT_CARAVEL_2_NAME</Name>
+			<Description>LOC_UNIT_CARAVEL_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_CARAVEL_2</Icon>
+			<SortIndex>36</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_IRONCLAD_2</Type>
+			<Name>LOC_UNIT_IRONCLAD_2_NAME</Name>
+			<Description>LOC_UNIT_IRONCLAD_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_IRONCLAD_2</Icon>
+			<SortIndex>37</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_DESTROYER_2</Type>
+			<Name>LOC_UNIT_DESTROYER_2_NAME</Name>
+			<Description>LOC_UNIT_DESTROYER_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_DESTROYER_2</Icon>
+			<SortIndex>38</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_QUADRIREME_2</Type>
+			<Name>LOC_UNIT_QUADRIREME_2_NAME</Name>
+			<Description>LOC_UNIT_QUADRIREME_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_QUADRIREME_2</Icon>
+			<SortIndex>39</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_FRIGATE_2</Type>
+			<Name>LOC_UNIT_FRIGATE_2_NAME</Name>
+			<Description>LOC_UNIT_FRIGATE_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_FRIGATE_2</Icon>
+			<SortIndex>40</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_BATTLESHIP_2</Type>
+			<Name>LOC_UNIT_BATTLESHIP_2_NAME</Name>
+			<Description>LOC_UNIT_BATTLESHIP_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_BATTLESHIP_2</Icon>
+			<SortIndex>41</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_MISSILE_CRUISER_2</Type>
+			<Name>LOC_UNIT_MISSILE_CRUISER_2_NAME</Name>
+			<Description>LOC_UNIT_MISSILE_CRUISER_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_MISSILE_CRUISER_2</Icon>
+			<SortIndex>42</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_PRIVATEER_2</Type>
+			<Name>LOC_UNIT_PRIVATEER_2_NAME</Name>
+			<Description>LOC_UNIT_PRIVATEER_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_PRIVATEER_2</Icon>
+			<SortIndex>43</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_SUBMARINE_2</Type>
+			<Name>LOC_UNIT_SUBMARINE_2_NAME</Name>
+			<Description>LOC_UNIT_SUBMARINE_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_SUBMARINE_2</Icon>
+			<SortIndex>44</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_NUCLEAR_SUBMARINE_2</Type>
+			<Name>LOC_UNIT_NUCLEAR_SUBMARINE_2_NAME</Name>
+			<Description>LOC_UNIT_NUCLEAR_SUBMARINE_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_NUCLEAR_SUBMARINE_2</Icon>
+			<SortIndex>45</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
 			<Type>BUILDING_GOKOKU_SHRINE</Type>
 			<Name>LOC_BUILDING_GOKOKU_SHRINE_NAME</Name>
 			<Description>LOC_BUILDING_GOKOKU_SHRINE_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_GOKOKU_SHRINE</Icon>
-			<SortIndex>36</SortIndex>
+			<SortIndex>50</SortIndex>
 		</Row>
 
 		<!-- Expansion1 Support -->
@@ -384,6 +494,117 @@
 			<Icon>ICON_UNIT_ROCKET_ARTILLERY_2</Icon>
 			<SortIndex>34</SortIndex>
 		</Row>
+
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_GALLEY_2</Type>
+			<Name>LOC_UNIT_GALLEY_2_NAME</Name>
+			<Description>LOC_UNIT_GALLEY_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_GALLEY_2</Icon>
+			<SortIndex>35</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_CARAVEL_2</Type>
+			<Name>LOC_UNIT_CARAVEL_2_NAME</Name>
+			<Description>LOC_UNIT_CARAVEL_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_CARAVEL_2</Icon>
+			<SortIndex>36</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_IRONCLAD_2</Type>
+			<Name>LOC_UNIT_IRONCLAD_2_NAME</Name>
+			<Description>LOC_UNIT_IRONCLAD_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_IRONCLAD_2</Icon>
+			<SortIndex>37</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_DESTROYER_2</Type>
+			<Name>LOC_UNIT_DESTROYER_2_NAME</Name>
+			<Description>LOC_UNIT_DESTROYER_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_DESTROYER_2</Icon>
+			<SortIndex>38</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_QUADRIREME_2</Type>
+			<Name>LOC_UNIT_QUADRIREME_2_NAME</Name>
+			<Description>LOC_UNIT_QUADRIREME_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_QUADRIREME_2</Icon>
+			<SortIndex>39</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_FRIGATE_2</Type>
+			<Name>LOC_UNIT_FRIGATE_2_NAME</Name>
+			<Description>LOC_UNIT_FRIGATE_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_FRIGATE_2</Icon>
+			<SortIndex>40</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_BATTLESHIP_2</Type>
+			<Name>LOC_UNIT_BATTLESHIP_2_NAME</Name>
+			<Description>LOC_UNIT_BATTLESHIP_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_BATTLESHIP_2</Icon>
+			<SortIndex>41</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_MISSILE_CRUISER_2</Type>
+			<Name>LOC_UNIT_MISSILE_CRUISER_2_NAME</Name>
+			<Description>LOC_UNIT_MISSILE_CRUISER_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_MISSILE_CRUISER_2</Icon>
+			<SortIndex>42</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_PRIVATEER_2</Type>
+			<Name>LOC_UNIT_PRIVATEER_2_NAME</Name>
+			<Description>LOC_UNIT_PRIVATEER_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_PRIVATEER_2</Icon>
+			<SortIndex>43</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_SUBMARINE_2</Type>
+			<Name>LOC_UNIT_SUBMARINE_2_NAME</Name>
+			<Description>LOC_UNIT_SUBMARINE_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_SUBMARINE_2</Icon>
+			<SortIndex>44</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_NUCLEAR_SUBMARINE_2</Type>
+			<Name>LOC_UNIT_NUCLEAR_SUBMARINE_2_NAME</Name>
+			<Description>LOC_UNIT_NUCLEAR_SUBMARINE_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_NUCLEAR_SUBMARINE_2</Icon>
+			<SortIndex>45</SortIndex>
+		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
@@ -392,7 +613,7 @@
 			<Name>LOC_BUILDING_GOKOKU_SHRINE_NAME</Name>
 			<Description>LOC_BUILDING_GOKOKU_SHRINE_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_GOKOKU_SHRINE</Icon>
-			<SortIndex>35</SortIndex>
+			<SortIndex>50</SortIndex>
 		</Row>
 
 		<!-- Expansion2 Support -->
@@ -560,11 +781,121 @@
 			<Domain>Players:Expansion2_Players</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
 			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_GALLEY_2</Type>
+			<Name>LOC_UNIT_GALLEY_2_NAME</Name>
+			<Description>LOC_UNIT_GALLEY_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_GALLEY_2</Icon>
+			<SortIndex>35</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_CARAVEL_2</Type>
+			<Name>LOC_UNIT_CARAVEL_2_NAME</Name>
+			<Description>LOC_UNIT_CARAVEL_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_CARAVEL_2</Icon>
+			<SortIndex>36</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_IRONCLAD_2</Type>
+			<Name>LOC_UNIT_IRONCLAD_2_NAME</Name>
+			<Description>LOC_UNIT_IRONCLAD_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_IRONCLAD_2</Icon>
+			<SortIndex>37</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_DESTROYER_2</Type>
+			<Name>LOC_UNIT_DESTROYER_2_NAME</Name>
+			<Description>LOC_UNIT_DESTROYER_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_DESTROYER_2</Icon>
+			<SortIndex>38</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_QUADRIREME_2</Type>
+			<Name>LOC_UNIT_QUADRIREME_2_NAME</Name>
+			<Description>LOC_UNIT_QUADRIREME_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_QUADRIREME_2</Icon>
+			<SortIndex>39</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_FRIGATE_2</Type>
+			<Name>LOC_UNIT_FRIGATE_2_NAME</Name>
+			<Description>LOC_UNIT_FRIGATE_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_FRIGATE_2</Icon>
+			<SortIndex>40</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_BATTLESHIP_2</Type>
+			<Name>LOC_UNIT_BATTLESHIP_2_NAME</Name>
+			<Description>LOC_UNIT_BATTLESHIP_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_BATTLESHIP_2</Icon>
+			<SortIndex>41</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_MISSILE_CRUISER_2</Type>
+			<Name>LOC_UNIT_MISSILE_CRUISER_2_NAME</Name>
+			<Description>LOC_UNIT_MISSILE_CRUISER_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_MISSILE_CRUISER_2</Icon>
+			<SortIndex>42</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_PRIVATEER_2</Type>
+			<Name>LOC_UNIT_PRIVATEER_2_NAME</Name>
+			<Description>LOC_UNIT_PRIVATEER_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_PRIVATEER_2</Icon>
+			<SortIndex>43</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_SUBMARINE_2</Type>
+			<Name>LOC_UNIT_SUBMARINE_2_NAME</Name>
+			<Description>LOC_UNIT_SUBMARINE_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_SUBMARINE_2</Icon>
+			<SortIndex>44</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
+			<Type>UNIT_NUCLEAR_SUBMARINE_2</Type>
+			<Name>LOC_UNIT_NUCLEAR_SUBMARINE_2_NAME</Name>
+			<Description>LOC_UNIT_NUCLEAR_SUBMARINE_2_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_NUCLEAR_SUBMARINE_2</Icon>
+			<SortIndex>45</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
+			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
 			<Type>BUILDING_GOKOKU_SHRINE</Type>
 			<Name>LOC_BUILDING_GOKOKU_SHRINE_NAME</Name>
 			<Description>LOC_BUILDING_GOKOKU_SHRINE_DESCRIPTION</Description>
 			<Icon>ICON_BUILDING_GOKOKU_SHRINE</Icon>
-			<SortIndex>35</SortIndex>
+			<SortIndex>50</SortIndex>
 		</Row>
 
 

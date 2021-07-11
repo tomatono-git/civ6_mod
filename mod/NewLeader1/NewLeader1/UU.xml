@@ -35,6 +35,29 @@
 		<Row Type="UNIT_ARTILLERY_2" Kind="KIND_UNIT"/>
 		<!-- ロケット砲 -->
 		<Row Type="UNIT_ROCKET_ARTILLERY_2" Kind="KIND_UNIT"/>
+
+		<!-- ガレー船 -->
+		<Row Type="UNIT_GALLEY_2" Kind="KIND_UNIT"/>
+		<!-- キャラベル船 -->
+		<Row Type="UNIT_CARAVEL_2" Kind="KIND_UNIT"/>
+		<!-- 装甲艦 -->
+		<Row Type="UNIT_IRONCLAD_2" Kind="KIND_UNIT"/>
+		<!-- 駆逐艦 -->
+		<Row Type="UNIT_DESTROYER_2" Kind="KIND_UNIT"/>
+		<!-- カドリレーム -->
+		<Row Type="UNIT_QUADRIREME_2" Kind="KIND_UNIT"/>
+		<!-- フリゲート艦 -->
+		<Row Type="UNIT_FRIGATE_2" Kind="KIND_UNIT"/>
+		<!-- 戦艦 -->
+		<Row Type="UNIT_BATTLESHIP_2" Kind="KIND_UNIT"/>
+		<!-- ミサイル巡洋艦 -->
+		<Row Type="UNIT_MISSILE_CRUISER_2" Kind="KIND_UNIT"/>
+		<!-- 私掠船 -->
+		<Row Type="UNIT_PRIVATEER_2" Kind="KIND_UNIT"/>
+		<!-- 潜水艦 -->
+		<Row Type="UNIT_SUBMARINE_2" Kind="KIND_UNIT"/>
+		<!-- 原子力潜水艦 -->
+		<Row Type="UNIT_NUCLEAR_SUBMARINE_2" Kind="KIND_UNIT"/>
 	</Types>
 	<!-- ユニットのAI・タイプ設定 -->
 	<UnitAiInfos>
@@ -92,30 +115,82 @@
 		<Row UnitType="UNIT_CATAPULT_2" AiType="UNITTYPE_SIEGE"/>
 		<Row UnitType="UNIT_CATAPULT_2" AiType="UNITTYPE_SIEGE_ALL"/>
 		<Row UnitType="UNIT_CATAPULT_2" AiType="UNITTYPE_LAND_COMBAT"/>
-		<!--  -->
+		<!-- トレビュシェット -->
 		<Row UnitType="UNIT_TREBUCHET_2" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_TREBUCHET_2" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_TREBUCHET_2" AiType="UNITTYPE_SIEGE"/>
 		<Row UnitType="UNIT_TREBUCHET_2" AiType="UNITTYPE_SIEGE_ALL"/>
 		<Row UnitType="UNIT_TREBUCHET_2" AiType="UNITTYPE_LAND_COMBAT"/>
-		<!--  -->
+		<!-- 射石砲 -->
 		<Row UnitType="UNIT_BOMBARD_2" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_BOMBARD_2" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_BOMBARD_2" AiType="UNITTYPE_SIEGE"/>
 		<Row UnitType="UNIT_BOMBARD_2" AiType="UNITTYPE_SIEGE_ALL"/>
 		<Row UnitType="UNIT_BOMBARD_2" AiType="UNITTYPE_LAND_COMBAT"/>
-		<!--  -->
+		<!-- 大砲 -->
 		<Row UnitType="UNIT_ARTILLERY_2" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_ARTILLERY_2" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_ARTILLERY_2" AiType="UNITTYPE_SIEGE"/>
 		<Row UnitType="UNIT_ARTILLERY_2" AiType="UNITTYPE_SIEGE_ALL"/>
 		<Row UnitType="UNIT_ARTILLERY_2" AiType="UNITTYPE_LAND_COMBAT"/>
-		<!--  -->
+		<!-- ロケット砲 -->
 		<Row UnitType="UNIT_ROCKET_ARTILLERY_2" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_ROCKET_ARTILLERY_2" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_ROCKET_ARTILLERY_2" AiType="UNITTYPE_SIEGE"/>
 		<Row UnitType="UNIT_ROCKET_ARTILLERY_2" AiType="UNITTYPE_SIEGE_ALL"/>
 		<Row UnitType="UNIT_ROCKET_ARTILLERY_2" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<!-- ガレー船 -->
+		<Row UnitType="UNIT_GALLEY_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_GALLEY_2" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_GALLEY_2" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_GALLEY_2" AiType="UNITTYPE_NAVAL"/>
+		<!-- キャラベル船 -->
+		<Row UnitType="UNIT_CARAVEL_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CARAVEL_2" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_CARAVEL_2" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_CARAVEL_2" AiType="UNITTYPE_NAVAL"/>
+		<!-- 装甲艦 -->
+		<Row UnitType="UNIT_IRONCLAD_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_IRONCLAD_2" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_IRONCLAD_2" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_IRONCLAD_2" AiType="UNITTYPE_NAVAL"/>
+		<!-- 駆逐艦 -->
+		<Row UnitType="UNIT_DESTROYER_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_DESTROYER_2" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_DESTROYER_2" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_DESTROYER_2" AiType="UNITTYPE_NAVAL"/>
+
+		<!-- カドリレーム -->
+		<Row UnitType="UNIT_QUADRIREME_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_QUADRIREME_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_QUADRIREME_2" AiType="UNITTYPE_NAVAL"/>
+		<!-- 	フリゲート艦 -->
+		<Row UnitType="UNIT_FRIGATE_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_FRIGATE_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_FRIGATE_2" AiType="UNITTYPE_NAVAL"/>
+		<!-- 戦艦 -->
+		<Row UnitType="UNIT_BATTLESHIP_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_BATTLESHIP_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_BATTLESHIP_2" AiType="UNITTYPE_NAVAL"/>
+		<!-- ミサイル巡洋艦 -->
+		<Row UnitType="UNIT_MISSILE_CRUISER_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MISSILE_CRUISER_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_MISSILE_CRUISER_2" AiType="UNITTYPE_NAVAL"/>
+
+		<!-- 私掠船 -->
+		<Row UnitType="UNIT_PRIVATEER_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_PRIVATEER_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_PRIVATEER_2" AiType="UNITTYPE_NAVAL"/>
+		<!-- 潜水艦 -->
+		<Row UnitType="UNIT_SUBMARINE_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SUBMARINE_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_SUBMARINE_2" AiType="UNITTYPE_NAVAL"/>
+		<!-- 原子力潜水艦 -->
+		<Row UnitType="UNIT_NUCLEAR_SUBMARINE_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_NUCLEAR_SUBMARINE_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_NUCLEAR_SUBMARINE_2" AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_NUCLEAR_SUBMARINE_2" AiType="UNITTYPE_NUCLEAR"/>
 	</UnitAiInfos>
 	<!-- 置き換え対象のユニット。定義しない場合はアップグレードで作れないユニットになる。 -->
 	<!-- <UnitReplaces> -->
@@ -142,6 +217,7 @@
 	<!-- クラスとユニットの紐付け -->
 	<TypeTags>
 		<Row Type="UNIT_SCOUT_2" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_SCOUT_2" Tag="CLASS_REVEAL_STEALTH"/>
 
 		<Row Type="UNIT_SLINGER_2" Tag="CLASS_RANGED"/>
 		<Row Type="UNIT_ARCHER_2" Tag="CLASS_RANGED"/>
@@ -153,6 +229,7 @@
 		<Row Type="UNIT_COURSER_2" Tag="CLASS_LIGHT_CAVALRY"/>
 		<Row Type="UNIT_CAVALRY_2" Tag="CLASS_LIGHT_CAVALRY"/>
 		<Row Type="UNIT_HELICOPTER_2" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_HELICOPTER_2" Tag="CLASS_HELICOPTER"/>
 
 		<Row Type="UNIT_CATAPULT_2" Tag="CLASS_SIEGE"/>
 		<Row Type="UNIT_CATAPULT_2" Tag="CLASS_SIEGE_SETUP"/>
@@ -173,6 +250,40 @@
 		<Row Type="UNIT_ROCKET_ARTILLERY_2" Tag="CLASS_SIEGE"/>
 		<Row Type="UNIT_ROCKET_ARTILLERY_2" Tag="CLASS_SIEGE_SETUP"/>
 		<Row Type="UNIT_ROCKET_ARTILLERY_2" Tag="CLASS_FORWARD_OBSERVER"/>
+
+		<!-- ガレー船 -->
+		<Row Type="UNIT_GALLEY_2" Tag="CLASS_NAVAL_MELEE"/>
+		<!-- キャラベル船 -->
+		<Row Type="UNIT_CARAVEL_2" Tag="CLASS_NAVAL_MELEE"/>
+		<!-- 装甲艦 -->
+		<Row Type="UNIT_IRONCLAD_2" Tag="CLASS_NAVAL_MELEE"/>
+		<!-- 駆逐艦 -->
+		<Row Type="UNIT_DESTROYER_2" Tag="CLASS_NAVAL_MELEE"/>
+		<!-- カドリレーム -->
+		<Row Type="UNIT_QUADRIREME_2" Tag="CLASS_NAVAL_RANGED"/>
+		<!-- フリゲート艦 -->
+		<Row Type="UNIT_FRIGATE_2" Tag="CLASS_NAVAL_RANGED"/>
+		<!-- 戦艦 -->
+		<Row Type="UNIT_BATTLESHIP_2" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_BATTLESHIP_2" Tag="CLASS_ANTI_AIR"/>
+		<!-- ミサイル巡洋艦 -->
+		<Row Type="UNIT_MISSILE_CRUISER_2" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_MISSILE_CRUISER_2" Tag="CLASS_ANTI_AIR"/>
+		<!-- 私掠船 -->
+		<Row Type="UNIT_PRIVATEER_2" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="UNIT_PRIVATEER_2" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_PRIVATEER_2" Tag="CLASS_STEALTH"/>
+		<Row Type="UNIT_PRIVATEER_2" Tag="CLASS_REVEAL_STEALTH"/>
+		<!-- 潜水艦 -->
+		<Row Type="UNIT_SUBMARINE_2" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="UNIT_SUBMARINE_2" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_SUBMARINE_2" Tag="CLASS_STEALTH"/>
+		<Row Type="UNIT_SUBMARINE_2" Tag="CLASS_REVEAL_STEALTH"/>
+		<!-- 原子力潜水艦 -->
+		<Row Type="UNIT_NUCLEAR_SUBMARINE_2" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="UNIT_NUCLEAR_SUBMARINE_2" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_NUCLEAR_SUBMARINE_2" Tag="CLASS_STEALTH"/>
+		<Row Type="UNIT_NUCLEAR_SUBMARINE_2" Tag="CLASS_REVEAL_STEALTH"/>
 	</TypeTags>
 	<!-- ユニットの性能設定 -->
 	<Units>
@@ -333,6 +444,115 @@
 			PurchaseYield="YIELD_GOLD" PrereqTech="TECH_GUIDANCE_SYSTEMS"/>
 		<!-- <Row UnitType="UNIT_ROCKET_ARTILLERY" Cost="680" Maintenance="8" BaseMoves="3" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="70" Bombard="100" Range="3" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_ROCKET_ARTILLERY_NAME" Description="LOC_UNIT_ROCKET_ARTILLERY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_GUIDANCE_SYSTEMS"/> -->
 
+		<!-- ガレー船 -->
+		<!-- <Row UnitType="UNIT_GALLEY_2" TraitType="TRAIT_CIVILIZATION_UNIT_GALLEY_2"
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6"  Combat="30"
+			ZoneOfControl="true" Domain="DOMAIN_SEA"
+			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_GALLEY_2_NAME" Description="LOC_UNIT_GALLEY_2_DESCRIPTION"$
+			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_STEAM_POWER" PrereqTech="TECH_SAILING"/> -->
+		<Row UnitType="UNIT_GALLEY_2" Cost="65" Maintenance="1" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="30" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_GALLEY_2_NAME" Description="LOC_UNIT_GALLEY_2_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_STEAM_POWER" PrereqTech="TECH_SAILING"/>
+		<!-- <Row UnitType="UNIT_GALLEY" Cost="65" Maintenance="1" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="30" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_GALLEY_NAME" Description="LOC_UNIT_GALLEY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_STEAM_POWER" PrereqTech="TECH_SAILING"/> -->
+
+		<!-- キャラベル船 -->
+		<!-- <Row UnitType="UNIT_CARAVEL_2" TraitType="TRAIT_CIVILIZATION_UNIT_CARAVEL_2"
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6"
+			ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="55"
+			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_CARAVEL_2_NAME" Description="LOC_UNIT_CARAVEL_2_DESCRIPTION"$
+			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_COMBINED_ARMS" PrereqTech="TECH_CARTOGRAPHY"/> -->
+		<Row UnitType="UNIT_CARAVEL_2" Cost="240" Maintenance="4" BaseMoves="4" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="55" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_CARAVEL_2_NAME" Description="LOC_UNIT_CARAVEL_2_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_COMBINED_ARMS" PrereqTech="TECH_CARTOGRAPHY"/>
+		<!-- <Row UnitType="UNIT_CARAVEL" Cost="240" Maintenance="4" BaseMoves="4" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="55" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_CARAVEL_NAME" Description="LOC_UNIT_CARAVEL_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_COMBINED_ARMS" PrereqTech="TECH_CARTOGRAPHY"/> -->
+
+		<!-- 装甲艦 -->
+		<!-- <Row UnitType="UNIT_IRONCLAD_2" TraitType="TRAIT_CIVILIZATION_UNIT_IRONCLAD_2"
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6"
+			ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="70" StrategicResource="RESOURCE_COAL"
+			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_IRONCLAD_2_NAME" Description="LOC_UNIT_IRONCLAD_2_DESCRIPTION"$
+			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_STEAM_POWER"/> -->
+		<Row UnitType="UNIT_IRONCLAD_2" Cost="380" Maintenance="5" BaseMoves="5" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="70" StrategicResource="RESOURCE_COAL" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_IRONCLAD_2_NAME" Description="LOC_UNIT_IRONCLAD_2_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_STEAM_POWER"/>
+		<!-- <Row UnitType="UNIT_IRONCLAD" Cost="380" Maintenance="5" BaseMoves="5" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="70" StrategicResource="RESOURCE_COAL" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_IRONCLAD_NAME" Description="LOC_UNIT_IRONCLAD_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_STEAM_POWER"/> -->
+
+		<!-- 駆逐艦 -->
+		<!-- <Row UnitType="UNIT_DESTROYER_2" TraitType="TRAIT_CIVILIZATION_UNIT_DESTROYER_2"
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6"
+			ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="85" AntiAirCombat="90"
+			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_DESTROYER_2_NAME" Description="LOC_UNIT_DESTROYER_2_DESCRIPTION"$
+			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_COMBINED_ARMS"/> -->
+		<Row UnitType="UNIT_DESTROYER_2" Cost="540" Maintenance="7" BaseMoves="4" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="85" AntiAirCombat="90" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_DESTROYER_2_NAME" Description="LOC_UNIT_DESTROYER_2_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_COMBINED_ARMS"/>
+		<!-- <Row UnitType="UNIT_DESTROYER" Cost="540" Maintenance="7" BaseMoves="4" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="85" AntiAirCombat="90" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_DESTROYER_NAME" Description="LOC_UNIT_DESTROYER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_COMBINED_ARMS"/> -->
+
+		<!-- カドリレーム -->
+		<!-- <Row UnitType="UNIT_QUADRIREME_2" TraitType="TRAIT_CIVILIZATION_UNIT_QUADRIREME_2"
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6"
+			ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="20" RangedCombat="25" Range="1"
+			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_QUADRIREME_2_NAME" Description="LOC_UNIT_QUADRIREME_2_DESCRIPTION"$
+			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_STEEL" PrereqTech="TECH_SHIPBUILDING"/> -->
+		<Row UnitType="UNIT_QUADRIREME_2" Cost="120" Maintenance="2" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="20" RangedCombat="25" Range="1" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_QUADRIREME_2_NAME" Description="LOC_UNIT_QUADRIREME_2_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_STEEL" PrereqTech="TECH_SHIPBUILDING"/>
+		<!-- <Row UnitType="UNIT_QUADRIREME" Cost="120" Maintenance="2" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="20" RangedCombat="25" Range="1" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_QUADRIREME_NAME" Description="LOC_UNIT_QUADRIREME_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_STEEL" PrereqTech="TECH_SHIPBUILDING"/> -->
+
+		<!-- フリゲート艦 -->
+		<!-- <Row UnitType="UNIT_FRIGATE_2" TraitType="TRAIT_CIVILIZATION_UNIT_FRIGATE_2"
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6"
+			ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="45" RangedCombat="55" Range="2"
+			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_FRIGATE_2_NAME" Description="LOC_UNIT_FRIGATE_2_DESCRIPTION"$
+			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_LASERS" PrereqTech="TECH_SQUARE_RIGGING"/> -->
+		<Row UnitType="UNIT_FRIGATE_2" Cost="280" Maintenance="5" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="45" RangedCombat="55" Range="2" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_FRIGATE_2_NAME" Description="LOC_UNIT_FRIGATE_2_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_LASERS" PrereqTech="TECH_SQUARE_RIGGING"/>
+		<!-- <Row UnitType="UNIT_FRIGATE" Cost="280" Maintenance="5" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="45" RangedCombat="55" Range="2" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_FRIGATE_NAME" Description="LOC_UNIT_FRIGATE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_LASERS" PrereqTech="TECH_SQUARE_RIGGING"/> -->
+
+		<!-- 戦艦 -->
+		<!-- <Row UnitType="UNIT_BATTLESHIP_2" TraitType="TRAIT_CIVILIZATION_UNIT_BATTLESHIP_2"
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6"
+			ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="60" RangedCombat="70" Range="3" AntiAirCombat="90" StrategicResource="RESOURCE_COAL"
+			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_BATTLESHIP_2_NAME" Description="LOC_UNIT_BATTLESHIP_2_DESCRIPTION"$
+			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_STEEL"/> -->
+		<Row UnitType="UNIT_BATTLESHIP_2" Cost="430" Maintenance="6" BaseMoves="5" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="60" RangedCombat="70" Range="3" AntiAirCombat="90" StrategicResource="RESOURCE_COAL" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_BATTLESHIP_2_NAME" Description="LOC_UNIT_BATTLESHIP_2_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_STEEL"/>
+		<!-- <Row UnitType="UNIT_BATTLESHIP" Cost="430" Maintenance="6" BaseMoves="5" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="60" RangedCombat="70" Range="3" AntiAirCombat="90" StrategicResource="RESOURCE_COAL" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_BATTLESHIP_NAME" Description="LOC_UNIT_BATTLESHIP_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_STEEL"/> -->
+
+		<!-- ミサイル巡洋艦 -->
+		<!-- <Row UnitType="UNIT_MISSILE_CRUISER_2" TraitType="TRAIT_CIVILIZATION_UNIT_MISSILE_CRUISER_2"
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6"
+			ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="75" RangedCombat="90" Range="3" AntiAirCombat="110"
+			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_MISSILE_CRUISER_2_NAME" Description="LOC_UNIT_MISSILE_CRUISER_2_DESCRIPTION"$
+			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_LASERS" CanTargetAir="TRUE"/> -->
+		<Row UnitType="UNIT_MISSILE_CRUISER_2" Cost="680" Maintenance="8" BaseMoves="5" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="75" RangedCombat="90" Range="3" AntiAirCombat="110" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_MISSILE_CRUISER_2_NAME" Description="LOC_UNIT_MISSILE_CRUISER_2_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_LASERS" CanTargetAir="TRUE"/>
+		<!-- <Row UnitType="UNIT_MISSILE_CRUISER" Cost="680" Maintenance="8" BaseMoves="5" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="75" RangedCombat="90" Range="3" AntiAirCombat="110" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_MISSILE_CRUISER_NAME" Description="LOC_UNIT_MISSILE_CRUISER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_LASERS" CanTargetAir="TRUE"/> -->
+
+		<!-- 私掠船 -->
+		<!-- <Row UnitType="UNIT_PRIVATEER_2" TraitType="TRAIT_CIVILIZATION_UNIT_PRIVATEER_2"
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6"
+			ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="40" RangedCombat="50" Range="2" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RAIDER" AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_PRIVATEER_2_NAME" Description="LOC_UNIT_PRIVATEER_2_DESCRIPTION"$
+			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqCivic="CIVIC_MERCANTILISM" MandatoryObsoleteTech="TECH_LASERS"/> -->
+		<Row UnitType="UNIT_PRIVATEER_2" Cost="280" Maintenance="4" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="40" RangedCombat="50" Range="2" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RAIDER" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_PRIVATEER_2_NAME" Description="LOC_UNIT_PRIVATEER_2_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqCivic="CIVIC_MERCANTILISM" MandatoryObsoleteTech="TECH_LASERS"/>
+		<!-- <Row UnitType="UNIT_PRIVATEER" Cost="280" Maintenance="4" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="40" RangedCombat="50" Range="2" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RAIDER" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_PRIVATEER_NAME" Description="LOC_UNIT_PRIVATEER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqCivic="CIVIC_MERCANTILISM" MandatoryObsoleteTech="TECH_LASERS"/> -->
+
+		<!-- 潜水艦 -->
+		<!-- <Row UnitType="UNIT_SUBMARINE_2" TraitType="TRAIT_CIVILIZATION_UNIT_SUBMARINE_2"
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6"
+			ZoneOfControl="false" Domain="DOMAIN_SEA" Combat="65" RangedCombat="75" Range="2"
+			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RAIDER" AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_SUBMARINE_2_NAME" Description="LOC_UNIT_SUBMARINE_2_DESCRIPTION"$
+			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_ELECTRICITY"/> -->
+		<Row UnitType="UNIT_SUBMARINE_2" Cost="480" Maintenance="6" BaseMoves="3" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_SEA" Combat="65" RangedCombat="75" Range="2" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RAIDER" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_SUBMARINE_2_NAME" Description="LOC_UNIT_SUBMARINE_2_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_ELECTRICITY"/>
+		<!-- <Row UnitType="UNIT_SUBMARINE" Cost="480" Maintenance="6" BaseMoves="3" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_SEA" Combat="65" RangedCombat="75" Range="2" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RAIDER" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_SUBMARINE_NAME" Description="LOC_UNIT_SUBMARINE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_ELECTRICITY"/> -->
+
+		<!-- 原子力潜水艦 -->
+		<!-- <Row UnitType="UNIT_NUCLEAR_SUBMARINE_2" TraitType="TRAIT_CIVILIZATION_UNIT_NUCLEAR_SUBMARINE_2"
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6"
+			ZoneOfControl="false" Domain="DOMAIN_SEA" Combat="80" RangedCombat="85" Range="2" StrategicResource="RESOURCE_URANIUM"
+			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RAIDER" AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_NUCLEAR_SUBMARINE_2_NAME" Description="LOC_UNIT_NUCLEAR_SUBMARINE_2_DESCRIPTION"$
+			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_TELECOMMUNICATIONS" WMDCapable="true"/> -->
+		<Row UnitType="UNIT_NUCLEAR_SUBMARINE_2" Cost="680" Maintenance="8" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_SEA" Combat="80" RangedCombat="85" Range="2" StrategicResource="RESOURCE_URANIUM" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RAIDER" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_NUCLEAR_SUBMARINE_2_NAME" Description="LOC_UNIT_NUCLEAR_SUBMARINE_2_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_TELECOMMUNICATIONS" WMDCapable="true"/>
+		<!-- <Row UnitType="UNIT_NUCLEAR_SUBMARINE" Cost="680" Maintenance="8" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_SEA" Combat="80" RangedCombat="85" Range="2" StrategicResource="RESOURCE_URANIUM" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RAIDER" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_NUCLEAR_SUBMARINE_NAME" Description="LOC_UNIT_NUCLEAR_SUBMARINE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_TELECOMMUNICATIONS" WMDCapable="true"/> -->
+
 	</Units>
 
 	<Units_XP2>
@@ -358,10 +578,20 @@
 
 		<!-- <Row Unit="UNIT_CAVALRY" UpgradeUnit="UNIT_HELICOPTER"/> -->
 
-		<!-- カタパルト -->
+		<!-- 包囲 -->
 		<Row Unit="UNIT_CATAPULT_2" UpgradeUnit="UNIT_TREBUCHET_2"/>
 		<Row Unit="UNIT_TREBUCHET_2" UpgradeUnit="UNIT_BOMBARD_2"/>
 		<Row Unit="UNIT_BOMBARD_2" UpgradeUnit="UNIT_ARTILLERY_2"/>
 		<Row Unit="UNIT_ARTILLERY_2" UpgradeUnit="UNIT_ROCKET_ARTILLERY_2"/>
+
+		<!-- 海洋長距離戦闘 -->
+		<Row Unit="UNIT_GALLEY_2" UpgradeUnit="UNIT_CARAVEL_2"/>
+		<Row Unit="UNIT_CARAVEL_2" UpgradeUnit="UNIT_IRONCLAD_2"/>
+		<Row Unit="UNIT_IRONCLAD_2" UpgradeUnit="UNIT_DESTROYER_2"/>
+		<Row Unit="UNIT_QUADRIREME_2" UpgradeUnit="UNIT_FRIGATE_2"/>
+		<Row Unit="UNIT_FRIGATE_2" UpgradeUnit="UNIT_BATTLESHIP_2"/>
+		<Row Unit="UNIT_BATTLESHIP_2" UpgradeUnit="UNIT_MISSILE_CRUISER_2"/>
+		<Row Unit="UNIT_PRIVATEER_2" UpgradeUnit="UNIT_SUBMARINE_2"/>
+		<Row Unit="UNIT_SUBMARINE_2" UpgradeUnit="UNIT_NUCLEAR_SUBMARINE_2"/>
 	</UnitUpgrades>
 </GameInfo>
