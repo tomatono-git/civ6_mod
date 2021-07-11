@@ -21,7 +21,6 @@
           <File>Civilization_start_bias.sql</File>
 
           <File>Leaders.xml</File>
-          <File>UU.sql</File>
           <File>UU.xml</File>
           <File>UB.xml</File>
           <File>Leaders_Movement.sql</File>
@@ -46,19 +45,6 @@
           <File>Leader_diplomatic.sql</File>
           <File>Leader_purchasing_building_by_faith.sql</File>
         </UpdateDatabase>
-        <UpdateDatabase id="Policy_Gameplay">
-          <Properties>
-            <LoadOrder>130</LoadOrder>
-          </Properties>
-          <File>policy.sql</File>
-        </UpdateDatabase>
-        <UpdateText id="Policy_Text">
-          <Properties>
-            <LoadOrder>130</LoadOrder>
-          </Properties>
-          <File>policy_text.xml</File>
-          <File>policy_text_ja_JP.xml</File>
-        </UpdateText>
         <UpdateText id="Text">
           <Criteria>LeaderCriteria</Criteria>
           <File>ConfigText.xml</File>
@@ -69,7 +55,8 @@
         <UpdateIcons id="Icons">
           <Criteria>LeaderCriteria</Criteria>
           <File>Icons.xml</File>
-          </UpdateIcons><UpdateArt id="Art">
+        </UpdateIcons>
+        <UpdateArt id="Art">
           <Criteria>LeaderCriteria</Criteria>
           <File>(Mod Art Dependency File)</File>
         </UpdateArt>
@@ -114,15 +101,16 @@
     <Content Include="ConfigText.xml" />
     <Content Include="ConfigText_ja_JP.xml" />
     <Content Include="Civilization.xml" />
+    <!-- スタート地点に出やすいものを追加 -->
     <Content Include="Civilization_start_bias.sql" />
 
     <Content Include="Icons.xml" />
     <Content Include="Leaders.xml" />
     <Content Include="Text.xml" />
     <Content Include="Text_ja_JP.xml" />
-    <Content Include="UU.sql" />
     <Content Include="UU.xml" />
     <Content Include="UB.xml" />
+    <!-- 全てのユニットの視界と移動 -->
     <Content Include="Leaders_Movement.sql" />
     <Content Include="Leaders_Boost.sql" />
     <Content Include="Leader_grant_technology.sql" />
@@ -145,9 +133,6 @@
     <Content Include="Leader_diplomatic.sql" />
     <Content Include="Leader_purchasing_building_by_faith.sql" />
 
-    <Content Include="policy.sql" />
-    <Content Include="policy_text.xml" />
-    <Content Include="policy_text_ja_JP.xml" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.dds" />
     <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.tex" />
     <None Include="Textures\LEADER_JASPER_KITTY_NEUTRAL.dds" />
