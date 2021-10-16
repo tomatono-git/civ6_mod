@@ -11,13 +11,13 @@ INSERT OR REPLACE INTO ModifierArguments
         (ModifierId, Name, Value)
     VALUES
         ('TOMATO_POST_COMBAT_YIELD_GOLD', 'YieldType', 'YIELD_GOLD'),
-        ('TOMATO_POST_COMBAT_YIELD_GOLD', 'PercentDefeatedStrength', 600),
+        ('TOMATO_POST_COMBAT_YIELD_GOLD', 'PercentDefeatedStrength', 800),
         ('TOMATO_POST_COMBAT_YIELD_SCIENCE', 'YieldType', 'YIELD_SCIENCE'),
-        ('TOMATO_POST_COMBAT_YIELD_SCIENCE', 'PercentDefeatedStrength', 300),
+        ('TOMATO_POST_COMBAT_YIELD_SCIENCE', 'PercentDefeatedStrength', 500),
         ('TOMATO_POST_COMBAT_YIELD_CULTURE', 'YieldType', 'YIELD_CULTURE'),
-        ('TOMATO_POST_COMBAT_YIELD_CULTURE', 'PercentDefeatedStrength', 300),
+        ('TOMATO_POST_COMBAT_YIELD_CULTURE', 'PercentDefeatedStrength', 500),
         ('TOMATO_POST_COMBAT_YIELD_FAITH', 'YieldType', 'YIELD_FAITH'),
-        ('TOMATO_POST_COMBAT_YIELD_FAITH', 'PercentDefeatedStrength', 700);
+        ('TOMATO_POST_COMBAT_YIELD_FAITH', 'PercentDefeatedStrength', 900);
 
 INSERT OR REPLACE INTO TraitModifiers
         (TraitType, ModifierId)

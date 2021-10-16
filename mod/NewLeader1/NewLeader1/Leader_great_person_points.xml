@@ -2,12 +2,12 @@
 <GameData>
 
 	<TraitModifiers>
-		<!-- 大預言者ポイントがスタート時から毎ターン+1 -->
+		<!-- 大預言者ポイントがスタート時から毎ターン+α -->
 		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_SISTER_INCREASE_GREAT_PROPHET_POINTS"/>
 	</TraitModifiers>
 
 	<Modifiers>
-		<!-- 大預言者ポイントがスタート時から毎ターン+1 -->
+		<!-- 大預言者ポイントがスタート時から毎ターン+α -->
 		<Row>
 			<ModifierId>TRAIT_SISTER_INCREASE_GREAT_PROPHET_POINTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
