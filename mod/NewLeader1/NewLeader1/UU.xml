@@ -478,7 +478,7 @@
 
 		<!-- カドリレーム -->
 		<Row UnitType="UNIT_QUADRIREME_2" TraitType="TRAIT_CIVILIZATION_UNIT_QUADRIREME_2"
-			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="35" RangedCombat="40" Range="1"
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="35" RangedCombat="40" Range="6"
 			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST"
 			Name="LOC_UNIT_QUADRIREME_2_NAME" Description="LOC_UNIT_QUADRIREME_2_DESCRIPTION"
 			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_STEEL" PrereqTech="TECH_SHIPBUILDING"/>
@@ -486,7 +486,7 @@
 
 		<!-- フリゲート艦 -->
 		<Row UnitType="UNIT_FRIGATE_2" TraitType="TRAIT_CIVILIZATION_UNIT_FRIGATE_2"
-			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="55" RangedCombat="65" Range="2"
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="55" RangedCombat="65" Range="7"
 			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST"
 			Name="LOC_UNIT_FRIGATE_2_NAME" Description="LOC_UNIT_FRIGATE_2_DESCRIPTION"
 			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_LASERS" PrereqTech="TECH_SQUARE_RIGGING"/>
@@ -494,7 +494,7 @@
 
 		<!-- 戦艦 -->
 		<Row UnitType="UNIT_BATTLESHIP_2" TraitType="TRAIT_CIVILIZATION_UNIT_BATTLESHIP_2"
-			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="70" RangedCombat="80" Range="6" AntiAirCombat="100"
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="70" RangedCombat="80" Range="8" AntiAirCombat="100"
 			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST"
 			Name="LOC_UNIT_BATTLESHIP_2_NAME" Description="LOC_UNIT_BATTLESHIP_2_DESCRIPTION"
 			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_STEEL"/>
@@ -502,7 +502,7 @@
 
 		<!-- ミサイル巡洋艦 -->
 		<Row UnitType="UNIT_MISSILE_CRUISER_2" TraitType="TRAIT_CIVILIZATION_UNIT_MISSILE_CRUISER_2"
-			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="85" RangedCombat="100" Range="6" AntiAirCombat="120"
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="85" RangedCombat="100" Range="8" AntiAirCombat="120"
 			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST"
 			Name="LOC_UNIT_MISSILE_CRUISER_2_NAME" Description="LOC_UNIT_MISSILE_CRUISER_2_DESCRIPTION"
 			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_LASERS" CanTargetAir="TRUE"/>
@@ -510,7 +510,7 @@
 
 		<!-- 私掠船 -->
 		<Row UnitType="UNIT_PRIVATEER_2" TraitType="TRAIT_CIVILIZATION_UNIT_PRIVATEER_2"
-			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="50" RangedCombat="60" Range="6"
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="50" RangedCombat="60" Range="7"
 			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RAIDER" AdvisorType="ADVISOR_CONQUEST"
 			Name="LOC_UNIT_PRIVATEER_2_NAME" Description="LOC_UNIT_PRIVATEER_2_DESCRIPTION"
 			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqCivic="CIVIC_MERCANTILISM" MandatoryObsoleteTech="TECH_LASERS"/>
@@ -518,7 +518,7 @@
 
 		<!-- 潜水艦 -->
 		<Row UnitType="UNIT_SUBMARINE_2" TraitType="TRAIT_CIVILIZATION_UNIT_SUBMARINE_2"
-			Cost="480" Maintenance="6" BaseMoves="3" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_SEA" Combat="75" RangedCombat="85" Range="6"
+			Cost="480" Maintenance="6" BaseMoves="3" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_SEA" Combat="75" RangedCombat="85" Range="7"
 			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RAIDER" AdvisorType="ADVISOR_CONQUEST"
 			Name="LOC_UNIT_SUBMARINE_2_NAME" Description="LOC_UNIT_SUBMARINE_2_DESCRIPTION"
 			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_ELECTRICITY"/>
@@ -526,7 +526,7 @@
 
 		<!-- 原子力潜水艦 -->
 		<Row UnitType="UNIT_NUCLEAR_SUBMARINE_2" TraitType="TRAIT_CIVILIZATION_UNIT_NUCLEAR_SUBMARINE_2"
-			Cost="680" Maintenance="8" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_SEA" Combat="90" RangedCombat="95" Range="6"
+			Cost="680" Maintenance="8" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_SEA" Combat="90" RangedCombat="95" Range="7"
 			FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RAIDER" AdvisorType="ADVISOR_CONQUEST"
 			Name="LOC_UNIT_NUCLEAR_SUBMARINE_2_NAME" Description="LOC_UNIT_NUCLEAR_SUBMARINE_2_DESCRIPTION"
 			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_TELECOMMUNICATIONS" WMDCapable="true"/>
