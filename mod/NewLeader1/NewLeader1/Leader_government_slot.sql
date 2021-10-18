@@ -453,10 +453,10 @@ INSERT OR REPLACE INTO ModifierArguments
 		('YUZUKI_CHOCO_SLOT_WILDCARD_NAVAL_TRADITION', 'GovernmentSlotType', 'SLOT_WILDCARD'),
 		-- 「演劇と詩」でワイルドカードスロットを追加
 		('YUZUKI_CHOCO_SLOT_WILDCARD_DRAMA_POETRY', 'GovernmentSlotType', 'SLOT_WILDCARD'),
-		-- 「探検」で外交スロットを追加
-		('YUZUKI_CHOCO_SLOT_WILDCARD_EXPLORATION', 'GovernmentSlotType', 'SLOT_DIPLOMATIC'),
-		-- 「封建制度」で外交スロットを追加
-		('YUZUKI_CHOCO_SLOT_WILDCARD_FEUDALISM', 'GovernmentSlotType', 'SLOT_DIPLOMATIC'),
+		-- 「探検」でワイルドカードスロットを追加
+		('YUZUKI_CHOCO_SLOT_WILDCARD_EXPLORATION', 'GovernmentSlotType', 'SLOT_WILDCARD'),
+		-- 「封建制度」でワイルドカードスロットを追加
+		('YUZUKI_CHOCO_SLOT_WILDCARD_FEUDALISM', 'GovernmentSlotType', 'SLOT_WILDCARD'),
 		-- 「外交官」で外交スロットを追加
 		('YUZUKI_CHOCO_SLOT_DIPLOMATIC_DIPLOMATIC_SERVICE', 'GovernmentSlotType', 'SLOT_DIPLOMATIC');
 
