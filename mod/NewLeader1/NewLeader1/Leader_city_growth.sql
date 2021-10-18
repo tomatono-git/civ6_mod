@@ -7,7 +7,7 @@ INSERT OR REPLACE INTO Modifiers
 INSERT OR REPLACE INTO ModifierArguments
 		(ModifierId, Name, Value)
 	VALUES
-		('TOMATO_CITY_GROWTH', 'Amount', 100);
+		('TOMATO_CITY_GROWTH', 'Amount', 200);
 
 INSERT OR REPLACE INTO TraitModifiers
 		(TraitType, ModifierId)
