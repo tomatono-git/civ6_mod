@@ -21,6 +21,7 @@
           <File>Civilization_start_bias.sql</File>
 
           <File>Leaders.xml</File>
+          <File>Leader_technologies.xml</File>
           <File>UU.xml</File>
           <File>UB.xml</File>
           <File>Leaders_Movement.sql</File>
@@ -106,6 +107,7 @@
 
     <Content Include="Icons.xml" />
     <Content Include="Leaders.xml" />
+    <Content Include="Leader_technologies.xml" />
     <Content Include="Text.xml" />
     <Content Include="Text_ja_JP.xml" />
     <Content Include="UU.xml" />
