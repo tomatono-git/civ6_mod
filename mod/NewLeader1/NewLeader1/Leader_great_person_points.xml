@@ -3,7 +3,7 @@
 
 	<TraitModifiers>
 		<!-- 大預言者ポイントがスタート時から毎ターン+α -->
-		<Row TraitType="TRAIT_LEADER_TOMATO_KOTONOHA" ModifierId="TRAIT_TOMATO_INCREASE_GREAT_PROPHET_POINTS"/>
+		<Row TraitType="TRAIT_LEADER_SISTER_KOTONOHA" ModifierId="TRAIT_TOMATO_INCREASE_GREAT_PROPHET_POINTS"/>
 	</TraitModifiers>
 
 	<Modifiers>
