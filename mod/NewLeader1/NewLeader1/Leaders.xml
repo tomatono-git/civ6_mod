@@ -36,6 +36,21 @@
 	</HistoricalAgendas> -->
 
 
+	<!-- 初期保有の技術 -->
+	<!-- 有効にならない？ -->
+	<AiListTypes>
+		<Row ListType="AI_LIST_TOMATO_TECHS"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="AI_LIST_TOMATO_TECHS" LeaderType="LEADER_JASPER_KITTY" System="Technologies"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="AI_LIST_TOMATO_TECHS" Item="TECH_SAILING"/>
+		<Row ListType="AI_LIST_TOMATO_TECHS" Item="TECH_CELESTIAL_NAVIGATION"/>
+		<!-- <Row ListType="AI_LIST_TOMATO_TECHS" Item="TECH_SAILING" Favored="true"/>
+		<Row ListType="AI_LIST_TOMATO_TECHS" Item="TECH_CELESTIAL_NAVIGATION" Favored="true"/> -->
+	</AiFavoredItems>
+
 	<TraitModifiers>
 
 		<!-- 快適性アップ -->

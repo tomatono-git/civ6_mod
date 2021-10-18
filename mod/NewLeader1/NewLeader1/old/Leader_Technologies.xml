@@ -1,0 +1,15 @@
+<!-- 初期保有の技術 -->
+
+<AiListTypes>
+    <Row ListType="AI_LIST_TOMATO_TECHS"/>
+    <!-- <Row ListType="AI_LIST_TOMATO_DISTRICTS"/> -->
+</AiListTypes>
+<AiLists>
+    <Row ListType="AI_LIST_TOMATO_TECHS" LeaderType="LEADER_JASPER_KITTY" System="Technologies"/>
+    <!-- <Row ListType="AI_LIST_TOMATO_DISTRICTS" LeaderType="LEADER_JASPER_KITTY" System="District"/> -->
+</AiLists>
+<AiFavoredItems>
+    <Row ListType="AI_LIST_TOMATO_TECHS" Item="TECH_SAILING" Favored="true"/>
+    <Row ListType="AI_LIST_TOMATO_TECHS" Item="TECH_CELESTIAL_NAVIGATION" Favored="true"/>
+    <!-- <Row ListType="AI_LIST_TOMATO_DISTRICTS" Item="DISTRICT_HARBOR" Favored="true"/> -->
+</AiFavoredItems>
