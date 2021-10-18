@@ -1,45 +1,5 @@
 -- 技術の研究で首都にユニットを付与
 
--- 帆走術を取得しているか
-INSERT OR REPLACE INTO Requirements
-        (RequirementId, RequirementType)
-    VALUES
-        ('REQUIRES_TECHNOLOGY_SAILING', 'REQUIREMENT_PLAYER_HAS_TECHNOLOGY');
-INSERT OR REPLACE INTO RequirementArguments
-        (RequirementId, Name, Value)
-    VALUES
-        ('REQUIRES_TECHNOLOGY_SAILING', 'TechnologyType', 'TECH_SAILING');
-INSERT OR REPLACE INTO RequirementSets
-        (RequirementSetId, RequirementSetType)
-    VALUES
-        ('PLAYER_HAS_SAILING_TECHNOLOGY', 'REQUIREMENTSET_TEST_ALL');
-INSERT OR REPLACE INTO RequirementSetRequirements
-        (RequirementSetId, RequirementId)
-    VALUES
-        ('PLAYER_HAS_SAILING_TECHNOLOGY', 'REQUIRES_TECHNOLOGY_SAILING');
-
--- 帆走術の研究で沿岸首都に開拓者、ガレー船を付与
-INSERT OR REPLACE INTO Modifiers
-        (ModifierId, ModifierType, RunOnce, Permanent, OwnerRequirementsetId)
-    VALUES
-        ('TRAIT_PLAYER_GRANT_SAILING_UNIT_SETTLER', 'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL', 1, 1, 'PLAYER_HAS_SAILING_TECHNOLOGY'),
-        ('TRAIT_PLAYER_GRANT_UNIT_GALLEY', 'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL', 1, 1, 'PLAYER_HAS_SAILING_TECHNOLOGY');
-INSERT OR REPLACE INTO ModifierArguments
-        (ModifierId, Name, Value)
-    VALUES
-        ('TRAIT_PLAYER_GRANT_SAILING_UNIT_SETTLER', 'UnitType', 'UNIT_SETTLER'),
-        ('TRAIT_PLAYER_GRANT_SAILING_UNIT_SETTLER', 'Amount', 2),
-        ('TRAIT_PLAYER_GRANT_SAILING_UNIT_SETTLER', 'AllowUniqueOverride', 0),
-        ('TRAIT_PLAYER_GRANT_UNIT_GALLEY', 'UnitType', 'UNIT_GALLEY_2'),
-        ('TRAIT_PLAYER_GRANT_UNIT_GALLEY', 'Amount', 1),
-        ('TRAIT_PLAYER_GRANT_UNIT_GALLEY', 'AllowUniqueOverride', 1);
-INSERT OR REPLACE INTO TraitModifiers
-        (TraitType, ModifierId)
-    VALUES
-        ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_SAILING_UNIT_SETTLER'),
-        ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_UNIT_GALLEY');
-
-
 -- 畜産を取得しているか
 INSERT OR REPLACE INTO Requirements
         (RequirementId, RequirementType)
@@ -201,3 +161,45 @@ INSERT OR REPLACE INTO TraitModifiers
         (TraitType, ModifierId)
     VALUES
         ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_UNIT_SETTLER_MINING');
+
+
+-- -- 帆走術を取得しているか
+-- INSERT OR REPLACE INTO Requirements
+--         (RequirementId, RequirementType)
+--     VALUES
+--         ('REQUIRES_TECHNOLOGY_SAILING', 'REQUIREMENT_PLAYER_HAS_TECHNOLOGY');
+-- INSERT OR REPLACE INTO RequirementArguments
+--         (RequirementId, Name, Value)
+--     VALUES
+--         ('REQUIRES_TECHNOLOGY_SAILING', 'TechnologyType', 'TECH_SAILING');
+-- INSERT OR REPLACE INTO RequirementSets
+--         (RequirementSetId, RequirementSetType)
+--     VALUES
+--         ('PLAYER_HAS_SAILING_TECHNOLOGY', 'REQUIREMENTSET_TEST_ALL');
+-- INSERT OR REPLACE INTO RequirementSetRequirements
+--         (RequirementSetId, RequirementId)
+--     VALUES
+--         ('PLAYER_HAS_SAILING_TECHNOLOGY', 'REQUIRES_TECHNOLOGY_SAILING');
+
+-- -- 帆走術の研究で沿岸首都に開拓者、ガレー船を付与
+-- INSERT OR REPLACE INTO Modifiers
+--         (ModifierId, ModifierType, RunOnce, Permanent, OwnerRequirementsetId)
+--     VALUES
+--         ('TRAIT_PLAYER_GRANT_SAILING_UNIT_SETTLER', 'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL', 1, 1, 'PLAYER_HAS_SAILING_TECHNOLOGY'),
+--         ('TRAIT_PLAYER_GRANT_UNIT_GALLEY', 'MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL', 1, 1, 'PLAYER_HAS_SAILING_TECHNOLOGY');
+-- INSERT OR REPLACE INTO ModifierArguments
+--         (ModifierId, Name, Value)
+--     VALUES
+--         ('TRAIT_PLAYER_GRANT_SAILING_UNIT_SETTLER', 'UnitType', 'UNIT_SETTLER'),
+--         ('TRAIT_PLAYER_GRANT_SAILING_UNIT_SETTLER', 'Amount', 2),
+--         ('TRAIT_PLAYER_GRANT_SAILING_UNIT_SETTLER', 'AllowUniqueOverride', 0),
+--         ('TRAIT_PLAYER_GRANT_UNIT_GALLEY', 'UnitType', 'UNIT_GALLEY_2'),
+--         ('TRAIT_PLAYER_GRANT_UNIT_GALLEY', 'Amount', 1),
+--         ('TRAIT_PLAYER_GRANT_UNIT_GALLEY', 'AllowUniqueOverride', 1);
+-- INSERT OR REPLACE INTO TraitModifiers
+--         (TraitType, ModifierId)
+--     VALUES
+--         ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_SAILING_UNIT_SETTLER'),
+--         ('TRAIT_LEADER_SISTER_KOTONOHA', 'TRAIT_PLAYER_GRANT_UNIT_GALLEY');
+
+
