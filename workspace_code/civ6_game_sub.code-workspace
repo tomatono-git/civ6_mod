@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "workspace",
+			"path": "."
+		},
+		{
+			"path": "D:/game/Steam/steamapps/common/Sid Meier's Civilization VI"
+		},
+		{
+			"name": "サブスクライブしたMod",
+			"path": "D:/game/Steam/steamapps/workshop/content/289070"
+		}
+	],
+	"settings": {
+		"files.autoGuessEncoding": true,
+	}
+}
