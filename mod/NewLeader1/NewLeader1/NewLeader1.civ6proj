@@ -21,7 +21,6 @@
           <File>Civilization_start_bias.sql</File>
 
           <File>Leaders.xml</File>
-          <File>Leader_technologies.xml</File>
           <File>UU_1.xml</File>
           <File>UB.xml</File>
           <File>Leaders_Movement.sql</File>
@@ -59,7 +58,7 @@
         </UpdateText>
         <UpdateIcons id="Icons">
           <Criteria>LeaderCriteria</Criteria>
-          <File>Icons.xml</File>
+          <File>UU_1_Icons.xml</File>
         </UpdateIcons>
         <UpdateArt id="Art">
           <Criteria>LeaderCriteria</Criteria>
@@ -77,7 +76,7 @@
               <File>ConfigText_ja_JP.xml</File>
           </UpdateText>
           <UpdateIcons id="ConfigIcons">
-              <File>Icons.xml</File>
+              <File>UU_1_Icons.xml</File>
           </UpdateIcons>
           <UpdateArt id="ConfigArt">
               <File>(Mod Art Dependency File)</File>
@@ -109,7 +108,7 @@
     <!-- スタート地点に出やすいものを追加 -->
     <Content Include="Civilization_start_bias.sql" />
 
-    <Content Include="Icons.xml" />
+    <Content Include="UU_1_Icons.xml" />
     <Content Include="Leaders.xml" />
     <Content Include="Leader_technologies.xml" />
     <Content Include="Text.xml" />
