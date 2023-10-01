@@ -2,9 +2,11 @@
 <GameInfo>
 	<!-- 親定義 -->
 	<Types>
+		<!-- Recon-->
 		<!-- 斥候 -->
 		<Row Type="UNIT_SCOUT_2" Kind="KIND_UNIT"/>
 
+		<!-- Ranged -->
 		<!-- 投石兵 -->
 		<Row Type="UNIT_SLINGER_2" Kind="KIND_UNIT"/>
 		<!-- 弓兵 -->
@@ -16,6 +18,7 @@
 		<!-- 機関銃 -->
 		<Row Type="UNIT_MACHINE_GUN_2" Kind="KIND_UNIT"/>
 
+		<!--Light Cavalry -->
 		<!-- 騎馬兵 -->
 		<Row Type="UNIT_HORSEMAN_2" Kind="KIND_UNIT"/>
 		<!-- 騎兵 -->
@@ -23,6 +26,7 @@
 		<!-- ヘリコプター -->
 		<Row Type="UNIT_HELICOPTER_2" Kind="KIND_UNIT"/>
 
+		<!--Siege -->
 		<!-- カタパルト -->
 		<Row Type="UNIT_CATAPULT_2" Kind="KIND_UNIT"/>
 		<!-- トレビュシェット -->
@@ -34,37 +38,47 @@
 		<!-- ロケット砲 -->
 		<Row Type="UNIT_ROCKET_ARTILLERY_2" Kind="KIND_UNIT"/>
 
+		<!--Heavy Cavalry -->
+
+		<!--Support -->
+
 		<!-- ガレー船 -->
 		<Row Type="UNIT_GALLEY_2" Kind="KIND_UNIT"/>
-		<!-- キャラベル船 -->
-		<Row Type="UNIT_CARAVEL_2" Kind="KIND_UNIT"/>
-		<!-- 装甲艦 -->
-		<Row Type="UNIT_IRONCLAD_2" Kind="KIND_UNIT"/>
-		<!-- 駆逐艦 -->
-		<Row Type="UNIT_DESTROYER_2" Kind="KIND_UNIT"/>
 		<!-- カドリレーム -->
 		<Row Type="UNIT_QUADRIREME_2" Kind="KIND_UNIT"/>
+		<!-- 装甲艦 -->
+		<Row Type="UNIT_IRONCLAD_2" Kind="KIND_UNIT"/>
+		<!-- キャラベル船 -->
+		<Row Type="UNIT_CARAVEL_2" Kind="KIND_UNIT"/>
 		<!-- フリゲート艦 -->
 		<Row Type="UNIT_FRIGATE_2" Kind="KIND_UNIT"/>
-		<!-- 戦艦 -->
-		<Row Type="UNIT_BATTLESHIP_2" Kind="KIND_UNIT"/>
-		<!-- ミサイル巡洋艦 -->
-		<Row Type="UNIT_MISSILE_CRUISER_2" Kind="KIND_UNIT"/>
 		<!-- 私掠船 -->
 		<Row Type="UNIT_PRIVATEER_2" Kind="KIND_UNIT"/>
+		<!-- 戦艦 -->
+		<Row Type="UNIT_BATTLESHIP_2" Kind="KIND_UNIT"/>
 		<!-- 潜水艦 -->
 		<Row Type="UNIT_SUBMARINE_2" Kind="KIND_UNIT"/>
+		<!-- 駆逐艦 -->
+		<Row Type="UNIT_DESTROYER_2" Kind="KIND_UNIT"/>
 		<!-- 原子力潜水艦 -->
 		<Row Type="UNIT_NUCLEAR_SUBMARINE_2" Kind="KIND_UNIT"/>
+		<!-- ミサイル巡洋艦 -->
+		<Row Type="UNIT_MISSILE_CRUISER_2" Kind="KIND_UNIT"/>
+
+		<!-- Air -->
+		<!-- Unique-->
+		<!-- Formation Classes -->
 	</Types>
 	<!-- ユニットのAI・タイプ設定 -->
 	<UnitAiInfos>
+		<!-- Recon-->
 		<!-- 斥候 -->
 		<Row UnitType="UNIT_SCOUT_2" AiType="UNITAI_COMBAT"/>		  <!-- 戦闘ユニット -->
 		<Row UnitType="UNIT_SCOUT_2" AiType="UNITAI_EXPLORE"/>		  <!-- 探索する -->
-		<Row UnitType="UNIT_SCOUT_2" AiType="UNITTYPE_MELEE"/>       <!-- 近接ユニット -->
-		<Row UnitType="UNIT_SCOUT_2" AiType="UNITTYPE_LAND_COMBAT"/> <!-- 陸上タイプ -->
+		<Row UnitType="UNIT_SCOUT_2" AiType="UNITTYPE_MELEE"/>        <!-- 近接ユニット -->
+		<Row UnitType="UNIT_SCOUT_2" AiType="UNITTYPE_LAND_COMBAT"/>  <!-- 陸上タイプ -->
 
+		<!-- Ranged-->
 		<!-- 投石兵 -->
 		<Row UnitType="UNIT_SLINGER_2" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_SLINGER_2" AiType="UNITTYPE_RANGED"/>
@@ -82,6 +96,7 @@
 		<Row UnitType="UNIT_MACHINE_GUN_2" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_MACHINE_GUN_2" AiType="UNITAI_COMBAT"/>
 
+		<!-- Light Cavalry-->
 		<!-- 軽騎兵 -->
 		<Row UnitType="UNIT_HORSEMAN_2" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HORSEMAN_2" AiType="UNITAI_EXPLORE"/>
@@ -91,16 +106,17 @@
 		<!-- 騎兵 -->
 		<Row UnitType="UNIT_CAVALRY_2" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_CAVALRY_2" AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_CAVALRY_2" AiType="UNITTYPE_CAVALRY"/>
 		<Row UnitType="UNIT_CAVALRY_2" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_CAVALRY_2" AiType="UNITTYPE_CAVALRY"/>
 		<Row UnitType="UNIT_CAVALRY_2" AiType="UNITTYPE_LAND_COMBAT"/>
 		<!-- ヘリコプター -->
 		<Row UnitType="UNIT_HELICOPTER_2" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_HELICOPTER_2" AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_HELICOPTER_2" AiType="UNITTYPE_CAVALRY"/>
 		<Row UnitType="UNIT_HELICOPTER_2" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_HELICOPTER_2" AiType="UNITTYPE_CAVALRY"/>
 		<Row UnitType="UNIT_HELICOPTER_2" AiType="UNITTYPE_LAND_COMBAT"/>
 
+		<!-- Siege-->
 		<!-- カタパルト -->
 		<Row UnitType="UNIT_CATAPULT_2" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_CATAPULT_2" AiType="UNITTYPE_RANGED"/>
@@ -132,59 +148,82 @@
 		<Row UnitType="UNIT_ROCKET_ARTILLERY_2" AiType="UNITTYPE_SIEGE_ALL"/>
 		<Row UnitType="UNIT_ROCKET_ARTILLERY_2" AiType="UNITTYPE_LAND_COMBAT"/>
 
+		<!-- Heavy Cavalry-->
+		<!-- Support -->
+
+		<!-- Naval Units-->
 		<!-- ガレー船 -->
 		<Row UnitType="UNIT_GALLEY_2" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_GALLEY_2" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_GALLEY_2" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_GALLEY_2" AiType="UNITTYPE_NAVAL"/>
+		<!-- カドリレーム -->
+		<Row UnitType="UNIT_QUADRIREME_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_QUADRIREME_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_QUADRIREME_2" AiType="UNITTYPE_NAVAL"/>
 		<!-- キャラベル船 -->
 		<Row UnitType="UNIT_CARAVEL_2" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_CARAVEL_2" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_CARAVEL_2" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_CARAVEL_2" AiType="UNITTYPE_NAVAL"/>
+		<!-- フリゲート艦 -->
+		<Row UnitType="UNIT_FRIGATE_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_FRIGATE_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_FRIGATE_2" AiType="UNITTYPE_NAVAL"/>
+		<!-- 私掠船 -->
+		<Row UnitType="UNIT_PRIVATEER_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_PRIVATEER_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_PRIVATEER_2" AiType="UNITTYPE_NAVAL"/>
 		<!-- 装甲艦 -->
 		<Row UnitType="UNIT_IRONCLAD_2" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_IRONCLAD_2" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_IRONCLAD_2" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_IRONCLAD_2" AiType="UNITTYPE_NAVAL"/>
+		<!-- 戦艦 -->
+		<Row UnitType="UNIT_BATTLESHIP_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_BATTLESHIP_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_BATTLESHIP_2" AiType="UNITTYPE_NAVAL"/>
+		<!-- 潜水艦 -->
+		<Row UnitType="UNIT_SUBMARINE_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SUBMARINE_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_SUBMARINE_2" AiType="UNITTYPE_NAVAL"/>
 		<!-- 駆逐艦 -->
 		<Row UnitType="UNIT_DESTROYER_2" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_DESTROYER_2" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_DESTROYER_2" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_DESTROYER_2" AiType="UNITTYPE_NAVAL"/>
-
-		<!-- カドリレーム -->
-		<Row UnitType="UNIT_QUADRIREME_2" AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_QUADRIREME_2" AiType="UNITTYPE_RANGED"/>
-		<Row UnitType="UNIT_QUADRIREME_2" AiType="UNITTYPE_NAVAL"/>
-		<!-- 	フリゲート艦 -->
-		<Row UnitType="UNIT_FRIGATE_2" AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_FRIGATE_2" AiType="UNITTYPE_RANGED"/>
-		<Row UnitType="UNIT_FRIGATE_2" AiType="UNITTYPE_NAVAL"/>
-		<!-- 戦艦 -->
-		<Row UnitType="UNIT_BATTLESHIP_2" AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_BATTLESHIP_2" AiType="UNITTYPE_RANGED"/>
-		<Row UnitType="UNIT_BATTLESHIP_2" AiType="UNITTYPE_NAVAL"/>
-		<!-- ミサイル巡洋艦 -->
-		<Row UnitType="UNIT_MISSILE_CRUISER_2" AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_MISSILE_CRUISER_2" AiType="UNITTYPE_RANGED"/>
-		<Row UnitType="UNIT_MISSILE_CRUISER_2" AiType="UNITTYPE_NAVAL"/>
-
-		<!-- 私掠船 -->
-		<Row UnitType="UNIT_PRIVATEER_2" AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_PRIVATEER_2" AiType="UNITTYPE_RANGED"/>
-		<Row UnitType="UNIT_PRIVATEER_2" AiType="UNITTYPE_NAVAL"/>
-		<!-- 潜水艦 -->
-		<Row UnitType="UNIT_SUBMARINE_2" AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_SUBMARINE_2" AiType="UNITTYPE_RANGED"/>
-		<Row UnitType="UNIT_SUBMARINE_2" AiType="UNITTYPE_NAVAL"/>
 		<!-- 原子力潜水艦 -->
 		<Row UnitType="UNIT_NUCLEAR_SUBMARINE_2" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_NUCLEAR_SUBMARINE_2" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_NUCLEAR_SUBMARINE_2" AiType="UNITTYPE_NAVAL"/>
 		<Row UnitType="UNIT_NUCLEAR_SUBMARINE_2" AiType="UNITTYPE_NUCLEAR"/>
+		<!-- ミサイル巡洋艦 -->
+		<Row UnitType="UNIT_MISSILE_CRUISER_2" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MISSILE_CRUISER_2" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_MISSILE_CRUISER_2" AiType="UNITTYPE_NAVAL"/>
+
+		<!-- Air Units -->
+		<!-- Unique Units-->
 	</UnitAiInfos>
 	<!-- 置き換え対象のユニット。定義しない場合はアップグレードで作れないユニットになる。 -->
+	<!-- <UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_GREEK_HOPLITE" ReplacesUnitType="UNIT_SPEARMAN_2"/>
+		<Row CivUniqueUnitType="UNIT_EGYPTIAN_CHARIOT_ARCHER" ReplacesUnitType="UNIT_HEAVY_CHARIOT_2"/>
+		<Row CivUniqueUnitType="UNIT_SPANISH_CONQUISTADOR" ReplacesUnitType="UNIT_MUSKETMAN_2"/>
+		<Row CivUniqueUnitType="UNIT_ROMAN_LEGION" ReplacesUnitType="UNIT_SWORDSMAN_2"/>
+		<Row CivUniqueUnitType="UNIT_JAPANESE_SAMURAI" ReplacesUnitType="UNIT_MAN_AT_ARMS_2"/>
+		<Row CivUniqueUnitType="UNIT_NORWEGIAN_LONGSHIP" ReplacesUnitType="UNIT_GALLEY_2"/>
+		<Row CivUniqueUnitType="UNIT_NORWEGIAN_BERSERKER" ReplacesUnitType="UNIT_MAN_AT_ARMS_2"/>
+		<Row CivUniqueUnitType="UNIT_RUSSIAN_COSSACK" ReplacesUnitType="UNIT_CAVALRY_2"/>
+		<Row CivUniqueUnitType="UNIT_ARABIAN_MAMLUK" ReplacesUnitType="UNIT_KNIGHT_2"/>
+		<Row CivUniqueUnitType="UNIT_FRENCH_GARDE_IMPERIALE" ReplacesUnitType="UNIT_LINE_INFANTRY_2"/>
+		<Row CivUniqueUnitType="UNIT_ENGLISH_REDCOAT" ReplacesUnitType="UNIT_LINE_INFANTRY_2"/>
+		<Row CivUniqueUnitType="UNIT_KONGO_SHIELD_BEARER" ReplacesUnitType="UNIT_SWORDSMAN_2"/>
+		<Row CivUniqueUnitType="UNIT_ENGLISH_SEADOG" ReplacesUnitType="UNIT_PRIVATEER_2"/>
+		<Row CivUniqueUnitType="UNIT_GERMAN_UBOAT" ReplacesUnitType="UNIT_SUBMARINE_2"/>
+		<Row CivUniqueUnitType="UNIT_AMERICAN_P51" ReplacesUnitType="UNIT_FIGHTER_2"/>
+		<Row CivUniqueUnitType="UNIT_BRAZILIAN_MINAS_GERAES" ReplacesUnitType="UNIT_BATTLESHIP_2"/>
+	</UnitReplaces> -->
 	<!-- <UnitReplaces> -->
 		<!-- 斥候 -->
 		<!-- <Row CivUniqueUnitType="UNIT_SCOUT_2" ReplacesUnitType="UNIT_SCOUT"/> -->
@@ -208,39 +247,50 @@
 	</UnitReplaces> -->
 	<!-- クラスとユニットの紐付け -->
 	<TypeTags>
+
+		<!-- 斥候 -->
 		<Row Type="UNIT_SCOUT_2" Tag="CLASS_RECON"/>
 		<Row Type="UNIT_SCOUT_2" Tag="CLASS_REVEAL_STEALTH"/>
 
+		<!-- 投石兵 -->
 		<Row Type="UNIT_SLINGER_2" Tag="CLASS_RANGED"/>
+		<!-- 弓兵 -->
 		<Row Type="UNIT_ARCHER_2" Tag="CLASS_RANGED"/>
+		<!-- 弩兵 -->
 		<Row Type="UNIT_CROSSBOWMAN_2" Tag="CLASS_RANGED"/>
+		<!-- 野戦砲 -->
 		<Row Type="UNIT_FIELD_CANNON_2" Tag="CLASS_RANGED"/>
+		<!-- 機関銃 -->
 		<Row Type="UNIT_MACHINE_GUN_2" Tag="CLASS_RANGED"/>
 
-		<Row Type="UNIT_HORSEMAN_2" Tag="CLASS_LIGHT_CAVALRY"/>
-		<Row Type="UNIT_CAVALRY_2" Tag="CLASS_LIGHT_CAVALRY"/>
-		<Row Type="UNIT_HELICOPTER_2" Tag="CLASS_LIGHT_CAVALRY"/>
-		<Row Type="UNIT_HELICOPTER_2" Tag="CLASS_HELICOPTER"/>
-
+		<!-- カタパルト -->
 		<Row Type="UNIT_CATAPULT_2" Tag="CLASS_SIEGE"/>
 		<Row Type="UNIT_CATAPULT_2" Tag="CLASS_SIEGE_SETUP"/>
 		<Row Type="UNIT_CATAPULT_2" Tag="CLASS_FORWARD_OBSERVER"/>
-
+		<!-- トレビュシェット -->
 		<Row Type="UNIT_TREBUCHET_2" Tag="CLASS_SIEGE"/>
 		<Row Type="UNIT_TREBUCHET_2" Tag="CLASS_SIEGE_SETUP"/>
 		<Row Type="UNIT_TREBUCHET_2" Tag="CLASS_FORWARD_OBSERVER"/>
-
+		<!-- 射石砲 -->
 		<Row Type="UNIT_BOMBARD_2" Tag="CLASS_SIEGE"/>
 		<Row Type="UNIT_BOMBARD_2" Tag="CLASS_SIEGE_SETUP"/>
 		<Row Type="UNIT_BOMBARD_2" Tag="CLASS_FORWARD_OBSERVER"/>
-
+		<!-- 大砲 -->
 		<Row Type="UNIT_ARTILLERY_2" Tag="CLASS_SIEGE"/>
 		<Row Type="UNIT_ARTILLERY_2" Tag="CLASS_SIEGE_SETUP"/>
 		<Row Type="UNIT_ARTILLERY_2" Tag="CLASS_FORWARD_OBSERVER"/>
-
+		<!-- ロケット砲 -->
 		<Row Type="UNIT_ROCKET_ARTILLERY_2" Tag="CLASS_SIEGE"/>
 		<Row Type="UNIT_ROCKET_ARTILLERY_2" Tag="CLASS_SIEGE_SETUP"/>
 		<Row Type="UNIT_ROCKET_ARTILLERY_2" Tag="CLASS_FORWARD_OBSERVER"/>
+
+		<!-- 騎馬兵 -->
+		<Row Type="UNIT_HORSEMAN_2" Tag="CLASS_LIGHT_CAVALRY"/>
+		<!-- 騎兵 -->
+		<Row Type="UNIT_CAVALRY_2" Tag="CLASS_LIGHT_CAVALRY"/>
+		<!-- ヘリコプター -->
+		<Row Type="UNIT_HELICOPTER_2" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_HELICOPTER_2" Tag="CLASS_HELICOPTER"/>
 
 		<!-- ガレー船 -->
 		<Row Type="UNIT_GALLEY_2" Tag="CLASS_NAVAL_MELEE"/>
@@ -250,6 +300,8 @@
 		<Row Type="UNIT_IRONCLAD_2" Tag="CLASS_NAVAL_MELEE"/>
 		<!-- 駆逐艦 -->
 		<Row Type="UNIT_DESTROYER_2" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="UNIT_DESTROYER_2" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_DESTROYER_2" Tag="CLASS_ANTI_AIR"/>
 		<!-- カドリレーム -->
 		<Row Type="UNIT_QUADRIREME_2" Tag="CLASS_NAVAL_RANGED"/>
 		<!-- フリゲート艦 -->
@@ -265,16 +317,16 @@
 		<Row Type="UNIT_PRIVATEER_2" Tag="CLASS_NAVAL_RANGED"/>
 		<Row Type="UNIT_PRIVATEER_2" Tag="CLASS_STEALTH"/>
 		<Row Type="UNIT_PRIVATEER_2" Tag="CLASS_REVEAL_STEALTH"/>
-		<!-- 潜水艦 -->
-		<Row Type="UNIT_SUBMARINE_2" Tag="CLASS_NAVAL_RAIDER"/>
-		<Row Type="UNIT_SUBMARINE_2" Tag="CLASS_NAVAL_RANGED"/>
-		<Row Type="UNIT_SUBMARINE_2" Tag="CLASS_STEALTH"/>
-		<Row Type="UNIT_SUBMARINE_2" Tag="CLASS_REVEAL_STEALTH"/>
 		<!-- 原子力潜水艦 -->
 		<Row Type="UNIT_NUCLEAR_SUBMARINE_2" Tag="CLASS_NAVAL_RAIDER"/>
 		<Row Type="UNIT_NUCLEAR_SUBMARINE_2" Tag="CLASS_NAVAL_RANGED"/>
 		<Row Type="UNIT_NUCLEAR_SUBMARINE_2" Tag="CLASS_STEALTH"/>
 		<Row Type="UNIT_NUCLEAR_SUBMARINE_2" Tag="CLASS_REVEAL_STEALTH"/>
+		<!-- 潜水艦 -->
+		<Row Type="UNIT_SUBMARINE_2" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="UNIT_SUBMARINE_2" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_SUBMARINE_2" Tag="CLASS_STEALTH"/>
+		<Row Type="UNIT_SUBMARINE_2" Tag="CLASS_REVEAL_STEALTH"/>
 	</TypeTags>
 	<!-- ユニットの性能設定 -->
 	<Units>
@@ -515,11 +567,13 @@
 			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_TELECOMMUNICATIONS" WMDCapable="true"/>
 
 	</Units>
-
-	<Units_XP2>
-		<!-- <Row UnitType="UNIT_SCOUT_2" ResourceCost="10"/> -->
-	</Units_XP2>
+	<!-- 
+	<Units_Presentation>
+		<Row UnitType="UNIT_INDIAN_VARU_2" UIFlagOffset="10"/>
+	</Units_Presentation>
+	-->
 
 	<!-- アップグレード先 -->
-	<!-- UU_2.xml を参照 -->
+	<UnitUpgrades>
+	</UnitUpgrades>
 </GameInfo>
