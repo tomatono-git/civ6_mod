@@ -22,6 +22,7 @@
 
           <File>Leaders.xml</File>
           <File>UU_1.xml</File>
+          <File>UU_2.xml</File>
           <File>UB.xml</File>
           <File>Leaders_Movement.sql</File>
           <File>Leaders_Boost.sql</File>
@@ -59,6 +60,7 @@
         <UpdateIcons id="Icons">
           <Criteria>LeaderCriteria</Criteria>
           <File>UU_1_Icons.xml</File>
+          <File>UU_2_Icons.xml</File>
         </UpdateIcons>
         <UpdateArt id="Art">
           <Criteria>LeaderCriteria</Criteria>
@@ -77,6 +79,7 @@
           </UpdateText>
           <UpdateIcons id="ConfigIcons">
               <File>UU_1_Icons.xml</File>
+              <File>UU_2_Icons.xml</File>
           </UpdateIcons>
           <UpdateArt id="ConfigArt">
               <File>(Mod Art Dependency File)</File>
@@ -108,15 +111,17 @@
     <!-- スタート地点に出やすいものを追加 -->
     <Content Include="Civilization_start_bias.sql" />
 
-    <Content Include="UU_1_Icons.xml" />
     <Content Include="Leaders.xml" />
     <Content Include="Leader_technologies.xml" />
     <Content Include="Text.xml" />
     <Content Include="Text_ja_JP.xml" />
-    <Content Include="UU_1.xml" />
     <Content Include="UB.xml" />
+    <Content Include="UU_1_Icons.xml" />
+    <Content Include="UU_2_Icons.xml" />
+    <Content Include="UU_1.xml" />
     <Content Include="UU_1_Text.xml" />
     <Content Include="UU_1_Text_ja_JP.xml" />
+    <Content Include="UU_2.xml" />
     <Content Include="UU_2_Text.xml" />
     <Content Include="UU_2_Text_ja_JP.xml" />
     <!-- 全てのユニットの視界と移動 -->

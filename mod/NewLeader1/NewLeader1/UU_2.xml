@@ -3,18 +3,18 @@
 	<!-- 親定義 -->
 	<Types>
 		<!-- 散兵 -->
-		<Row Type="UNIT_SKIRMISHER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SKIRMISHER_2" Kind="KIND_UNIT"/>
 		<!-- コーサー -->
-		<Row Type="UNIT_COURSER" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_CUIRASSIER" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_GIANT_DEATH_ROBOT" Kind="KIND_UNIT"/>
-		<Row Type="UNIT_ROCK_BAND" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_COURSER_2" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_CUIRASSIER_2" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GIANT_DEATH_ROBOT_2" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_ROCK_BAND_2" Kind="KIND_UNIT"/>
 		<!--Rockband Results-->
-		<Row Type="RESULT_AGING_ROCKERS" Kind="KIND_ROCKBAND_RESULT"/>
-		<Row Type="RESULT_CREATIVE_DIFFERENCES" Kind="KIND_ROCKBAND_RESULT"/>
-		<Row Type="RESULT_RISING_STARS" Kind="KIND_ROCKBAND_RESULT"/>
-		<Row Type="RESULT_HEADLINERS" Kind="KIND_ROCKBAND_RESULT"/>
-		<Row Type="RESULT_LEGENDS_OF_ROCK" Kind="KIND_ROCKBAND_RESULT"/>
+		<Row Type="RESULT_AGING_ROCKERS_2" Kind="KIND_ROCKBAND_RESULT"/>
+		<Row Type="RESULT_CREATIVE_DIFFERENCES_2" Kind="KIND_ROCKBAND_RESULT"/>
+		<Row Type="RESULT_RISING_STARS_2" Kind="KIND_ROCKBAND_RESULT"/>
+		<Row Type="RESULT_HEADLINERS_2" Kind="KIND_ROCKBAND_RESULT"/>
+		<Row Type="RESULT_LEGENDS_OF_ROCK_2" Kind="KIND_ROCKBAND_RESULT"/>
 	</Types>
 <!--
 	<Tags>
@@ -26,18 +26,18 @@
 -->
 	<TypeTags>
 <!--
-		<Row Type="UNIT_SETTLER" Tag="CLASS_SETTLER"/>
-		<Row Type="UNIT_GURU" Tag="CLASS_GURU"/>
+		<Row Type="UNIT_SETTLER_2" Tag="CLASS_SETTLER"/>
+		<Row Type="UNIT_GURU_2" Tag="CLASS_GURU"/>
 -->
-		<Row Type="UNIT_SKIRMISHER" Tag="CLASS_RECON"/>
-		<Row Type="UNIT_SKIRMISHER" Tag="CLASS_MOBILE_RANGED"/>
-		<Row Type="UNIT_COURSER" Tag="CLASS_LIGHT_CAVALRY"/>
-		<Row Type="UNIT_CUIRASSIER" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_SKIRMISHER_2" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_SKIRMISHER_2" Tag="CLASS_MOBILE_RANGED"/>
+		<Row Type="UNIT_COURSER_2" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_CUIRASSIER_2" Tag="CLASS_HEAVY_CAVALRY"/>
 <!-- 
-		<Row Type="UNIT_ROCK_BAND" Tag="CLASS_LANDCIVILIAN"/>
-		<Row Type="UNIT_ROCK_BAND" Tag="CLASS_ROCK_BAND"/>
+		<Row Type="UNIT_ROCK_BAND_2" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_ROCK_BAND_2" Tag="CLASS_ROCK_BAND"/>
  -->
-		<Row Type="UNIT_GIANT_DEATH_ROBOT" Tag="CLASS_GIANT_DEATH_ROBOT"/>
+		<Row Type="UNIT_GIANT_DEATH_ROBOT_2" Tag="CLASS_GIANT_DEATH_ROBOT"/>
 	</TypeTags>
 
 	<!-- ユニットの性能設定 -->
@@ -66,7 +66,7 @@
 		-->
 
 		<!-- 散兵 -->
-		<!-- <Row UnitType="UNIT_SKIRMISHER" Cost="150" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SKIRMISHER_NAME" Description="LOC_UNIT_SKIRMISHER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" Maintenance="2" BaseMoves="3" Combat="20" RangedCombat="30" Range="1" PrereqTech="TECH_MACHINERY"/> -->
+		<!-- <Row UnitType="UNIT_SKIRMISHER" Cost="150" AdvisorType="ADVISOR_CONQUEST_2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SKIRMISHER_NAME" Description="LOC_UNIT_SKIRMISHER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" Maintenance="2" BaseMoves="3" Combat="20" RangedCombat="30" Range="1" PrereqTech="TECH_MACHINERY"/> -->
 		<Row UnitType="UNIT_SKIRMISHER_2"
 			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" Combat="30" RangedCombat="40" Range="7"
 			ZoneOfControl="false" Domain="DOMAIN_LAND"
@@ -76,8 +76,8 @@
 
 
 		<!-- コーサー -->
-		<!-- <Row UnitType="UNIT_COURSER" Cost="200" Maintenance="3" BaseMoves="5" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="46" StrategicResource="RESOURCE_HORSES" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_COURSER_NAME" Description="LOC_UNIT_COURSER_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_CASTLES"/> -->
-		<Row UnitType="UNIT_COURSER_2" TraitType="TRAIT_CIVILIZATION_UNIT_COURSER_2"
+		<!-- <Row UnitType="UNIT_COURSER" Cost="200" Maintenance="3" BaseMoves="5" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="46" StrategicResource="RESOURCE_HORSES" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" AdvisorType="ADVISOR_CONQUEST_2" Name="LOC_UNIT_COURSER_NAME" Description="LOC_UNIT_COURSER_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_CASTLES"/> -->
+		<Row UnitType="UNIT_COURSER_2"
 			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" Combat="56"
 			ZoneOfControl="true" Domain="DOMAIN_LAND"
 			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" AdvisorType="ADVISOR_CONQUEST"
@@ -85,25 +85,25 @@
 			PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_CASTLES"/>
 
 		<!-- クルセイダー -->
-		<!-- <Row UnitType="UNIT_CUIRASSIER" Cost="330" Maintenance="5" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="64" StrategicResource="RESOURCE_IRON" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_CUIRASSIER_NAME" Description="LOC_UNIT_CUIRASSIER_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_COMBUSTION" PrereqTech="TECH_BALLISTICS"/> -->
+		<!-- <Row UnitType="UNIT_CUIRASSIER" Cost="330" Maintenance="5" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="64" StrategicResource="RESOURCE_IRON" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" AdvisorType="ADVISOR_CONQUEST_2" Name="LOC_UNIT_CUIRASSIER_NAME" Description="LOC_UNIT_CUIRASSIER_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_COMBUSTION" PrereqTech="TECH_BALLISTICS"/> -->
 		<Row UnitType="UNIT_CUIRASSIER_2"
-			Cost="330" Maintenance="5" BaseMoves="4" BaseSightRange="2" 
+			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" 
 			ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="64" StrategicResource="RESOURCE_IRON" 
 			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" AdvisorType="ADVISOR_CONQUEST" 
 			Name="LOC_UNIT_CUIRASSIER_NAME" Description="LOC_UNIT_CUIRASSIER_DESCRIPTION" 
 			PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_COMBUSTION" PrereqTech="TECH_BALLISTICS"/>
 
 		<!-- ロボット -->
-		<!-- <Row UnitType="UNIT_GIANT_DEATH_ROBOT" Cost="1500" Maintenance="15" BaseMoves="5" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="130" RangedCombat="120" Range="3" AntiAirCombat="90" StrategicResource="RESOURCE_URANIUM" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_GIANT_DEATH_ROBOT" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_GIANT_DEATH_ROBOT_NAME" Description="LOC_UNIT_GIANT_DEATH_ROBOT_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_ROBOTICS"/> -->
-		<Row UnitType="UNIT_GIANT_DEATH_ROBOT_2" Cost="1500" Maintenance="15" BaseMoves="5" BaseSightRange="3" 
+		<!-- <Row UnitType="UNIT_GIANT_DEATH_ROBOT" Cost="1500" Maintenance="15" BaseMoves="5" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="130" RangedCombat="120" Range="3" AntiAirCombat="90" StrategicResource="RESOURCE_URANIUM" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_GIANT_DEATH_ROBOT" AdvisorType="ADVISOR_CONQUEST_2" Name="LOC_UNIT_GIANT_DEATH_ROBOT_NAME" Description="LOC_UNIT_GIANT_DEATH_ROBOT_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_ROBOTICS"/> -->
+		<Row UnitType="UNIT_GIANT_DEATH_ROBOT_2" Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" 
 			ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="130" RangedCombat="120" Range="3" AntiAirCombat="90" StrategicResource="RESOURCE_URANIUM" 
 			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_GIANT_DEATH_ROBOT" AdvisorType="ADVISOR_CONQUEST" 
 			Name="LOC_UNIT_GIANT_DEATH_ROBOT_NAME" Description="LOC_UNIT_GIANT_DEATH_ROBOT_DESCRIPTION" 
 			PurchaseYield="YIELD_GOLD" PrereqTech="TECH_ROBOTICS"/>
 
 		<!-- ロックバンド -->
-		<!-- <Row UnitType="UNIT_ROCK_BAND_2" Cost="300" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_ROCK_BAND_NAME" Description="LOC_UNIT_ROCK_BAND_DESCRIPTION" PurchaseYield="YIELD_FAITH" PrereqCivic="CIVIC_COLD_WAR" MustPurchase="TRUE" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="50" CanRetreatWhenCaptured="True" InitialLevel="2" NumRandomChoices="3" PromotionClass="PROMOTION_CLASS_ROCK_BAND" PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS"/> -->
-		<Row UnitType="UNIT_ROCK_BAND_2" Cost="300" BaseMoves="4" BaseSightRange="2" 
+		<!-- <Row UnitType="UNIT_ROCK_BAND" Cost="300" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_ROCK_BAND_NAME" Description="LOC_UNIT_ROCK_BAND_DESCRIPTION" PurchaseYield="YIELD_FAITH" PrereqCivic="CIVIC_COLD_WAR" MustPurchase="TRUE" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="50" CanRetreatWhenCaptured="True" InitialLevel="2" NumRandomChoices="3" PromotionClass="PROMOTION_CLASS_ROCK_BAND" PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS_2"/> -->
+		<Row UnitType="UNIT_ROCK_BAND_2" Cost="0" BaseMoves="60" BaseSightRange="6" 
 			ZoneOfControl="false" Domain="DOMAIN_LAND" 
 			FormationClass="FORMATION_CLASS_CIVILIAN" 
 			Name="LOC_UNIT_ROCK_BAND_NAME" Description="LOC_UNIT_ROCK_BAND_DESCRIPTION" 
@@ -114,7 +114,7 @@
 		<!-- Text Updates-->
 <!-- 
 		<Update>
-			<Where UnitType="UNIT_INQUISITOR"/>
+			<Where UnitType="UNIT_INQUISITOR_2"/>
 			<Set>
 				<ReligionEvictPercent>75</ReligionEvictPercent>
 				<Description>LOC_UNIT_INQUISITOR_EXPANSION2_DESCRIPTION</Description>
@@ -150,10 +150,10 @@
 	</Units>
 
 	<Units_Presentation>
-		<Row UnitType="UNIT_GIANT_DEATH_ROBOT" UIFlagOffset="20"/>
+		<Row UnitType="UNIT_GIANT_DEATH_ROBOT_2" UIFlagOffset="20"/>
 	</Units_Presentation>
 	<UnitAiTypes>
-		<Row AiType="UNITTYPE_MAJOR_CIV_ONLY"/>
+		<Row AiType="UNITTYPE_MAJOR_CIV_ONLY_2"/>
 	</UnitAiTypes>
 
 	<!-- ユニットのAI・タイプ設定 -->
@@ -189,35 +189,25 @@
 	<!-- 置き換え対象のユニット。定義しない場合はアップグレードで作れないユニットになる。 -->
 	<!-- <UnitReplaces> -->
 		<!-- 斥候 -->
-		<!-- <Row CivUniqueUnitType="UNIT_SCOUT_2" ReplacesUnitType="UNIT_SCOUT"/> -->
+		<!-- <Row CivUniqueUnitType="UNIT_SCOUT_2" ReplacesUnitType="UNIT_SCOUT_2"/> -->
 		<!-- 投石兵 -->
-		<!-- <Row CivUniqueUnitType="UNIT_SLINGER_2" ReplacesUnitType="UNIT_SLINGER"/>
-		<Row CivUniqueUnitType="UNIT_ARCHER_2" ReplacesUnitType="UNIT_ARCHER"/>
-		<Row CivUniqueUnitType="UNIT_CROSSBOWMAN_2" ReplacesUnitType="UNIT_CROSSBOWMAN"/>
-		<Row CivUniqueUnitType="UNIT_FIELD_CANNON_2" ReplacesUnitType="UNIT_FIELD_CANNON"/>
-		<Row CivUniqueUnitType="UNIT_MACHINE_GUN_2" ReplacesUnitType="UNIT_MACHINE_GUN"/> -->
+		<!-- <Row CivUniqueUnitType="UNIT_SLINGER_2" ReplacesUnitType="UNIT_SLINGER_2"/>
+		<Row CivUniqueUnitType="UNIT_ARCHER_2" ReplacesUnitType="UNIT_ARCHER_2"/>
+		<Row CivUniqueUnitType="UNIT_CROSSBOWMAN_2" ReplacesUnitType="UNIT_CROSSBOWMAN_2"/>
+		<Row CivUniqueUnitType="UNIT_FIELD_CANNON_2" ReplacesUnitType="UNIT_FIELD_CANNON_2"/>
+		<Row CivUniqueUnitType="UNIT_MACHINE_GUN_2" ReplacesUnitType="UNIT_MACHINE_GUN_2"/> -->
 		<!-- 軽騎兵 -->
-		<!-- <Row CivUniqueUnitType="UNIT_HORSEMAN_2" ReplacesUnitType="UNIT_HORSEMAN"/>
-		<Row CivUniqueUnitType="UNIT_COURSER_2" ReplacesUnitType="UNIT_COURSER"/>
-		<Row CivUniqueUnitType="UNIT_CAVALRY_2" ReplacesUnitType="UNIT_CAVALRY"/>
-		<Row CivUniqueUnitType="UNIT_HELICOPTER_2" ReplacesUnitType="UNIT_HELICOPTER"/> -->
+		<!-- <Row CivUniqueUnitType="UNIT_HORSEMAN_2" ReplacesUnitType="UNIT_HORSEMAN_2"/>
+		<Row CivUniqueUnitType="UNIT_COURSER_2" ReplacesUnitType="UNIT_COURSER_2"/>
+		<Row CivUniqueUnitType="UNIT_CAVALRY_2" ReplacesUnitType="UNIT_CAVALRY_2"/>
+		<Row CivUniqueUnitType="UNIT_HELICOPTER_2" ReplacesUnitType="UNIT_HELICOPTER_2"/> -->
 		<!-- カタパルト -->
-		<!-- <Row CivUniqueUnitType="UNIT_CATAPULT_2" ReplacesUnitType="UNIT_CATAPULT"/>
-		<Row CivUniqueUnitType="UNIT_TREBUCHET_2" ReplacesUnitType="UNIT_TREBUCHET"/>
-		<Row CivUniqueUnitType="UNIT_BOMBARD_2" ReplacesUnitType="UNIT_BOMBARD"/>
-		<Row CivUniqueUnitType="UNIT_ARTILLERY_2" ReplacesUnitType="UNIT_ARTILLERY"/>
-		<Row CivUniqueUnitType="UNIT_ROCKET_ARTILLERY_2" ReplacesUnitType="UNIT_ROCKET_ARTILLERY"/>
+		<!-- <Row CivUniqueUnitType="UNIT_CATAPULT_2" ReplacesUnitType="UNIT_CATAPULT_2"/>
+		<Row CivUniqueUnitType="UNIT_TREBUCHET_2" ReplacesUnitType="UNIT_TREBUCHET_2"/>
+		<Row CivUniqueUnitType="UNIT_BOMBARD_2" ReplacesUnitType="UNIT_BOMBARD_2"/>
+		<Row CivUniqueUnitType="UNIT_ARTILLERY_2" ReplacesUnitType="UNIT_ARTILLERY_2"/>
+		<Row CivUniqueUnitType="UNIT_ROCKET_ARTILLERY_2" ReplacesUnitType="UNIT_ROCKET_ARTILLERY_2"/>
 	</UnitReplaces> -->
-
-	<!-- クラスとユニットの紐付け -->
-	<TypeTags>
-		<!-- 散兵 -->
-		<Row Type="UNIT_SKIRMISHER_2" Tag="CLASS_RECON"/>
-		<Row Type="UNIT_SKIRMISHER_2" Tag="CLASS_REVEAL_STEALTH"/>
-
-		<!-- コーサー -->
-		<Row Type="UNIT_COURSER_2" Tag="CLASS_LIGHT_CAVALRY"/>
-	</TypeTags>
 
 	<!-- アップグレード先 -->
 	<UnitUpgrades>
@@ -251,7 +241,7 @@
 		<!-- 騎馬兵 -->
 		<!-- <Row Unit="UNIT_HORSEMAN_2" UpgradeUnit="UNIT_CAVALRY_2"/> -->
 		<Row Unit="UNIT_HORSEMAN_2" UpgradeUnit="UNIT_COURSER_2"/>
-		<Row Unit="UNIT_COURSER" UpgradeUnit="UNIT_CAVALRY_2"/>
+		<Row Unit="UNIT_COURSER_2" UpgradeUnit="UNIT_CAVALRY_2"/>
 		<Row Unit="UNIT_CAVALRY_2" UpgradeUnit="UNIT_HELICOPTER_2"/>
 
 		<!--Siege-->
@@ -322,7 +312,7 @@
 	</UnitUpgrades>
 
 	<UnitReplaces>
-		<Row CivUniqueUnitType="UNIT_AMERICAN_ROUGH_RIDER_2" ReplacesUnitType="UNIT_CUIRASSIER"/>
+		<Row CivUniqueUnitType="UNIT_AMERICAN_ROUGH_RIDER_2" ReplacesUnitType="UNIT_CUIRASSIER_2"/>
 	</UnitReplaces>
 
 </GameInfo>
