@@ -18,10 +18,10 @@
 
 		<!-- TODO 間違ってるかも？ -->
 		<!-- 散兵 -->
-		<Row Name="ICON_UNIT_SKIRMISHER_2_WHITE" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE" Index="9"/>
+		<!-- <Row Name="ICON_UNIT_SKIRMISHER_2_WHITE" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE" Index="9"/>
 		<Row Name="ICON_UNIT_SKIRMISHER_2_BLACK" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK" Index="9"/>
 		<Row Name="ICON_UNIT_SKIRMISHER_2"       Atlas="ICON_ATLAS_UNITS"                   Index="9"/>
-		<Row Name="ICON_UNIT_SKIRMISHER_2_FOW"   Atlas="ICON_ATLAS_UNITS_FOW"               Index="9"/>
+		<Row Name="ICON_UNIT_SKIRMISHER_2_FOW"   Atlas="ICON_ATLAS_UNITS_FOW"               Index="9"/> -->
 
 		<!-- 投石兵 -->
 		<Row Name="ICON_UNIT_SLINGER_2_WHITE" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE" Index="21"/>
@@ -60,10 +60,10 @@
 		<Row Name="ICON_UNIT_HORSEMAN_2_FOW"   Atlas="ICON_ATLAS_UNITS_FOW"               Index="35"/>
 
 		<!-- コーサー -->
-		<Row Name="ICON_UNIT_COURSER_2_WHITE" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE" Index="10"/>
+		<!-- <Row Name="ICON_UNIT_COURSER_2_WHITE" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE" Index="10"/>
 		<Row Name="ICON_UNIT_COURSER_2_BLACK" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK" Index="10"/>
 		<Row Name="ICON_UNIT_COURSER_2"       Atlas="ICON_ATLAS_UNITS"                   Index="10"/>
-		<Row Name="ICON_UNIT_COURSER_2_FOW"   Atlas="ICON_ATLAS_UNITS_FOW"               Index="10"/>
+		<Row Name="ICON_UNIT_COURSER_2_FOW"   Atlas="ICON_ATLAS_UNITS_FOW"               Index="10"/> -->
 
 		<!-- 騎兵 -->
 		<Row Name="ICON_UNIT_CAVALRY_2_WHITE" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE" Index="61"/>
