@@ -59,6 +59,7 @@
         </UpdateText>
         <UpdateIcons id="Icons">
           <Criteria>LeaderCriteria</Criteria>
+          <File>Icons.xml</File>
           <File>UU_1_Icons.xml</File>
           <File>UU_2_Icons.xml</File>
           <File>UU_2_Icons_Portraits.xml</File>
@@ -79,6 +80,7 @@
               <File>ConfigText_ja_JP.xml</File>
           </UpdateText>
           <UpdateIcons id="ConfigIcons">
+              <File>Icons.xml</File>
               <File>UU_1_Icons.xml</File>
               <File>UU_2_Icons.xml</File>
               <File>UU_2_Icons_Portraits.xml</File>
@@ -118,6 +120,7 @@
     <Content Include="Text.xml" />
     <Content Include="Text_ja_JP.xml" />
     <Content Include="UB.xml" />
+    <Content Include="Icons.xml" />
     <Content Include="UU_1_Icons.xml" />
     <Content Include="UU_2_Icons.xml" />
     <Content Include="UU_2_Icons_Portraits.xml" />

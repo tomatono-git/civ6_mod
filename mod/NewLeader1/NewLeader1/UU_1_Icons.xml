@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<IconDefinitions>
-		<!-- <Row Name="ICON_BUILDING_LITTER_BOX" Atlas="ICON_ATLAS_BUILDINGS" Index="0"/> -->
-		<Row Name="ICON_CIVILIZATION_FELINE" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="12"/>
-		<Row Name="ICON_LEADER_JASPER_KITTY" Atlas="ICON_ATLAS_LEADERS" Index="8"/>
-
-
 		<!-- ユニークユニット用。ユニットアイコン。バニラのアイコンのindex:35は騎乗兵(今回はバニラの使いまわし) index:19は斥候 -->
 
 		<!-- Base\Assets\UI\Icons\Icons_Unit.xml -->
@@ -367,9 +362,6 @@
 		<Row Name="ICON_ETHNICITY_MEDIT_UNIT_NUCLEAR_SUBMARINE_2_PORTRAIT"   Atlas="ICON_ATLAS_MEDITERRANEAN_UNIT_PORTRAITS"  Index="21"/>
 		<Row Name="ICON_ETHNICITY_SOUTHAM_UNIT_NUCLEAR_SUBMARINE_2_PORTRAIT" Atlas="ICON_ATLAS_SOUTH_AMERICAN_UNIT_PORTRAITS" Index="21"/>
 		<Row Name="ICON_ETHNICITY_AFRICAN_UNIT_NUCLEAR_SUBMARINE_2_PORTRAIT" Atlas="ICON_ATLAS_AFRICAN_UNIT_PORTRAITS"        Index="21"/>
-
-		<!-- ユニーク建造物のアイコン。バニラのIndex:5は社 -->
-		<Row Name="ICON_BUILDING_GOKOKU_SHRINE" Atlas="ICON_ATLAS_BUILDINGS" Index="5"/>
 
 	</IconDefinitions>
 </GameData>
