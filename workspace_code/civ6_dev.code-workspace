@@ -15,8 +15,12 @@
 			"path": "C:/Users/tomato/OneDrive/ドキュメント/My Games/Sid Meier's Civilization VI/Mods"
 		},
 		{
-			"name": "Logs - My Games",
-			"path": "C:/Users/tomato/OneDrive/ドキュメント/My Games/Sid Meier's Civilization VI/Logs"
+			"name": "Civ6 - AppData",
+			"path": "C:/Users/tomato/AppData/Local/Firaxis Games/Sid Meier's Civilization VI"
+		},
+		{
+			"name": "Civ6 - My Games",
+			"path": "C:/Users/tomato/OneDrive/ドキュメント/My Games/Sid Meier's Civilization VI"
 		},
 	],
 	"settings": {
