@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "workspace",
+			"path": "."
+		},
+		{
+			"path": "../docs"
+		},
+		{
+			"path": "../mod"
+		},
+		{
+			"name": "Mods - My Games",
+			"path": "C:/Users/tomato/Documents/My Games/Sid Meier's Civilization VI/Mods"
+		},
+		{
+			"name": "Logs - My Games",
+			"path": "C:/Users/tomato/Documents/My Games/Sid Meier's Civilization VI/Logs"
+		},
+	],
+	"settings": {
+		"files.autoGuessEncoding": true,
+	}
+}
