@@ -81,7 +81,7 @@
           <UpdateIcons id="ConfigIcons">
               <File>UU_1_Icons.xml</File>
               <File>UU_2_Icons.xml</File>
-          <File>UU_2_Icons_Portraits.xml</File>
+              <File>UU_2_Icons_Portraits.xml</File>
           </UpdateIcons>
           <UpdateArt id="ConfigArt">
               <File>(Mod Art Dependency File)</File>
