@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- ユニークユニットの名称 -->
+		<Row Tag="LOC_UNIT_SKIRMISHER_2_NAME" Language="ja_JP">
+			<Text>散兵さん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SKIRMISHER_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごい散兵さん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SKIRMISHER_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: 散兵さん。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_COURSER_2_NAME" Language="ja_JP">
+			<Text>コーサーさん。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_COURSER_2_DESCRIPTION" Language="ja_JP">
+			<Text>すごいコーサーさん。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_COURSER_2_NAME" Language="ja_JP">
+			<Text>とまと王国固有ユニット: コーサーさん。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

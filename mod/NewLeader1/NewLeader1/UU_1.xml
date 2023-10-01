@@ -4,8 +4,6 @@
 	<Types>
 		<!-- 斥候 -->
 		<Row Type="UNIT_SCOUT_2" Kind="KIND_UNIT"/>
-		<!-- 散兵 -->
-		<Row Type="UNIT_SKIRMISHER_2" Kind="KIND_UNIT"/>
 
 		<!-- 投石兵 -->
 		<Row Type="UNIT_SLINGER_2" Kind="KIND_UNIT"/>
@@ -20,8 +18,6 @@
 
 		<!-- 騎馬兵 -->
 		<Row Type="UNIT_HORSEMAN_2" Kind="KIND_UNIT"/>
-		<!-- コーサー -->
-		<Row Type="UNIT_COURSER_2" Kind="KIND_UNIT"/>
 		<!-- 騎兵 -->
 		<Row Type="UNIT_CAVALRY_2" Kind="KIND_UNIT"/>
 		<!-- ヘリコプター -->
@@ -68,9 +64,6 @@
 		<Row UnitType="UNIT_SCOUT_2" AiType="UNITAI_EXPLORE"/>		  <!-- 探索する -->
 		<Row UnitType="UNIT_SCOUT_2" AiType="UNITTYPE_MELEE"/>       <!-- 近接ユニット -->
 		<Row UnitType="UNIT_SCOUT_2" AiType="UNITTYPE_LAND_COMBAT"/> <!-- 陸上タイプ -->
-		<Row UnitType="UNIT_SKIRMISHER_2" AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_SKIRMISHER_2" AiType="UNITTYPE_LAND_COMBAT"/>
-		<Row UnitType="UNIT_SKIRMISHER_2" AiType="UNITTYPE_RANGED"/>
 
 		<!-- 投石兵 -->
 		<Row UnitType="UNIT_SLINGER_2" AiType="UNITAI_COMBAT"/>
@@ -95,12 +88,6 @@
 		<Row UnitType="UNIT_HORSEMAN_2" AiType="UNITTYPE_CAVALRY"/>
 		<Row UnitType="UNIT_HORSEMAN_2" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_HORSEMAN_2" AiType="UNITTYPE_LAND_COMBAT"/>
-		<!-- コーサー -->
-		<Row UnitType="UNIT_COURSER_2" AiType="UNITAI_COMBAT"/>
-		<Row UnitType="UNIT_COURSER_2" AiType="UNITAI_EXPLORE"/>
-		<Row UnitType="UNIT_COURSER_2" AiType="UNITTYPE_CAVALRY"/>
-		<Row UnitType="UNIT_COURSER_2" AiType="UNITTYPE_MELEE"/>
-		<Row UnitType="UNIT_COURSER_2" AiType="UNITTYPE_LAND_COMBAT"/>
 		<!-- 騎兵 -->
 		<Row UnitType="UNIT_CAVALRY_2" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_CAVALRY_2" AiType="UNITAI_EXPLORE"/>
@@ -223,8 +210,6 @@
 	<TypeTags>
 		<Row Type="UNIT_SCOUT_2" Tag="CLASS_RECON"/>
 		<Row Type="UNIT_SCOUT_2" Tag="CLASS_REVEAL_STEALTH"/>
-		<Row Type="UNIT_SKIRMISHER_2" Tag="CLASS_RECON"/>
-		<Row Type="UNIT_SKIRMISHER_2" Tag="CLASS_REVEAL_STEALTH"/>
 
 		<Row Type="UNIT_SLINGER_2" Tag="CLASS_RANGED"/>
 		<Row Type="UNIT_ARCHER_2" Tag="CLASS_RANGED"/>
@@ -233,7 +218,6 @@
 		<Row Type="UNIT_MACHINE_GUN_2" Tag="CLASS_RANGED"/>
 
 		<Row Type="UNIT_HORSEMAN_2" Tag="CLASS_LIGHT_CAVALRY"/>
-		<Row Type="UNIT_COURSER_2" Tag="CLASS_LIGHT_CAVALRY"/>
 		<Row Type="UNIT_CAVALRY_2" Tag="CLASS_LIGHT_CAVALRY"/>
 		<Row Type="UNIT_HELICOPTER_2" Tag="CLASS_LIGHT_CAVALRY"/>
 		<Row Type="UNIT_HELICOPTER_2" Tag="CLASS_HELICOPTER"/>
@@ -325,15 +309,6 @@
 			Name="LOC_UNIT_SCOUT_2_NAME" Description="LOC_UNIT_SCOUT_2_DESCRIPTION"
 			PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"/>
 
-		<!-- 散兵 -->
-		<Row UnitType="UNIT_SKIRMISHER_2"
-			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" Combat="30" RangedCombat="40" Range="7"
-			ZoneOfControl="false" Domain="DOMAIN_LAND"
-			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_CONQUEST"
-			Name="LOC_UNIT_SKIRMISHER_2_NAME" Description="LOC_UNIT_SKIRMISHER_2_DESCRIPTION"
-			PurchaseYield="YIELD_GOLD" PrereqTech="TECH_MACHINERY"/>
-		<!-- <Row UnitType="UNIT_SKIRMISHER" Cost="150" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SKIRMISHER_NAME" Description="LOC_UNIT_SKIRMISHER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" Maintenance="2" BaseMoves="3" Combat="20" RangedCombat="30" Range="1" PrereqTech="TECH_MACHINERY"/> -->
-
 		<!-- 投石兵 -->
 		<Row UnitType="UNIT_SLINGER_2" TraitType="TRAIT_CIVILIZATION_UNIT_SLINGER_2"
 			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" Combat="10" RangedCombat="35" Range="6"
@@ -387,15 +362,6 @@
 			Name="LOC_UNIT_HORSEMAN_2_NAME" Description="LOC_UNIT_HORSEMAN_2_DESCRIPTION"
 			PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_HORSEBACK_RIDING"/>
 		<!-- <Row UnitType="UNIT_HORSEMAN" Cost="80" Maintenance="2" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="36" StrategicResource="RESOURCE_HORSES" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HORSEMAN_NAME" Description="LOC_UNIT_HORSEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_HORSEBACK_RIDING"/> -->
-
-		<!-- コーサー -->
-		<Row UnitType="UNIT_COURSER_2" TraitType="TRAIT_CIVILIZATION_UNIT_COURSER_2"
-			Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" Combat="56"
-			ZoneOfControl="true" Domain="DOMAIN_LAND"
-			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" AdvisorType="ADVISOR_CONQUEST"
-			Name="LOC_UNIT_COURSER_2_NAME" Description="LOC_UNIT_COURSER_2_DESCRIPTION"
-			PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_CASTLES"/>
-		<!-- <Row UnitType="UNIT_COURSER" Cost="200" Maintenance="3" BaseMoves="5" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="46" StrategicResource="RESOURCE_HORSES" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_COURSER_NAME" Description="LOC_UNIT_COURSER_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_CASTLES"/> -->
 
 		<!-- 騎兵 -->
 		<Row UnitType="UNIT_CAVALRY_2" TraitType="TRAIT_CIVILIZATION_UNIT_CAVALRY_2"
@@ -555,38 +521,5 @@
 	</Units_XP2>
 
 	<!-- アップグレード先 -->
-	<UnitUpgrades>
-		<!-- 偵察 -->
-		<Row Unit="UNIT_SCOUT_2" UpgradeUnit="UNIT_SKIRMISHER_2"/>
-		<!-- <Row Unit="UNIT_SKIRMISHER" UpgradeUnit="UNIT_RANGER"/> -->
-
-		<!-- 遠隔 -->
-		<Row Unit="UNIT_SLINGER_2" UpgradeUnit="UNIT_ARCHER_2"/>
-		<Row Unit="UNIT_ARCHER_2" UpgradeUnit="UNIT_CROSSBOWMAN_2"/>
-		<Row Unit="UNIT_CROSSBOWMAN_2" UpgradeUnit="UNIT_FIELD_CANNON_2"/>
-		<Row Unit="UNIT_FIELD_CANNON_2" UpgradeUnit="UNIT_MACHINE_GUN_2"/>
-
-		<!-- 軽騎兵 -->
-		<Row Unit="UNIT_HORSEMAN_2" UpgradeUnit="UNIT_COURSER_2"/>
-		<Row Unit="UNIT_COURSER_2" UpgradeUnit="UNIT_CAVALRY_2"/>
-		<Row Unit="UNIT_CAVALRY_2" UpgradeUnit="UNIT_HELICOPTER_2"/>
-
-		<!-- <Row Unit="UNIT_CAVALRY" UpgradeUnit="UNIT_HELICOPTER"/> -->
-
-		<!-- 包囲 -->
-		<Row Unit="UNIT_CATAPULT_2" UpgradeUnit="UNIT_TREBUCHET_2"/>
-		<Row Unit="UNIT_TREBUCHET_2" UpgradeUnit="UNIT_BOMBARD_2"/>
-		<Row Unit="UNIT_BOMBARD_2" UpgradeUnit="UNIT_ARTILLERY_2"/>
-		<Row Unit="UNIT_ARTILLERY_2" UpgradeUnit="UNIT_ROCKET_ARTILLERY_2"/>
-
-		<!-- 海洋長距離戦闘 -->
-		<Row Unit="UNIT_GALLEY_2" UpgradeUnit="UNIT_CARAVEL_2"/>
-		<Row Unit="UNIT_CARAVEL_2" UpgradeUnit="UNIT_IRONCLAD_2"/>
-		<Row Unit="UNIT_IRONCLAD_2" UpgradeUnit="UNIT_DESTROYER_2"/>
-		<Row Unit="UNIT_QUADRIREME_2" UpgradeUnit="UNIT_FRIGATE_2"/>
-		<Row Unit="UNIT_FRIGATE_2" UpgradeUnit="UNIT_BATTLESHIP_2"/>
-		<Row Unit="UNIT_BATTLESHIP_2" UpgradeUnit="UNIT_MISSILE_CRUISER_2"/>
-		<Row Unit="UNIT_PRIVATEER_2" UpgradeUnit="UNIT_SUBMARINE_2"/>
-		<Row Unit="UNIT_SUBMARINE_2" UpgradeUnit="UNIT_NUCLEAR_SUBMARINE_2"/>
-	</UnitUpgrades>
+	<!-- UU_2.xml を参照 -->
 </GameInfo>
