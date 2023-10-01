@@ -42,7 +42,7 @@ INSERT OR REPLACE INTO ModifierArguments
 		('TOMATO_FOREST_CULTURE', 'YieldType', 'YIELD_CULTURE'),
 		('TOMATO_FOREST_CULTURE', 'Amount', 1),
 		('TOMATO_FOREST_FAITH', 'YieldType', 'YIELD_FAITH'),
-		('TOMATO_FOREST_FAITH', 'Amount', 1);
+		('TOMATO_FOREST_FAITH', 'Amount', 4);
 
 INSERT OR REPLACE INTO TraitModifiers
 		(TraitType, ModifierId)
@@ -95,7 +95,7 @@ INSERT OR REPLACE INTO ModifierArguments
 		('TOMATO_JUNGLE_CULTURE', 'YieldType', 'YIELD_CULTURE'),
 		('TOMATO_JUNGLE_CULTURE', 'Amount', 1),
 		('TOMATO_JUNGLE_FAITH', 'YieldType', 'YIELD_FAITH'),
-		('TOMATO_JUNGLE_FAITH', 'Amount', 1);
+		('TOMATO_JUNGLE_FAITH', 'Amount', 4);
 
 INSERT OR REPLACE INTO TraitModifiers
 		(TraitType, ModifierId)

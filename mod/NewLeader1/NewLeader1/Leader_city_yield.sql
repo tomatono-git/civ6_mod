@@ -14,22 +14,22 @@ INSERT OR REPLACE INTO ModifierArguments
 	VALUES
         -- 金
 		('TOMATO_CITY_YIELD_GOLD', 'YieldType', 'YIELD_GOLD'),
-		('TOMATO_CITY_YIELD_GOLD', 'Amount', 200),
+		('TOMATO_CITY_YIELD_GOLD', 'Amount', 300),
         -- 食糧
 		('TOMATO_CITY_YIELD_FOOD', 'YieldType', 'YIELD_FOOD'),
-		('TOMATO_CITY_YIELD_FOOD', 'Amount', 100),
+		('TOMATO_CITY_YIELD_FOOD', 'Amount', 200),
         -- 科学
 		('TOMATO_CITY_YIELD_SIENCE', 'YieldType', 'YIELD_SIENCE'),
-		('TOMATO_CITY_YIELD_SIENCE', 'Amount', 100),
+		('TOMATO_CITY_YIELD_SIENCE', 'Amount', 200),
         -- 文化
 		('TOMATO_CITY_YIELD_CULTURE', 'YieldType', 'YIELD_CULTURE'),
-		('TOMATO_CITY_YIELD_CULTURE', 'Amount', 100),
+		('TOMATO_CITY_YIELD_CULTURE', 'Amount', 200),
         -- 生産
 		('TOMATO_CITY_YIELD_PRODUCTION', 'YieldType', 'YIELD_PRODUCTION'),
 		('TOMATO_CITY_YIELD_PRODUCTION', 'Amount', 200),
         -- 信仰
 		('TOMATO_CITY_YIELD_FAITH', 'YieldType', 'YIELD_FAITH'),
-		('TOMATO_CITY_YIELD_FAITH', 'Amount', 300);
+		('TOMATO_CITY_YIELD_FAITH', 'Amount', 400);
 
 INSERT OR REPLACE INTO TraitModifiers
 		(TraitType, ModifierId)

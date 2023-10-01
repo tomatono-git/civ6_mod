@@ -9,7 +9,7 @@ INSERT OR REPLACE INTO ModifierArguments
 		(ModifierId, Name, Value)
 	VALUES
 		('TOMATO_UNIT_HEAL', 'ModifierId', 'TOMATO_UNIT_HEAL_MODIFIER'),
-		('TOMATO_UNIT_HEAL_MODIFIER', 'Amount', 60),
+		('TOMATO_UNIT_HEAL_MODIFIER', 'Amount', 70),
 		('TOMATO_UNIT_HEAL_MODIFIER', 'Type', 'ALL');
 
 INSERT OR REPLACE INTO TraitModifiers
