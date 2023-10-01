@@ -95,15 +95,17 @@
 
 		<!-- ロボット -->
 		<!-- <Row UnitType="UNIT_GIANT_DEATH_ROBOT" Cost="1500" Maintenance="15" BaseMoves="5" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="130" RangedCombat="120" Range="3" AntiAirCombat="90" StrategicResource="RESOURCE_URANIUM" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_GIANT_DEATH_ROBOT" AdvisorType="ADVISOR_CONQUEST_2" Name="LOC_UNIT_GIANT_DEATH_ROBOT_NAME" Description="LOC_UNIT_GIANT_DEATH_ROBOT_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_ROBOTICS"/> -->
-		<Row UnitType="UNIT_GIANT_DEATH_ROBOT_2" Cost="0" Maintenance="0" BaseMoves="60" BaseSightRange="6" 
-			ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="130" RangedCombat="120" Range="3" AntiAirCombat="90" StrategicResource="RESOURCE_URANIUM" 
+		<Row UnitType="UNIT_GIANT_DEATH_ROBOT_2" 
+			Cost="0" Maintenance="0" BaseMoves="90" BaseSightRange="6" 
+			ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="130" RangedCombat="120" Range="9" AntiAirCombat="90" StrategicResource="RESOURCE_URANIUM" 
 			FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_GIANT_DEATH_ROBOT" AdvisorType="ADVISOR_CONQUEST" 
 			Name="LOC_UNIT_GIANT_DEATH_ROBOT_NAME" Description="LOC_UNIT_GIANT_DEATH_ROBOT_DESCRIPTION" 
 			PurchaseYield="YIELD_GOLD" PrereqTech="TECH_ROBOTICS"/>
 
 		<!-- ロックバンド -->
 		<!-- <Row UnitType="UNIT_ROCK_BAND" Cost="300" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_ROCK_BAND_NAME" Description="LOC_UNIT_ROCK_BAND_DESCRIPTION" PurchaseYield="YIELD_FAITH" PrereqCivic="CIVIC_COLD_WAR" MustPurchase="TRUE" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="50" CanRetreatWhenCaptured="True" InitialLevel="2" NumRandomChoices="3" PromotionClass="PROMOTION_CLASS_ROCK_BAND" PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS_2"/> -->
-		<Row UnitType="UNIT_ROCK_BAND_2" Cost="0" BaseMoves="60" BaseSightRange="6" 
+		<Row UnitType="UNIT_ROCK_BAND_2" 
+			Cost="0" BaseMoves="60" BaseSightRange="6" 
 			ZoneOfControl="false" Domain="DOMAIN_LAND" 
 			FormationClass="FORMATION_CLASS_CIVILIAN" 
 			Name="LOC_UNIT_ROCK_BAND_NAME" Description="LOC_UNIT_ROCK_BAND_DESCRIPTION" 
