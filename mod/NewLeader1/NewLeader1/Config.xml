@@ -136,16 +136,6 @@
 			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
 			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
-			<Type>UNIT_COURSER_2</Type>
-			<Name>LOC_UNIT_COURSER_2_NAME</Name>
-			<Description>LOC_UNIT_COURSER_2_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_COURSER_2</Icon>
-			<SortIndex>27</SortIndex>
-		</Row>
-		<Row>
-			<Domain>StandardPlayers</Domain>
-			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
-			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
 			<Type>UNIT_CAVALRY_2</Type>
 			<Name>LOC_UNIT_CAVALRY_2_NAME</Name>
 			<Description>LOC_UNIT_CAVALRY_2_DESCRIPTION</Description>
@@ -413,16 +403,6 @@
 			<Description>LOC_UNIT_HORSEMAN_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_HORSEMAN_2</Icon>
 			<SortIndex>26</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion1_Players</Domain>
-			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
-			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
-			<Type>UNIT_COURSER_2</Type>
-			<Name>LOC_UNIT_COURSER_2_NAME</Name>
-			<Description>LOC_UNIT_COURSER_2_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_COURSER_2</Icon>
-			<SortIndex>27</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
@@ -696,16 +676,6 @@
 			<Description>LOC_UNIT_HORSEMAN_2_DESCRIPTION</Description>
 			<Icon>ICON_UNIT_HORSEMAN_2</Icon>
 			<SortIndex>26</SortIndex>
-		</Row>
-		<Row>
-			<Domain>Players:Expansion2_Players</Domain>
-			<CivilizationType>CIVILIZATION_FELINE</CivilizationType>
-			<LeaderType>LEADER_JASPER_KITTY</LeaderType>
-			<Type>UNIT_COURSER_2</Type>
-			<Name>LOC_UNIT_COURSER_2_NAME</Name>
-			<Description>LOC_UNIT_COURSER_2_DESCRIPTION</Description>
-			<Icon>ICON_UNIT_COURSER_2</Icon>
-			<SortIndex>27</SortIndex>
 		</Row>
 		<Row>
 			<Domain>Players:Expansion2_Players</Domain>
