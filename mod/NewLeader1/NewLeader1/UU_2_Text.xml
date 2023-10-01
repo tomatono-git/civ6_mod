@@ -2,23 +2,23 @@
 <GameData>
 	<LocalizedText>
 		<!-- ユニークユニットの名称 -->
-		<Row Tag="LOC_UNIT_SKIRMISHER_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_SKIRMISHER_2_NAME" Language="en_US">
 			<Text>散兵さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_SKIRMISHER_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_SKIRMISHER_2_DESCRIPTION" Language="en_US">
 			<Text>すごい散兵さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SKIRMISHER_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SKIRMISHER_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 散兵さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_COURSER_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_COURSER_2_NAME" Language="en_US">
 			<Text>コーサーさん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_COURSER_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_COURSER_2_DESCRIPTION" Language="en_US">
 			<Text>すごいコーサーさん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_COURSER_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_COURSER_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: コーサーさん。</Text>
 		</Row>
 	</LocalizedText>

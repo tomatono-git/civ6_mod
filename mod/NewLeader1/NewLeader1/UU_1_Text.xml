@@ -2,253 +2,253 @@
 <GameData>
 	<LocalizedText>
 		<!-- ユニークユニットの名称 -->
-		<Row Tag="LOC_UNIT_SCOUT_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_SCOUT_2_NAME" Language="en_US">
 			<Text>斥候わんこ。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_SCOUT_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_SCOUT_2_DESCRIPTION" Language="en_US">
 			<Text>移動速度に優れ過ぎな太古の偵察わんこユニット。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SCOUT_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SCOUT_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 斥候わんこ。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_SLINGER_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_SLINGER_2_NAME" Language="en_US">
 			<Text>石投げさん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_SLINGER_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_SLINGER_2_DESCRIPTION" Language="en_US">
 			<Text>移動速度に優れ過ぎな古代の石を投げる人。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SLINGER_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SLINGER_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 石投げさん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_ARCHER_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_ARCHER_2_NAME" Language="en_US">
 			<Text>弓兵さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_ARCHER_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_ARCHER_2_DESCRIPTION" Language="en_US">
 			<Text>すごい弓兵さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_ARCHER_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_ARCHER_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 弓兵さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_CROSSBOWMAN_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_CROSSBOWMAN_2_NAME" Language="en_US">
 			<Text>弩兵さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_CROSSBOWMAN_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_CROSSBOWMAN_2_DESCRIPTION" Language="en_US">
 			<Text>すごい弩兵さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CROSSBOWMAN_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CROSSBOWMAN_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 弩兵さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_FIELD_CANNON_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_FIELD_CANNON_2_NAME" Language="en_US">
 			<Text>野戦砲さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_FIELD_CANNON_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_FIELD_CANNON_2_DESCRIPTION" Language="en_US">
 			<Text>すごい野戦砲さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_FIELD_CANNON_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_FIELD_CANNON_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 野戦砲さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_MACHINE_GUN_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_MACHINE_GUN_2_NAME" Language="en_US">
 			<Text>機関銃さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_MACHINE_GUN_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_MACHINE_GUN_2_DESCRIPTION" Language="en_US">
 			<Text>すごい機関銃さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MACHINE_GUN_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MACHINE_GUN_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 機関銃さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_HORSEMAN_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_HORSEMAN_2_NAME" Language="en_US">
 			<Text>騎馬兵さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_HORSEMAN_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_HORSEMAN_2_DESCRIPTION" Language="en_US">
 			<Text>すごい騎馬兵さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_HORSEMAN_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_HORSEMAN_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 騎馬兵さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_CAVALRY_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_CAVALRY_2_NAME" Language="en_US">
 			<Text>騎兵さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_CAVALRY_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_CAVALRY_2_DESCRIPTION" Language="en_US">
 			<Text>すごい騎兵さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CAVALRY_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CAVALRY_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 騎兵さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_HELICOPTER_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_HELICOPTER_2_NAME" Language="en_US">
 			<Text>ヘリコプターさん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_HELICOPTER_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_HELICOPTER_2_DESCRIPTION" Language="en_US">
 			<Text>すごいヘリコプターさん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_HELICOPTER_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_HELICOPTER_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: ヘリコプターさん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_CATAPULT_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_CATAPULT_2_NAME" Language="en_US">
 			<Text>カタパルトさん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_CATAPULT_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_CATAPULT_2_DESCRIPTION" Language="en_US">
 			<Text>すごいカタパルトさん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CATAPULT_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CATAPULT_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: カタパルトさん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_TREBUCHET_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_TREBUCHET_2_NAME" Language="en_US">
 			<Text>トレビュシェットさん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_TREBUCHET_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_TREBUCHET_2_DESCRIPTION" Language="en_US">
 			<Text>すごいトレビュシェットさん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_TREBUCHET_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_TREBUCHET_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: トレビュシェットさん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_BOMBARD_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_BOMBARD_2_NAME" Language="en_US">
 			<Text>射石砲さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_BOMBARD_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_BOMBARD_2_DESCRIPTION" Language="en_US">
 			<Text>すごい射石砲さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_BOMBARD_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_BOMBARD_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 射石砲さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_ARTILLERY_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_ARTILLERY_2_NAME" Language="en_US">
 			<Text>大砲さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_ARTILLERY_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_ARTILLERY_2_DESCRIPTION" Language="en_US">
 			<Text>すごい大砲さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_ARTILLERY_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_ARTILLERY_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 大砲さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_ROCKET_ARTILLERY_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_ROCKET_ARTILLERY_2_NAME" Language="en_US">
 			<Text>ロケット砲さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_ROCKET_ARTILLERY_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_ROCKET_ARTILLERY_2_DESCRIPTION" Language="en_US">
 			<Text>すごいロケット砲さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_ROCKET_ARTILLERY_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_ROCKET_ARTILLERY_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: ロケット砲さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_GALLEY_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_GALLEY_2_NAME" Language="en_US">
 			<Text>ガレー船さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_GALLEY_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_GALLEY_2_DESCRIPTION" Language="en_US">
 			<Text>すごいガレー船さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_GALLEY_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_GALLEY_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: ガレー船さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_CARAVEL_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_CARAVEL_2_NAME" Language="en_US">
 			<Text>キャラベル船さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_CARAVEL_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_CARAVEL_2_DESCRIPTION" Language="en_US">
 			<Text>すごいキャラベル船さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CARAVEL_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CARAVEL_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: キャラベル船さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_IRONCLAD_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_IRONCLAD_2_NAME" Language="en_US">
 			<Text>装甲艦さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_IRONCLAD_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_IRONCLAD_2_DESCRIPTION" Language="en_US">
 			<Text>すごい装甲艦さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_IRONCLAD_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_IRONCLAD_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 装甲艦さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_DESTROYER_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_DESTROYER_2_NAME" Language="en_US">
 			<Text>駆逐艦さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_DESTROYER_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_DESTROYER_2_DESCRIPTION" Language="en_US">
 			<Text>すごい駆逐艦さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_DESTROYER_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_DESTROYER_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 駆逐艦さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_QUADRIREME_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_QUADRIREME_2_NAME" Language="en_US">
 			<Text>カドリレームさん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_QUADRIREME_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_QUADRIREME_2_DESCRIPTION" Language="en_US">
 			<Text>すごいカドリレームさん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_QUADRIREME_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_QUADRIREME_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: カドリレームさん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_FRIGATE_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_FRIGATE_2_NAME" Language="en_US">
 			<Text>フリゲート艦さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_FRIGATE_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_FRIGATE_2_DESCRIPTION" Language="en_US">
 			<Text>すごいフリゲート艦さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_FRIGATE_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_FRIGATE_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: フリゲート艦さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_BATTLESHIP_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_BATTLESHIP_2_NAME" Language="en_US">
 			<Text>戦艦さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_BATTLESHIP_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_BATTLESHIP_2_DESCRIPTION" Language="en_US">
 			<Text>すごい戦艦さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_BATTLESHIP_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_BATTLESHIP_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 戦艦さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_MISSILE_CRUISER_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_MISSILE_CRUISER_2_NAME" Language="en_US">
 			<Text>ミサイル巡洋艦さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_MISSILE_CRUISER_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_MISSILE_CRUISER_2_DESCRIPTION" Language="en_US">
 			<Text>すごいミサイル巡洋艦さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MISSILE_CRUISER_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_MISSILE_CRUISER_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: ミサイル巡洋艦さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_PRIVATEER_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_PRIVATEER_2_NAME" Language="en_US">
 			<Text>私掠船さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_PRIVATEER_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_PRIVATEER_2_DESCRIPTION" Language="en_US">
 			<Text>すごい私掠船さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_PRIVATEER_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_PRIVATEER_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 私掠船さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_SUBMARINE_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_SUBMARINE_2_NAME" Language="en_US">
 			<Text>潜水艦さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_SUBMARINE_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_SUBMARINE_2_DESCRIPTION" Language="en_US">
 			<Text>すごい潜水艦さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SUBMARINE_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_SUBMARINE_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 潜水艦さん。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_NUCLEAR_SUBMARINE_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_UNIT_NUCLEAR_SUBMARINE_2_NAME" Language="en_US">
 			<Text>原子力潜水艦さん。</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_NUCLEAR_SUBMARINE_2_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_UNIT_NUCLEAR_SUBMARINE_2_DESCRIPTION" Language="en_US">
 			<Text>すごい原子力潜水艦さん。</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_NUCLEAR_SUBMARINE_2_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_NUCLEAR_SUBMARINE_2_NAME" Language="en_US">
 			<Text>とまと王国固有ユニット: 原子力潜水艦さん。</Text>
 		</Row>
 	</LocalizedText>
