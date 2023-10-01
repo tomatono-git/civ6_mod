@@ -22,7 +22,7 @@
 
           <File>Leaders.xml</File>
           <File>Leader_technologies.xml</File>
-          <File>UU.xml</File>
+          <File>UU_1.xml</File>
           <File>UB.xml</File>
           <File>Leaders_Movement.sql</File>
           <File>Leaders_Boost.sql</File>
@@ -110,7 +110,7 @@
     <Content Include="Leader_technologies.xml" />
     <Content Include="Text.xml" />
     <Content Include="Text_ja_JP.xml" />
-    <Content Include="UU.xml" />
+    <Content Include="UU_1.xml" />
     <Content Include="UB.xml" />
     <!-- 全てのユニットの視界と移動 -->
     <Content Include="Leaders_Movement.sql" />
