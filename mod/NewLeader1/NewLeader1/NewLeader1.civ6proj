@@ -52,6 +52,8 @@
           <File>ConfigText_ja_JP.xml</File>
           <File>Text.xml</File>
           <File>Text_ja_JP.xml</File>
+          <File>UUText.xml</File>
+          <File>UUText_ja_JP.xml</File>
         </UpdateText>
         <UpdateIcons id="Icons">
           <Criteria>LeaderCriteria</Criteria>
@@ -112,6 +114,8 @@
     <Content Include="Text_ja_JP.xml" />
     <Content Include="UU_1.xml" />
     <Content Include="UB.xml" />
+    <Content Include="UUText.xml" />
+    <Content Include="UUText_ja_JP.xml" />
     <!-- 全てのユニットの視界と移動 -->
     <Content Include="Leaders_Movement.sql" />
     <Content Include="Leaders_Boost.sql" />
