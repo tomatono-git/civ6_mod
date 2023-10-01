@@ -11,8 +11,8 @@ INSERT OR REPLACE INTO ModifierArguments
 	VALUES
         -- ユニットの戦闘力 +15
 		('TRAIT_TOMATO_JOYEUSE_ORDRE_COMBAT', 'Amount', 15),
-        -- ユニットの戦闘力(対蛮族) +45
-		('TRAIT_TOMATO_JOYEUSE_ORDRE_EXTRA_COMBAT', 'Amount', 45);
+        -- ユニットの戦闘力(対蛮族) +50
+		('TRAIT_TOMATO_JOYEUSE_ORDRE_EXTRA_COMBAT', 'Amount', 50);
 
 INSERT OR REPLACE INTO TraitModifiers
 		(TraitType, ModifierId)
