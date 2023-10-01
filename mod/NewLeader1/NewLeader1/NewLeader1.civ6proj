@@ -61,6 +61,8 @@
           <Criteria>LeaderCriteria</Criteria>
           <File>Icons.xml</File>
           <File>UU_1_Icons.xml</File>
+          <File>UU_1_Icons_UnitFlags.xml</File>
+          <File>UU_1_Icons_UnitPortraits.xml</File>
           <File>UU_2_Icons.xml</File>
           <File>UU_2_Icons_Portraits.xml</File>
         </UpdateIcons>
@@ -82,6 +84,8 @@
           <UpdateIcons id="ConfigIcons">
               <File>Icons.xml</File>
               <File>UU_1_Icons.xml</File>
+              <File>UU_1_Icons_UnitFlags.xml</File>
+              <File>UU_1_Icons_UnitPortraits.xml</File>
               <File>UU_2_Icons.xml</File>
               <File>UU_2_Icons_Portraits.xml</File>
           </UpdateIcons>
@@ -122,6 +126,8 @@
     <Content Include="UB.xml" />
     <Content Include="Icons.xml" />
     <Content Include="UU_1_Icons.xml" />
+    <Content Include="UU_1_Icons_UnitFlags.xml" />
+    <Content Include="UU_1_Icons_UnitPortraits.xml" />
     <Content Include="UU_2_Icons.xml" />
     <Content Include="UU_2_Icons_Portraits.xml" />
     <Content Include="UU_1.xml" />
