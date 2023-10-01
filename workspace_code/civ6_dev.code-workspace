@@ -25,5 +25,6 @@
 	],
 	"settings": {
 		"files.autoGuessEncoding": true,
+		"editor.renderWhitespace": "all",
 	}
 }
