@@ -2,6 +2,32 @@
 <GameInfo>
 	<!-- 親定義 -->
 	<Types>
+		<!-- Civilian-->
+		<!--
+		<Row Type="UNIT_SETTLER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_BUILDER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TRADER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_MISSIONARY" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_APOSTLE" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_INQUISITOR" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GURU" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_ARCHAEOLOGIST" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SPY" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_NATURALIST" Kind="KIND_UNIT"/>
+		-->
+		<!-- Great People-->
+		<!--
+		<Row Type="UNIT_GREAT_GENERAL" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GREAT_ADMIRAL" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GREAT_ENGINEER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GREAT_MERCHANT" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GREAT_PROPHET" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GREAT_SCIENTIST" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GREAT_WRITER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GREAT_ARTIST" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GREAT_MUSICIAN" Kind="KIND_UNIT"/>
+		-->
+
 		<!-- Recon-->
 		<!-- 斥候 -->
 		<Row Type="UNIT_SCOUT_2" Kind="KIND_UNIT"/>
@@ -42,6 +68,7 @@
 
 		<!--Support -->
 
+		<!-- Naval-->
 		<!-- ガレー船 -->
 		<Row Type="UNIT_GALLEY_2" Kind="KIND_UNIT"/>
 		<!-- カドリレーム -->
@@ -71,6 +98,33 @@
 	</Types>
 	<!-- ユニットのAI・タイプ設定 -->
 	<UnitAiInfos>
+		<!-- Civilian-->
+<!--
+		<Row UnitType="UNIT_SETTLER" AiType="UNITAI_SETTLE"/>
+		<Row UnitType="UNIT_SETTLER" AiType="UNITTYPE_CIVILIAN"/>
+		<Row UnitType="UNIT_BUILDER" AiType="UNITAI_BUILD"/>
+		<Row UnitType="UNIT_BUILDER" AiType="UNITTYPE_CIVILIAN"/>
+		<Row UnitType="UNIT_TRADER" AiType="UNITTYPE_CIVILIAN"/>
+		<Row UnitType="UNIT_TRADER" AiType="UNITTYPE_TRADE"/>
+		<Row UnitType="UNIT_SPY" AiType="UNITTYPE_CIVILIAN"/>
+-->
+		<!-- Great People-->
+<!--
+		<Row UnitType="UNIT_GREAT_GENERAL" AiType="UNITTYPE_CIVILIAN_LEADER"/>
+		<Row UnitType="UNIT_GREAT_GENERAL" AiType="UNITAI_LEADER"/>
+		<Row UnitType="UNIT_GREAT_ADMIRAL" AiType="UNITTYPE_CIVILIAN_LEADER"/>
+		<Row UnitType="UNIT_GREAT_ADMIRAL" AiType="UNITAI_LEADER"/>
+		<Row UnitType="UNIT_GREAT_ADMIRAL" AiType="UNITTYPE_NAVAL"/>
+		<Row UnitType="UNIT_GREAT_ENGINEER" AiType="UNITTYPE_CIVILIAN"/>
+		<Row UnitType="UNIT_GREAT_MERCHANT" AiType="UNITTYPE_CIVILIAN"/>
+		<Row UnitType="UNIT_GREAT_PROPHET" AiType="UNITTYPE_CIVILIAN"/>
+		<Row UnitType="UNIT_GREAT_SCIENTIST" AiType="UNITTYPE_CIVILIAN"/>
+		<Row UnitType="UNIT_GREAT_SCIENTIST" AiType="UNITAI_LEADER"/>
+		<Row UnitType="UNIT_GREAT_WRITER" AiType="UNITTYPE_CIVILIAN"/>
+		<Row UnitType="UNIT_GREAT_ARTIST" AiType="UNITTYPE_CIVILIAN"/>
+		<Row UnitType="UNIT_GREAT_MUSICIAN" AiType="UNITTYPE_CIVILIAN"/>
+-->
+
 		<!-- Recon-->
 		<!-- 斥候 -->
 		<Row UnitType="UNIT_SCOUT_2" AiType="UNITAI_COMBAT"/>		  <!-- 戦闘ユニット -->
@@ -247,6 +301,27 @@
 	</UnitReplaces> -->
 	<!-- クラスとユニットの紐付け -->
 	<TypeTags>
+<!--
+		<Row Type="UNIT_SETTLER" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_BUILDER" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_BUILDER" Tag="CLASS_BUILDER"/>
+		<Row Type="UNIT_MISSIONARY" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_APOSTLE" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_INQUISITOR" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_GURU" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_ARCHAEOLOGIST" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_GREAT_GENERAL" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_GREAT_MERCHANT" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_GREAT_SCIENTIST" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_GREAT_WRITER" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_GREAT_ARTIST" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_GREAT_MUSICIAN" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_MILITARY_ENGINEER" Tag="CLASS_SUPPORT"/>
+		<Row Type="UNIT_NATURALIST" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_BARBARIAN_HORSEMAN" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_BARBARIAN_HORSE_ARCHER" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="UNIT_BARBARIAN_HORSE_ARCHER" Tag="CLASS_MOBILE_RANGED"/>
+-->
 
 		<!-- 斥候 -->
 		<Row Type="UNIT_SCOUT_2" Tag="CLASS_RECON"/>
@@ -353,7 +428,31 @@
 			StrategicResource     : 必要な戦略リソース
 		-->
 
+<!--
+		<Row UnitType="UNIT_SETTLER" Cost="80" BaseMoves="2" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" FoundCity="true" PopulationCost="1" PrereqPopulation="2" AdvisorType="ADVISOR_GENERIC" Name="LOC_UNIT_SETTLER_NAME" Description="LOC_UNIT_SETTLER_DESCRIPTION" CanCapture="False" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="30" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_SETTLER"/>
+		<Row UnitType="UNIT_BUILDER" Cost="50" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" AdvisorType="ADVISOR_GENERIC" Name="LOC_UNIT_BUILDER_NAME" Description="LOC_UNIT_BUILDER_DESCRIPTION" CanCapture="False" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="4" PurchaseYield="YIELD_GOLD" BuildCharges="3"/>
+		<Row UnitType="UNIT_TRADER" Cost="40" BaseMoves="2" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" AdvisorType="ADVISOR_GENERIC" Name="LOC_UNIT_TRADER_NAME" Description="LOC_UNIT_TRADER_DESCRIPTION" CanCapture="False" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="400" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_TRADE" IgnoreMoves="true" MakeTradeRoute="true" PrereqCivic="CIVIC_FOREIGN_TRADE"/>
+		<Row UnitType="UNIT_MISSIONARY" Cost="75" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_MISSIONARY_NAME" Description="LOC_UNIT_MISSIONARY_DESCRIPTION" CanCapture="False" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="6" PurchaseYield="YIELD_FAITH" PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" ReligiousStrength="100" SpreadCharges="3" TrackReligion="TRUE" MustPurchase="TRUE" ReligionEvictPercent="10"/>
+		<Row UnitType="UNIT_APOSTLE" Cost="200" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" PromotionClass="PROMOTION_CLASS_APOSTLE" Name="LOC_UNIT_APOSTLE_NAME" Description="LOC_UNIT_APOSTLE_DESCRIPTION" CanCapture="False" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="15" PurchaseYield="YIELD_FAITH" PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" ReligiousStrength="110" SpreadCharges="3" TrackReligion="TRUE" MustPurchase="TRUE" ReligionEvictPercent="25" EvangelizeBelief="true" LaunchInquisition="true" InitialLevel="2" NumRandomChoices="3"/>
+		<Row UnitType="UNIT_INQUISITOR" Cost="75" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" PromotionClass="PROMOTION_CLASS_INQUISITOR" Name="LOC_UNIT_INQUISITOR_NAME" Description="LOC_UNIT_INQUISITOR_DESCRIPTION" CanCapture="False" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="6" PurchaseYield="YIELD_FAITH" PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" ReligiousStrength="75" SpreadCharges="3" TrackReligion="TRUE" MustPurchase="TRUE" ReligionEvictPercent="100" RequiresInquisition="true"/>
+		<Row UnitType="UNIT_GURU" Cost="120" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GURU_NAME" Description="LOC_UNIT_GURU_DESCRIPTION" CanCapture="False" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="12" PurchaseYield="YIELD_FAITH" PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" ReligiousStrength="90" ReligiousHealCharges="3" TrackReligion="TRUE" MustPurchase="TRUE"/>
+		<Row UnitType="UNIT_WARRIOR_MONK" Cost="100" Maintenance="2" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="40" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MONK" Name="LOC_UNIT_WARRIOR_MONK_NAME" Description="LOC_UNIT_WARRIOR_MONK_DESCRIPTION" PurchaseYield="YIELD_FAITH" TrackReligion="TRUE" MustPurchase="TRUE" EnabledByReligion="true"/>
+		<Row UnitType="UNIT_ARCHAEOLOGIST" Cost="400" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" AdvisorType="ADVISOR_CULTURE" Name="LOC_UNIT_ARCHAEOLOGIST_NAME" Description="LOC_UNIT_ARCHAEOLOGIST_DESCRIPTION" CanCapture="False" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_ARCHAEOLOGIST" PrereqCivic="CIVIC_NATURAL_HISTORY" ExtractsArtifacts="true" CanRetreatWhenCaptured="True"/>
+		<Row UnitType="UNIT_GREAT_GENERAL" Cost="1" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GREAT_GENERAL_NAME" Description="LOC_UNIT_GREAT_GENERAL_DESCRIPTION" CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False"/>
+		<Row UnitType="UNIT_GREAT_ADMIRAL" Cost="1" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GREAT_ADMIRAL_NAME" Description="LOC_UNIT_GREAT_ADMIRAL_DESCRIPTION" CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False"/>
+		<Row UnitType="UNIT_GREAT_ENGINEER" Cost="1" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GREAT_ENGINEER_NAME" Description="LOC_UNIT_GREAT_ENGINEER_DESCRIPTION" CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False"/>
+		<Row UnitType="UNIT_GREAT_MERCHANT" Cost="1" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GREAT_MERCHANT_NAME" Description="LOC_UNIT_GREAT_MERCHANT_DESCRIPTION" CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False"/>
+		<Row UnitType="UNIT_GREAT_PROPHET" Cost="1" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GREAT_PROPHET_NAME" Description="LOC_UNIT_GREAT_PROPHET_DESCRIPTION" CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False" FoundReligion="true"/>
+		<Row UnitType="UNIT_GREAT_SCIENTIST" Cost="1" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GREAT_SCIENTIST_NAME" Description="LOC_UNIT_GREAT_SCIENTIST_DESCRIPTION" CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False"/>
+		<Row UnitType="UNIT_GREAT_WRITER" Cost="1" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GREAT_WRITER_NAME" Description="LOC_UNIT_GREAT_WRITER_DESCRIPTION" CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False"/>
+		<Row UnitType="UNIT_GREAT_ARTIST" Cost="1" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GREAT_ARTIST_NAME" Description="LOC_UNIT_GREAT_ARTIST_DESCRIPTION" CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False"/>
+		<Row UnitType="UNIT_GREAT_MUSICIAN" Cost="1" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GREAT_MUSICIAN_NAME" Description="LOC_UNIT_GREAT_MUSICIAN_DESCRIPTION" CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False"/>
+		<Row UnitType="UNIT_SPY" Cost="225" Maintenance="4" BaseMoves="1" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" PromotionClass="PROMOTION_CLASS_SPY" AdvisorType="ADVISOR_TECHNOLOGY" Name="LOC_UNIT_SPY_NAME" Description="LOC_UNIT_SPY_DESCRIPTION" CanCapture="False" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="75" PseudoYieldType="PSEUDOYIELD_UNIT_SPY" IgnoreMoves="true" NumRandomChoices="3" Spy="true" TeamVisibility="true"/>
+		<Row UnitType="UNIT_NATURALIST" Cost="800" BaseMoves="4" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_NATURALIST_NAME" Description="LOC_UNIT_NATURALIST_DESCRIPTION" CanCapture="False" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="100" PurchaseYield="YIELD_FAITH" PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" PrereqCivic="CIVIC_CONSERVATION" MustPurchase="TRUE" CanRetreatWhenCaptured="True" ParkCharges="1"/>
+-->
+
 		<!-- 斥候 -->
+		<!-- <Row UnitType="UNIT_SCOUT" Cost="30" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="10" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" AdvisorType="ADVISOR_GENERIC" Name="LOC_UNIT_SCOUT_NAME" Description="LOC_UNIT_SCOUT_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"/> -->
 		<Row UnitType="UNIT_SCOUT_2" TraitType="TRAIT_CIVILIZATION_UNIT_SCOUT_2"
 			Cost="0" BaseMoves="60" BaseSightRange="6" Combat="10"
 			ZoneOfControl="true" Domain="DOMAIN_LAND"
